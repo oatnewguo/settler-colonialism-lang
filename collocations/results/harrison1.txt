@@ -1,22 +1,12 @@
-Top 20 bigram collocations in data\harrison1.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 3 and for bigrams for which adjective_filter returns False.
----------------------
-friendly indians
-ardent indians
-old indian
-indian upper
-strange indians
-british indian
-indian boundary
-other indians
-hostile indians
-indian coun-
-indians ter-
-indians quiet
-many indians
-late indian
-indians i
-southern indians
-further indian
-ex- indian
-several indian
-late indians
+Top 10 bigram collocations in data\harrison1.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 3 and for bigrams for which adjective_filter returns False. Sorted according to Dunning'slog likelihood ratio, but displaying frequency counts.
+------------------------------
+10 friendly indians 
+7 ardent indians 
+9 old indian 
+6 indian upper 
+4 strange indians 
+8 british indian 
+5 indian boundary 
+17 other indians 
+6 hostile indians 
+4 indian coun- 

@@ -81,15 +81,18 @@ class Collocations:
 
         #open output file, write results, and close file
         results = open(destination_path, 'w')
-        results.write('Top ' + str(num_bigrams) + ' bigram collocations in ' +
-            self.file_path + ', with a window size of ' + str(window_size) +
-            '. Filtered for bigrams with a minimum frequency of ' +
-            str(freq_filter) + ' and for bigrams for which ' +
-            bigram_filter.__name__ + ' returns False.\n---------------------\n')
+        results.write('Top %d bigram collocations in %s, with a window size of '
+            '%d. Filtered for bigrams with a minimum frequency of %d and for '
+            'bigrams for which %s returns False. Sorted according to Dunning\'s'
+            'log likelihood ratio, but displaying frequency counts.'
+            '\n------------------------------\n' % (num_bigrams, self.file_path,
+            window_size, freq_filter, bigram_filter.__name__))
 
         bigrams = finder.nbest(bigram_measures.likelihood_ratio, num_bigrams)
+        freq_dist = finder.ngram_fd
         for (word1, pos1), (word2, pos2) in bigrams:
-            results.write(word1 + ' ' + word2 + '\n')
+            results.write('%d %s %s \n' %
+                (freq_dist[(word1, pos1), (word2, pos2)], word1, word2))
         results.close()
 
     def adjective_filter(self, word1, word2):

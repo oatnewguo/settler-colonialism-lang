@@ -1,3 +1,5 @@
+Top 20 bigram collocations in data\harrison1.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 3 and for bigrams for which adjective_filter returns False.
+---------------------
 friendly indians
 ardent indians
 old indian
@@ -18,25 +20,3 @@ further indian
 ex- indian
 several indian
 late indians
-different indians
-indians con-
-few indians
-indians white
-american indians
-several indians
-large indians
-little indian
-certain indians
-indians certain
-indians many
-general indian
-indian indians
-indians general
-great indian
-indian i
-indians such
-indians other
-indians great
-indians united
-other indian
-such indians

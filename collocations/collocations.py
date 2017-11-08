@@ -3,7 +3,7 @@ from nltk.collocations import *
 
 class Collocations:
 
-    def __init__(self, file_path, terms=[], tagged_words=None):
+    def __init__(self, file_path, terms=[], tagged_words_path=None):
         '''Creates a Collocations instance with a text and, optionally, terms of
             interest.
 
@@ -11,31 +11,55 @@ class Collocations:
             description of results in output file, whether or not tagged_words
             is given
         terms - string list of words of interest to be used in ngrams filters
-        tagged_words - string path to .txt file containing string representation
-            of list of tagged words in input file; saves time and resources on
-            computation
+        tagged_words_path - string path to .txt file containing string
+            representation of list of tagged words in input file; saves time and
+            resources on computation
         '''
 
-        #open input file, extract text, and close file
         self.file_path = file_path
-        self.document = open(file_path, 'r')
-        self.raw = self.document.read().encode().decode('utf-8').lower()
-        self.document.close()
 
-        #tokenize text into words and tag parts of speech
-        self.sentences = nltk.sent_tokenize(self.raw)
-        self.tokenized_sentences = [nltk.word_tokenize(w) for w in
-            self.sentences]
-        self.tagged_sentences = nltk.pos_tag_sents(self.tokenized_sentences)
-        self.tagged_words = sum(self.tagged_sentences, [])
+        if tagged_words_path == None:
+            #open input file, extract text, and close file
+            document = open(file_path, 'r')
+            raw = document.read().encode().decode('utf-8').lower()
+            document.close()
+
+            #tokenize text into words and tag parts of speech
+            sentences = nltk.sent_tokenize(raw)
+            tokenized_sentences = [nltk.word_tokenize(w) for w in sentences]
+            tagged_sentences = nltk.pos_tag_sents(tokenized_sentences)
+            self.tagged_words = sum(tagged_sentences, [])
+        else:
+            import ast
+            document = open(tagged_words_path, 'r')
+            self.tagged_words = ast.literal_eval(document.read())
+            document.close()
 
         #initialize terms of interest
         self.terms = terms
 
-    def bigrams(self, destination_path, num_bigrams=10, window_size=5,
+    def set_terms(self, terms):
+        '''Set a new list of terms of interest.
+
+        terms - string list of words of interest to be used in ngrams filters
+        '''
+
+        self.terms = terms
+
+    def tagged_words_to_file(self, destination_path):
+        '''Writes the current list of tagged words as a string to file.
+
+        destination_path - string path to .txt output file
+        '''
+
+        words = open(destination_path, 'w')
+        words.write(str(self.tagged_words))
+        words.close()
+
+    def tagged_bigrams(self, destination_path, num_bigrams=10, window_size=5,
         freq_filter=3, bigram_filter=None):
-        '''Finds bigrams in the text in the manner specified by the parameters
-            and writes results to a text file.
+        '''Finds bigrams in the list tagged_words in the manner specified by the
+            parameters and writes results to a text file.
 
         destination_path - string path to .txt output file
         num_bigrams - int number of bigrams to display from among the most
@@ -70,23 +94,24 @@ class Collocations:
 
     def adjective_filter(self, word1, word2):
         '''Returns False if one word is a term of interest and the other has
-            been tagged as an adjective.'''
+            been tagged as an adjective.
 
-        if (word1[0] in self.terms and word2[1] == 'JJ') or
-            (word2[0] in self.terms and word1[1] == 'JJ'):
+        word1, word2 - tuples of a string word and its string pos tag
+        '''
+
+        if (word1[0] in self.terms and word2[1] == 'JJ' or
+            word2[0] in self.terms and word1[1] == 'JJ'):
             return False
         return True
 
     def verb_filter(self, word1, word2):
         '''Returns False if one word is a term of interest and the other has
-            been tagged as a verb.'''
+            been tagged as a verb.
 
-        if (word1[0] in self.terms and word2[1].startswith('VB')) or
-            (word2[0] in self.terms and word1[1].startswith('VB')):
+        word1, word2 - tuples of a string word and its string pos tag
+        '''
+
+        if (word1[0] in self.terms and word2[1].startswith('VB') or
+            word2[0] in self.terms and word1[1].startswith('VB')):
             return False
         return True
-
-    def set_terms(self, terms):
-        '''Set a new list of terms of interest.'''
-
-        self.terms = terms

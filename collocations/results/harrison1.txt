@@ -1,5 +1,8 @@
-Top 10 bigram collocations in data\harrison1.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 3 and for bigrams for which adjective_filter returns False. Sorted according to Dunning'slog likelihood ratio, but displaying frequency counts.
-------------------------------
+Top 10 bigram collocations in data\harrison1.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 3. Filtered for bigrams for which adjective_filter returns False. Potentially filtered using the following terms of interest:
+	indian
+	indians
+Sorted according to Dunning's log likelihood ratio, but displaying frequency counts.
+---------------------------------
 10 friendly indians 
 7 ardent indians 
 9 old indian 

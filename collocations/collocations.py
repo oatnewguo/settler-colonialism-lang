@@ -82,11 +82,16 @@ class Collocations:
         #open output file, write results, and close file
         results = open(destination_path, 'w')
         results.write('Top %d bigram collocations in %s, with a window size of '
-            '%d. Filtered for bigrams with a minimum frequency of %d and for '
-            'bigrams for which %s returns False. Sorted according to Dunning\'s'
-            'log likelihood ratio, but displaying frequency counts.'
-            '\n------------------------------\n' % (num_bigrams, self.file_path,
-            window_size, freq_filter, bigram_filter.__name__))
+            '%d. Filtered for bigrams with a minimum frequency of %d. '
+            % (num_bigrams, self.file_path, window_size, freq_filter))
+        if not bigram_filter == None:
+            results.write('Filtered for bigrams for which %s returns False. '
+                'Potentially filtered using the following terms of interest:\n'
+                % (bigram_filter.__name__))
+            for t in self.terms:
+                results.write('\t%s\n' % t)
+        results.write('Sorted according to Dunning\'s log likelihood ratio, but '
+            'displaying frequency counts.\n---------------------------------\n')
 
         bigrams = finder.nbest(bigram_measures.likelihood_ratio, num_bigrams)
         freq_dist = finder.ngram_fd

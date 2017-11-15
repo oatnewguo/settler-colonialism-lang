@@ -1,12 +1,12 @@
 import nltk
 from nltk.collocations import *
+from nltk.tag import PerceptronTagger
 from functools import partial
 
 class Collocations:
 
     def __init__(self, file_path, tagged_words_path=None):
-        '''Creates a Collocations instance with a text and, optionally, terms of
-            interest.
+        '''Creates a Collocations instance with a text
 
         file_path - string path to .txt input file; used to generate full
             description of results in output file, whether or not tagged_words
@@ -24,12 +24,15 @@ class Collocations:
             raw = document.read().encode().decode('utf-8').lower()
             document.close()
 
-            #tokenize text into words and tag parts of speech
+            #tokenize text into words and tag parts of speech using Averaged
+            #Perceptron tagger
             sentences = nltk.sent_tokenize(raw)
             tokenized_sentences = [nltk.word_tokenize(w) for w in sentences]
-            tagged_sentences = nltk.pos_tag_sents(tokenized_sentences)
+            tagger = PerceptronTagger()
+            tagged_sentences = tagger.tag_sents(tokenized_sentences)
             self.tagged_words = sum(tagged_sentences, [])
         else:
+            #load pre-tagged words
             import ast
             document = open(tagged_words_path, 'r')
             self.tagged_words = ast.literal_eval(document.read())
@@ -132,8 +135,8 @@ class Collocations:
             else:
                 return True
         else:
-            if (word1[0] in terms and word2[1] == 'JJ' or
-                word2[0] in terms and word1[1] == 'JJ'):
+            if (word1[0] in terms and word2[1].startswith('JJ') or
+                word2[0] in terms and word1[1].startswith('JJ')):
                 return False
             else:
                 return True
@@ -154,6 +157,26 @@ class Collocations:
         else:
             if (word1[0] in terms and word2[1].startswith('VB') or
                 word2[0] in terms and word1[1].startswith('VB')):
+                return False
+            else:
+                return True
+
+    def adverb_filter(self, terms, word1, word2):
+        '''Returns False if one word is a term of interest and the other has
+            been tagged as an adverb.
+
+        terms - string list of terms of interest
+            --- if None, then the function will not filter for terms of interest
+        word1, word2 - tuples of a string word and its string pos tag
+        '''
+        if terms == None:
+            if (word1[1].startswith('RB') or word2[1].startswith('RB')):
+                return False
+            else:
+                return True
+        else:
+            if (word1[0] in terms and word2[1].startswith('RB') or
+                word2[0] in terms and word1[1].startswith('RB')):
                 return False
             else:
                 return True

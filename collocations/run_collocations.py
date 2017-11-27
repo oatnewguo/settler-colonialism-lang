@@ -3,7 +3,11 @@ from collocations import *
 
 def main():
     #sample testing code
-    terms = ['indian', 'indians']
+    terms = ['indian', 'indians', 'native', 'natives']
+    document = open('tribe_names.txt', 'r')
+    tribe_names = document.read().lower()[3:]
+    document.close()
+    terms += nltk.word_tokenize(tribe_names)
 
     # Use this code the first time reading a text in order to tag words with
     # parts of speech and save a list of tagged words in a .txt file.
@@ -14,6 +18,7 @@ def main():
     # After a .txt file containing a list of tagged words has been saved for a
     # text, use this code to load data much faster.
     #
+    '''
     c = Collocations(file_path = 'data\\jennings.txt',
         tagged_words_path = 'tagged_words\\jennings.txt')
 
@@ -23,6 +28,6 @@ def main():
         bigram_filter=c.verb_filter, terms=terms, collapse_terms=True)
     c.tagged_bigrams(destination_path='results\\clark_adjectives.txt',
         bigram_filter=c.adjective_filter, terms=terms, collapse_terms=True)
-
+'''
 if __name__ == '__main__':
     main()

@@ -18,7 +18,6 @@ def main():
     # After a .txt file containing a list of tagged words has been saved for a
     # text, use this code to load data much faster.
     #
-    '''
     c = Collocations(file_path = 'data\\jennings.txt',
         tagged_words_path = 'tagged_words\\jennings.txt')
 
@@ -28,6 +27,6 @@ def main():
         bigram_filter=c.verb_filter, terms=terms, collapse_terms=True)
     c.tagged_bigrams(destination_path='results\\clark_adjectives.txt',
         bigram_filter=c.adjective_filter, terms=terms, collapse_terms=True)
-'''
+
 if __name__ == '__main__':
     main()

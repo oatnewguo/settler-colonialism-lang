@@ -21,7 +21,7 @@ class Collocations:
         if tagged_words_path == None:
             #open input file, extract text, and close file
             document = open(file_path, 'r')
-            raw = document.read().encode().decode('utf-8').lower()
+            raw = document.read().encode().decode('utf-8').lower()[3:]
             document.close()
 
             #tokenize text into words and tag parts of speech using Averaged

@@ -5,18 +5,24 @@ def main():
     #sample testing code
     terms = ['indian', 'indians']
 
-    '''Use this code in order to tag words with parts of speech and save results
-        in a .txt file. Once a text file has been saved, use the code below to
-        load data much faster.
+    # Use this code the first time reading a text in order to tag words with
+    # parts of speech and save a list of tagged words in a .txt file.
+    #
+    # c = Collocations(file_path = 'data\\raw\\clair.txt')
+    # c.tagged_words_to_file(destination_path = 'tagged_words\\clair.txt')
 
-    c = Collocations(file_path = 'data\\harrison.txt')
-    c.tagged_words_to_file(destination_path = 'tagged_words\\harrison.txt')
-'''
+    # After a .txt file containing a list of tagged words has been saved for a
+    # text, use this code to load data much faster.
+    #
+    c = Collocations(file_path = 'data\\jennings.txt',
+        tagged_words_path = 'tagged_words\\jennings.txt')
 
-    c = Collocations(file_path = 'data\\harrison.txt',
-        tagged_words_path = 'tagged_words\\harrison.txt')
-    c.tagged_bigrams(destination_path='results\\harrison_verbs_collapsed.txt',
+    c.tagged_bigrams(destination_path='results\\clark_adverbs.txt',
+        bigram_filter=c.adverb_filter, terms=terms, collapse_terms=True)
+    c.tagged_bigrams(destination_path='results\\clark_verbs.txt',
         bigram_filter=c.verb_filter, terms=terms, collapse_terms=True)
+    c.tagged_bigrams(destination_path='results\\clark_adjectives.txt',
+        bigram_filter=c.adjective_filter, terms=terms, collapse_terms=True)
 
 if __name__ == '__main__':
     main()

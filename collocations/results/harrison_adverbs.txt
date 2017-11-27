@@ -1,0 +1,59 @@
+Top 100 bigram collocations in data\harrison.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 3. Filtered for bigrams for which adverb_filter returns False. Depending on adverb_filter, potentially filtered using the following terms of interest:
+	indian
+	indians
+Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
+---------------------------------
+Rank | Log-Likelihood Score | Frequency | Collocation
+-----------------------------------------------------
+1      4.107717734            6           ___ frequently 
+2      3.653714824            3           ___ continually 
+3      2.82724427             12          not ___ 
+4      2.767944753            5           ___ extremely 
+5      2.758474982            16          ___ very 
+6      2.17727796             4           not ___ 
+7      1.950517349            4           ___ generally 
+8      1.320922234            3           ___ lately 
+9      1.191545715            12          ___ now 
+10     1.162791531            3           frequently ___ 
+11     0.9301121967           5           ___ still 
+12     0.8762340165           38          ___ not 
+13     0.8630258538           3           ___ probably 
+14     0.8430940341           3           ___ just 
+15     0.7814972088           7           ___ more 
+16     0.779697219            5           well ___ 
+17     0.6543173979           5           also ___ 
+18     0.6517455709           4           ___ again 
+19     0.6517455709           4           again ___ 
+20     0.5421139861           6           ___ soon 
+21     0.5391951194           3           as ___ 
+22     0.512588554            3           ___ not 
+23     0.5034354813           3           lately ___ 
+24     0.4760231587           5           ___ there 
+25     0.2723130655           7           ___ here 
+26     0.2505070268           6           so ___ 
+27     0.2369103585           4           ___ never 
+28     0.2212158774           3           ___ indeed 
+29     0.2107692507           4           very ___ 
+30     0.2062384178           3           ___ entirely 
+31     0.2062384178           3           entirely ___ 
+32     0.1742071173           3           ___ only 
+33     0.15715194             6           well ___ 
+34     0.1056327012           8           ___ as 
+35     0.09334562708          5           ___ only 
+36     0.08977700109          3           ___ so 
+37     0.07861754025          4           ___ as 
+38     0.07039430267          3           ___ here 
+39     0.06281302356          4           soon ___ 
+40     0.04996441505          3           ___ ever 
+41     0.03663723493          3           ___ much 
+42     0.03663723493          3           much ___ 
+43     0.03097294692          5           however ___ 
+44     0.03015387439          5           ___ well 
+45     0.02044719865          3           then ___ 
+46     0.02007891236          4           here ___ 
+47     0.01843963522          8           ___ so 
+48     0.01612274762          14          ___ not 
+49     0.01058227456          3           ___ immediately 
+50     0.006473257291         5           ___ also 
+51     0.003048975443         3           ___ now 
+52     0.003048975443         3           now ___ 

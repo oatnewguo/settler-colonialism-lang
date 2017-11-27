@@ -3,7 +3,7 @@ unwanted = ['The St. Clair Papers', 'Correspondence, Addresses, Etc',
 'Vol', 'Continue to next section or go to Table of Contents',
 'HARRISON: MESSAGES AND LETTERS', 'StSt' 'INDIANA HISTORICAL COLLECTIONS', ]
 
-mispellings = {
+misspellings = {
 "whicii":"which",
 "organi'ied":"eli",
 "sDend":"send",

@@ -1,5 +1,5 @@
 from __future__ import division
-from unwantedmispellings import unwanted, mispellings
+from unwantedmisspellings import unwanted, misspellings
 from nltk import sent_tokenize, word_tokenize
 import matplotlib.pyplot, re, string
 import regex as re
@@ -73,9 +73,9 @@ def clean(text, new_path):
                 save = word[:-1]
                 new_word = ''
 
-            # correct mispellings
-            elif word in mispellings:
-                new_word = mispellings[word]
+            # correct misspellings
+            elif word in misspellings:
+                new_word = misspellings[word]
 
             new_sentence += [new_word]
 

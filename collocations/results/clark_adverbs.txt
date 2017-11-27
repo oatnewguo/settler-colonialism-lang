@@ -1,0 +1,19 @@
+Top 100 bigram collocations in data\raw\clark.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 3. Filtered for bigrams for which adverb_filter returns False. Depending on adverb_filter, potentially filtered using the following terms of interest:
+	indian
+	indians
+Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
+-----------------------------------------------------
+Rank | Log-Likelihood Score | Frequency | Collocation
+-----------------------------------------------------
+1      3.680738156            4           ___ particularly 
+2      1.971577699            3           ___ frequently 
+3      1.836741607            4           ___ again 
+4      1.770185054            5           ___ immediately 
+5      1.588583507            4           ___ there 
+6      1.585664885            5           not ___ 
+7      0.3137933798           3           ___ much 
+8      0.2362639432           3           ___ more 
+9      0.06631510931          3           well ___ 
+10     0.03048678178          4           ___ so 
+11     0.01465796842          4           ___ very 
+12     0.0002593252294        13          ___ not 

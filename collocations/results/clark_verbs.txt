@@ -1,0 +1,48 @@
+Top 100 bigram collocations in data\raw\clark.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 3. Filtered for bigrams for which verb_filter returns False. Depending on verb_filter, potentially filtered using the following terms of interest:
+	indian
+	indians
+Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
+-----------------------------------------------------
+Rank | Log-Likelihood Score | Frequency | Collocation
+-----------------------------------------------------
+1      8.56042121             23          ___ were 
+2      5.522176169            6           ___ coming 
+3      5.468272097            4           be ___ 
+4      5.41019681             3           inciting ___ 
+5      4.405765869            6           ___ killed 
+6      4.280303761            3           ___ inhabiting 
+7      4.040328191            3           ___ fled 
+8      4.040328191            3           treating ___ 
+9      3.655836263            3           ___ attacked 
+10     3.354416788            3           ___ preparing 
+11     3.205320946            27          ___ had 
+12     2.289761408            3           ___ killed 
+13     2.284613708            6           ___ came 
+14     1.900000788            6           ___ took 
+15     1.832263448            3           have ___ 
+16     1.452135427            19          ___ have 
+17     1.26761367             3           hundred ___ 
+18     1.230140792            31          ___ was 
+19     1.043632747            6           had ___ 
+20     1.009248339            13          ___ be 
+21     0.9882891792           5           ___ ware 
+22     0.9074372434           3           ___ join 
+23     0.7736294278           4           ___ done 
+24     0.7283669301           5           ___ made 
+25     0.6736383649           5           taken ___ 
+26     0.6200922916           9           ___ being 
+27     0.5496288058           3           found ___ 
+28     0.4115487915           6           ___ has 
+29     0.3627416381           10          ___ are 
+30     0.2957414119           3           ___ sent 
+31     0.2413511362           4           ___ having 
+32     0.1304818746           3           ___ sent 
+33     0.1230599217           5           ___ i 
+34     0.08719511054          3           made ___ 
+35     0.04664575498          9           is ___ 
+36     0.01949131673          5           ___ been 
+37     0.01949131673          5           been ___ 
+38     0.01298048529          4           ___ have 
+39     0.01148248509          3           has ___ 
+40     0.003081973425         10          ___ is 
+41     0.001066881227         20          was ___ 

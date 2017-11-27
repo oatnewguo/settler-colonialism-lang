@@ -71,9 +71,9 @@ class Collocations:
 
         if collapse_terms:
             tagged_words_collapsed = []
-            for (w,pos) in self.tagged_words:
+            for (w, pos) in self.tagged_words:
                 if w in terms:
-                    tagged_words_collapsed.append(('___', pos))
+                    tagged_words_collapsed.append(('___', '*'))
                 else:
                     tagged_words_collapsed.append((w, pos))
             finder = BigramCollocationFinder.from_words(tagged_words_collapsed,
@@ -106,8 +106,8 @@ class Collocations:
                 results.write('Terms of interest, represented as \"___\", were '
                     'collapsed and treated as the same term for collocations. ')
         results.write('Sorted according to Dunning\'s log-likelihood ratio, but '
-            'displaying frequency counts.\n---------------------------------\n')
-
+            'displaying frequency counts.\n')
+        results.write('-----------------------------------------------------\n')
         results.write('Rank | Log-Likelihood Score | Frequency | Collocation\n')
         results.write('-----------------------------------------------------\n')
         bigrams = finder.score_ngrams(bigram_measures.likelihood_ratio)

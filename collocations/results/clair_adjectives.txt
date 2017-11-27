@@ -1,0 +1,34 @@
+Top 100 bigram collocations in data\raw\clair.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 3. Filtered for bigrams for which adjective_filter returns False. Depending on adjective_filter, potentially filtered using the following terms of interest:
+	indian
+	indians
+Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
+-----------------------------------------------------
+Rank | Log-Likelihood Score | Frequency | Collocation
+-----------------------------------------------------
+1      9.986050899            8           hostile ___ 
+2      9.472914878            5           christian ___ 
+3      7.220354209            5           ___ northern 
+4      7.015756619            6           friendly ___ 
+5      6.770451663            9           western ___ 
+6      5.321681839            4           northern ___ 
+7      4.855830454            3           moravian ___ 
+8      3.559161606            3           offensive ___ 
+9      2.50411055             3           honorable ___ 
+10     2.059336995            3           single ___ 
+11     1.295358789            8           other ___ 
+12     1.1541449              3           second ___ 
+13     1.122433247            4           several ___ 
+14     1.030606611            3           ___ next 
+15     0.8723088293           8           united ___ 
+16     0.8615491393           6           same ___ 
+17     0.8066864876           3           tho ___ 
+18     0.5476844803           3           ___ con- 
+19     0.5215539925           3           few ___ 
+20     0.348782972            3           ___ little 
+21     0.266987288            3           certain ___ 
+22     0.2549237209           3           ___ general 
+23     0.1641660088           5           ___ great 
+24     0.1446011497           4           such ___ 
+25     0.06434548768          4           general ___ 
+26     0.04739316817          3           ___ united 
+27     0.01244880601          3           great ___ 

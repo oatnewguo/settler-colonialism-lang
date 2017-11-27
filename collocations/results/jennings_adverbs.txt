@@ -1,0 +1,12 @@
+Top 100 bigram collocations in data\jennings.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which adverb_filter returns False. Depending on adverb_filter, potentially filtered using the following terms of interest:
+	indian
+	indians
+Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
+-----------------------------------------------------
+Rank | Log-Likelihood Score | Frequency | Collocation
+-----------------------------------------------------
+1      2.50982545             1           perticlarly ___ 
+2      1.485774317            1           frequently ___ 
+3      1.262033719            1           long ___ 
+4      1.224610122            2           ___ very 
+5      1.180402051            1           ___ lately 

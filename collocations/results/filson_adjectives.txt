@@ -1,0 +1,284 @@
+Top 100 bigram collocations in data\clean\filson.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which adjective_filter returns False. Depending on adjective_filter, potentially filtered using the following terms of interest:
+	indian
+	native
+	cahokia
+	cayuga
+	chickasaw
+	dakota
+	delaware
+	erie
+	haudenosaunee
+	mohawk
+	illini
+	iowa
+	kaskaskia
+	kickapoo
+	otoe
+	mdewakanton
+	menominee
+	mesquakie
+	miami
+	michiganea
+	missouri
+	moingwena
+	munsee
+	nanticoke
+	tuscarora
+	onondaga
+	ojibwe
+	oneida
+	ottawa
+	piankasha
+	potawatomi
+	santee
+	saukcfox
+	seneca
+	shawnee
+	tamaroa
+	winnebago
+	wyandot
+	yankton
+	mohawk
+	cherokee
+	lakota
+	yuchi
+	wahpeton
+	santee
+	iroquois
+	chickasha
+	sioux
+	lenape
+	iroquois
+	kanienkehaka
+	illinois
+	ioway
+	caskaskia
+	kikapoo
+	dakota
+	wea
+	michigamea
+	missouria
+	moingona
+	muncey
+	iroquois
+	ojibwa
+	iroquois
+	odawa
+	pottawatomi
+	sauk
+	mingo
+	shawano
+	ho-chunk
+	huron
+	iroquois
+	tslagi
+	lakhota
+	euchee
+	sisseton
+	sioux
+	chikasha
+	lenni
+	lenape
+	kanonsionni
+	illiniwek
+	kikapu
+	sioux
+	peoria
+	minsi
+	chippewa
+	odaawa
+	pottawatomie
+	fox
+	iroquois
+	sewanee
+	hocak
+	wendat
+	aniyunwiya
+	sioux
+	uchee
+	oyate
+	unami
+	peoria
+	kiwigapawa
+	shakopee
+	maumee
+	munsie
+	ojibway
+	nishnabek
+	sac
+	savannah
+	hochunk
+	teton
+	uchi
+	dakota
+	myamia
+	minisink
+	anishinaabe
+	tsoyaha
+	sioux
+	twightwee
+	algonquin
+	coyaha
+	indians
+	natives
+	cahokias
+	cayugas
+	chickasaws
+	dakotas
+	delawares
+	eries
+	haudenosaunees
+	mohawks
+	illinis
+	iowas
+	kaskaskias
+	kickapoos
+	otoes
+	mdewakantons
+	menominees
+	mesquakies
+	miamis
+	michiganeas
+	missouris
+	moingwenas
+	munsees
+	nanticokes
+	tuscaroras
+	onondagas
+	ojibwes
+	oneidas
+	ottawas
+	piankashas
+	potawatomis
+	santees
+	saukcfoxs
+	senecas
+	shawnees
+	tamaroas
+	winnebagos
+	wyandots
+	yanktons
+	mohawks
+	cherokees
+	lakotas
+	yuchis
+	wahpetons
+	santees
+	iroquoiss
+	chickashas
+	siouxs
+	lenapes
+	iroquoiss
+	kanienkehakas
+	illinoiss
+	ioways
+	caskaskias
+	kikapoos
+	dakotas
+	weas
+	michigameas
+	missourias
+	moingonas
+	munceys
+	iroquoiss
+	ojibwas
+	iroquoiss
+	odawas
+	pottawatomis
+	sauks
+	mingos
+	shawanos
+	ho-chunks
+	hurons
+	iroquoiss
+	tslagis
+	lakhotas
+	euchees
+	sissetons
+	siouxs
+	chikashas
+	lennis
+	lenapes
+	kanonsionnis
+	illiniweks
+	kikapus
+	siouxs
+	peorias
+	minsis
+	chippewas
+	odaawas
+	pottawatomies
+	foxs
+	iroquoiss
+	sewanees
+	hocaks
+	wendats
+	aniyunwiyas
+	siouxs
+	uchees
+	oyates
+	unamis
+	peorias
+	kiwigapawas
+	shakopees
+	maumees
+	munsies
+	ojibways
+	nishnabeks
+	sacs
+	savannahs
+	hochunks
+	tetons
+	uchis
+	dakotas
+	myamias
+	minisinks
+	anishinaabes
+	tsoyahas
+	siouxs
+	twightwees
+	algonquins
+	coyahas
+Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
+-----------------------------------------------------
+Rank | Log-Likelihood Score | Frequency | Collocation
+-----------------------------------------------------
+1      6.197517938            4           lake ___ 
+2      4.645912719            3           shawanese ___ 
+3      3.949164054            2           ___ inhabit 
+4      3.949164054            2           ___ occupy 
+5      3.095794461            2           ___ nearest 
+6      3.095794461            2           long-isle ___ 
+7      1.54715845             1           ___ born 
+8      1.54715845             1           ___ chicasaws 
+9      1.54715845             1           ___ ignorant 
+10     1.54715845             1           ___ live 
+11     1.54715845             1           ___ ozaw 
+12     1.54715845             1           ___ thirty-six 
+13     1.54715845             1           ___ torrid 
+14     1.54715845             1           ___ urus 
+15     1.54715845             1           creek ___ 
+16     1.54715845             1           inhabit ___ 
+17     1.54715845             1           isle-river ___ 
+18     1.54715845             1           middle-settlement ___ 
+19     1.54715845             1           twenty-eight ___ 
+20     1.452263855            2           different ___ 
+21     1.452263855            2           ___ different 
+22     1.213001472            2           little ___ 
+23     1.174454474            1           mobile ___ 
+24     0.9702261764           1           greater ___ 
+25     0.9702261764           1           tenese ___ 
+26     0.830616337            1           ___ col. 
+27     0.830616337            1           ___ lake 
+28     0.830616337            1           former ___ 
+29     0.830616337            1           true ___ 
+30     0.7255052816           1           ___ north-carolina 
+31     0.7255052816           1           various ___ 
+32     0.641903919            1           ___ white 
+33     0.5389696405           3           great ___ 
+34     0.5148127241           1           west ___ 
+35     0.4647460979           1           ___ green 
+36     0.3175602924           1           present ___ 
+37     0.2898718934           1           common ___ 
+38     0.2432221059           2           other ___ 
+39     0.1273353116           1           such ___ 

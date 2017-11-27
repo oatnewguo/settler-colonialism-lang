@@ -1,0 +1,308 @@
+Top 100 bigram collocations in data\clean\filson.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which verb_filter returns False. Depending on verb_filter, potentially filtered using the following terms of interest:
+	indian
+	native
+	cahokia
+	cayuga
+	chickasaw
+	dakota
+	delaware
+	erie
+	haudenosaunee
+	mohawk
+	illini
+	iowa
+	kaskaskia
+	kickapoo
+	otoe
+	mdewakanton
+	menominee
+	mesquakie
+	miami
+	michiganea
+	missouri
+	moingwena
+	munsee
+	nanticoke
+	tuscarora
+	onondaga
+	ojibwe
+	oneida
+	ottawa
+	piankasha
+	potawatomi
+	santee
+	saukcfox
+	seneca
+	shawnee
+	tamaroa
+	winnebago
+	wyandot
+	yankton
+	mohawk
+	cherokee
+	lakota
+	yuchi
+	wahpeton
+	santee
+	iroquois
+	chickasha
+	sioux
+	lenape
+	iroquois
+	kanienkehaka
+	illinois
+	ioway
+	caskaskia
+	kikapoo
+	dakota
+	wea
+	michigamea
+	missouria
+	moingona
+	muncey
+	iroquois
+	ojibwa
+	iroquois
+	odawa
+	pottawatomi
+	sauk
+	mingo
+	shawano
+	ho-chunk
+	huron
+	iroquois
+	tslagi
+	lakhota
+	euchee
+	sisseton
+	sioux
+	chikasha
+	lenni
+	lenape
+	kanonsionni
+	illiniwek
+	kikapu
+	sioux
+	peoria
+	minsi
+	chippewa
+	odaawa
+	pottawatomie
+	fox
+	iroquois
+	sewanee
+	hocak
+	wendat
+	aniyunwiya
+	sioux
+	uchee
+	oyate
+	unami
+	peoria
+	kiwigapawa
+	shakopee
+	maumee
+	munsie
+	ojibway
+	nishnabek
+	sac
+	savannah
+	hochunk
+	teton
+	uchi
+	dakota
+	myamia
+	minisink
+	anishinaabe
+	tsoyaha
+	sioux
+	twightwee
+	algonquin
+	coyaha
+	indians
+	natives
+	cahokias
+	cayugas
+	chickasaws
+	dakotas
+	delawares
+	eries
+	haudenosaunees
+	mohawks
+	illinis
+	iowas
+	kaskaskias
+	kickapoos
+	otoes
+	mdewakantons
+	menominees
+	mesquakies
+	miamis
+	michiganeas
+	missouris
+	moingwenas
+	munsees
+	nanticokes
+	tuscaroras
+	onondagas
+	ojibwes
+	oneidas
+	ottawas
+	piankashas
+	potawatomis
+	santees
+	saukcfoxs
+	senecas
+	shawnees
+	tamaroas
+	winnebagos
+	wyandots
+	yanktons
+	mohawks
+	cherokees
+	lakotas
+	yuchis
+	wahpetons
+	santees
+	iroquoiss
+	chickashas
+	siouxs
+	lenapes
+	iroquoiss
+	kanienkehakas
+	illinoiss
+	ioways
+	caskaskias
+	kikapoos
+	dakotas
+	weas
+	michigameas
+	missourias
+	moingonas
+	munceys
+	iroquoiss
+	ojibwas
+	iroquoiss
+	odawas
+	pottawatomis
+	sauks
+	mingos
+	shawanos
+	ho-chunks
+	hurons
+	iroquoiss
+	tslagis
+	lakhotas
+	euchees
+	sissetons
+	siouxs
+	chikashas
+	lennis
+	lenapes
+	kanonsionnis
+	illiniweks
+	kikapus
+	siouxs
+	peorias
+	minsis
+	chippewas
+	odaawas
+	pottawatomies
+	foxs
+	iroquoiss
+	sewanees
+	hocaks
+	wendats
+	aniyunwiyas
+	siouxs
+	uchees
+	oyates
+	unamis
+	peorias
+	kiwigapawas
+	shakopees
+	maumees
+	munsies
+	ojibways
+	nishnabeks
+	sacs
+	savannahs
+	hochunks
+	tetons
+	uchis
+	dakotas
+	myamias
+	minisinks
+	anishinaabes
+	tsoyahas
+	siouxs
+	twightwees
+	algonquins
+	coyahas
+Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
+-----------------------------------------------------
+Rank | Log-Likelihood Score | Frequency | Collocation
+-----------------------------------------------------
+1      3.949164054            2           follows ___ 
+2      3.812129312            3           ___ live 
+3      3.095794461            2           ___ cut 
+4      3.090102915            3           ___ settled 
+5      2.814752609            11          ___ are 
+6      2.651444985            2           known ___ 
+7      2.123338626            2           cut ___ 
+8      2.123338626            2           lake ___ 
+9      1.54715845             1           * ___ 
+10     1.54715845             1           ___ cut 
+11     1.54715845             1           ___ forced 
+12     1.54715845             1           ___ occupy 
+13     1.54715845             1           ___ sells 
+14     1.54715845             1           ___ solicited 
+15     1.54715845             1           descended ___ 
+16     1.54715845             1           disputes ___ 
+17     1.54715845             1           expelled ___ 
+18     1.54715845             1           lake ___ 
+19     1.174454474            1           amongst ___ 
+20     1.174454474            1           form ___ 
+21     1.174454474            1           practised ___ 
+22     1.174454474            1           purchase ___ 
+23     1.174454474            1           rise ___ 
+24     1.174454474            1           strikes ___ 
+25     1.174454474            1           ___ agreed 
+26     1.174454474            1           ___ amongst 
+27     1.174454474            1           ___ came 
+28     1.174454474            1           ___ lives 
+29     1.174454474            1           ___ ornamented 
+30     1.174454474            1           ___ practised 
+31     1.174454474            1           ___ sell 
+32     1.174454474            1           ___ speaking 
+33     1.174454474            1           ___ take 
+34     1.174454474            1           ___ travelled 
+35     0.9702261764           1           arising ___ 
+36     0.9702261764           1           killed ___ 
+37     0.9702261764           1           ___ fixed 
+38     0.9702261764           1           ___ inhabiting 
+39     0.9702261764           1           ___ living 
+40     0.9702261764           1           ___ supposed 
+41     0.8854143054           2           ___ runs 
+42     0.8854143054           2           ___ were 
+43     0.8854143054           2           runs ___ 
+44     0.830616337            1           ___ falls 
+45     0.830616337            1           ___ kentucke 
+46     0.830616337            1           falls ___ 
+47     0.830616337            1           resembling ___ 
+48     0.57301021             1           ___ acquainted 
+49     0.57301021             1           ___ appears 
+50     0.57301021             1           ___ lying 
+51     0.5666334821           1           are ___ 
+52     0.4234682179           2           ___ has 
+53     0.4210699228           1           ___ do 
+54     0.382549015            1           called ___ 
+55     0.2211407739           1           said ___ 
+56     0.1852141298           1           ___ be 
+57     0.1048643155           1           ___ was 
+58     0.09487740042          1           ___ have 
+59     0.0551518634           1           being ___ 
+60     0.05165320763          5           ___ is 
+61     0.02872883958          1           ___ been 
+62     0.02872883958          1           been ___ 
+63     0.007675722678         1           have ___ 

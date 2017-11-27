@@ -7,7 +7,7 @@ def main(path, new_path):
     file.close()
 
     text = text.replace('{page image}', '')
-    text = re.sub('Page \d*', '', text)
+    text = re.sub('\S*\s*Page \d*', '', text)
 
     new_file = open(new_path, 'w')
     new_file.write(text)

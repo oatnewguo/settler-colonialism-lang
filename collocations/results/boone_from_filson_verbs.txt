@@ -1,6 +1,8 @@
 Top 100 bigram collocations in data\clean\boone_from_filson.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which verb_filter returns False. Depending on verb_filter, potentially filtered using the following terms of interest:
 	indian
 	native
+	tribe
+	savage
 	cahokia
 	cayuga
 	chickasaw
@@ -121,6 +123,8 @@ Top 100 bigram collocations in data\clean\boone_from_filson.txt, with a window s
 	coyaha
 	indians
 	natives
+	tribes
+	savages
 	cahokias
 	cayugas
 	chickasaws
@@ -239,61 +243,336 @@ Top 100 bigram collocations in data\clean\boone_from_filson.txt, with a window s
 	twightwees
 	algonquins
 	coyahas
+	indianes
+	nativees
+	tribees
+	savagees
+	cahokiaes
+	cayugaes
+	chickasawes
+	dakotaes
+	delawarees
+	eriees
+	haudenosauneees
+	mohawkes
+	illinies
+	iowaes
+	kaskaskiaes
+	kickapooes
+	otoees
+	mdewakantones
+	menomineees
+	mesquakiees
+	miamies
+	michiganeaes
+	missouries
+	moingwenaes
+	munseees
+	nanticokees
+	tuscaroraes
+	onondagaes
+	ojibwees
+	oneidaes
+	ottawaes
+	piankashaes
+	potawatomies
+	santeees
+	saukcfoxes
+	senecaes
+	shawneees
+	tamaroaes
+	winnebagoes
+	wyandotes
+	yanktones
+	mohawkes
+	cherokeees
+	lakotaes
+	yuchies
+	wahpetones
+	santeees
+	iroquoises
+	chickashaes
+	siouxes
+	lenapees
+	iroquoises
+	kanienkehakaes
+	illinoises
+	iowayes
+	caskaskiaes
+	kikapooes
+	dakotaes
+	weaes
+	michigameaes
+	missouriaes
+	moingonaes
+	munceyes
+	iroquoises
+	ojibwaes
+	iroquoises
+	odawaes
+	pottawatomies
+	saukes
+	mingoes
+	shawanoes
+	ho-chunkes
+	hurones
+	iroquoises
+	tslagies
+	lakhotaes
+	eucheees
+	sissetones
+	siouxes
+	chikashaes
+	lennies
+	lenapees
+	kanonsionnies
+	illiniwekes
+	kikapues
+	siouxes
+	peoriaes
+	minsies
+	chippewaes
+	odaawaes
+	pottawatomiees
+	foxes
+	iroquoises
+	sewaneees
+	hocakes
+	wendates
+	aniyunwiyaes
+	siouxes
+	ucheees
+	oyatees
+	unamies
+	peoriaes
+	kiwigapawaes
+	shakopeees
+	maumeees
+	munsiees
+	ojibwayes
+	nishnabekes
+	saces
+	savannahes
+	hochunkes
+	tetones
+	uchies
+	dakotaes
+	myamiaes
+	minisinkes
+	anishinaabees
+	tsoyahaes
+	siouxes
+	twightweees
+	algonquines
+	coyahaes
+	indianses
+	nativeses
+	tribeses
+	savageses
+	cahokiases
+	cayugases
+	chickasawses
+	dakotases
+	delawareses
+	erieses
+	haudenosauneeses
+	mohawkses
+	illinises
+	iowases
+	kaskaskiases
+	kickapooses
+	otoeses
+	mdewakantonses
+	menomineeses
+	mesquakieses
+	miamises
+	michiganeases
+	missourises
+	moingwenases
+	munseeses
+	nanticokeses
+	tuscarorases
+	onondagases
+	ojibweses
+	oneidases
+	ottawases
+	piankashases
+	potawatomises
+	santeeses
+	saukcfoxses
+	senecases
+	shawneeses
+	tamaroases
+	winnebagoses
+	wyandotses
+	yanktonses
+	mohawkses
+	cherokeeses
+	lakotases
+	yuchises
+	wahpetonses
+	santeeses
+	iroquoisses
+	chickashases
+	siouxses
+	lenapeses
+	iroquoisses
+	kanienkehakases
+	illinoisses
+	iowayses
+	caskaskiases
+	kikapooses
+	dakotases
+	weases
+	michigameases
+	missouriases
+	moingonases
+	munceyses
+	iroquoisses
+	ojibwases
+	iroquoisses
+	odawases
+	pottawatomises
+	saukses
+	mingoses
+	shawanoses
+	ho-chunkses
+	huronses
+	iroquoisses
+	tslagises
+	lakhotases
+	eucheeses
+	sissetonses
+	siouxses
+	chikashases
+	lennises
+	lenapeses
+	kanonsionnises
+	illiniwekses
+	kikapuses
+	siouxses
+	peoriases
+	minsises
+	chippewases
+	odaawases
+	pottawatomieses
+	foxses
+	iroquoisses
+	sewaneeses
+	hocakses
+	wendatses
+	aniyunwiyases
+	siouxses
+	ucheeses
+	oyateses
+	unamises
+	peoriases
+	kiwigapawases
+	shakopeeses
+	maumeeses
+	munsieses
+	ojibwayses
+	nishnabekses
+	sacses
+	savannahses
+	hochunkses
+	tetonses
+	uchises
+	dakotases
+	myamiases
+	minisinkses
+	anishinaabeses
+	tsoyahases
+	siouxses
+	twightweeses
+	algonquinses
+	coyahases
 Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
 -----------------------------------------------------
 Rank | Log-Likelihood Score | Frequency | Collocation
 -----------------------------------------------------
-1      3.655735251            2           ___ attend 
-2      3.507105467            4           ___ killed 
-3      1.880676842            5           ___ had 
-4      1.843165459            2           hundred ___ 
-5      1.401728725            1           ___ bid 
-6      1.401728725            1           ___ carrying 
-7      1.401728725            1           ___ detroit 
-8      1.401728725            1           ___ divided 
-9      1.401728725            1           ___ entertained 
-10     1.401728725            1           ___ evacuated 
-11     1.401728725            1           ___ finished 
-12     1.401728725            1           ___ finished 
-13     1.401728725            1           ___ numbering 
-14     1.401728725            1           ___ promised 
-15     1.401728725            1           ___ put 
-16     1.401728725            1           ___ rushed 
-17     1.401728725            1           ___ shake 
-18     1.401728725            1           ___ shot 
-19     1.401728725            1           ___ told 
-20     1.401728725            1           ___ viewing 
-21     1.401728725            1           commanded ___ 
-22     1.401728725            1           confined ___ 
-23     1.401728725            1           descending ___ 
-24     1.401728725            1           expecting ___ 
-25     1.401728725            1           harassed ___ 
-26     1.401728725            1           opened ___ 
-27     1.401728725            1           saying ___ 
-28     1.401728725            1           trading ___ 
-29     1.188682812            2           ___ arrived 
-30     1.032368293            1           ___ attacked 
-31     1.032368293            1           ___ determined 
-32     1.032368293            1           ___ plundered 
-33     1.032368293            1           ___ seemed 
-34     1.032368293            1           ___ signed 
-35     1.032368293            1           conducted ___ 
-36     1.032368293            1           informed ___ 
-37     1.032368293            1           signed ___ 
-38     1.032368293            1           wounded ___ 
-39     0.6952202707           1           ___ disposed 
-40     0.6952202707           1           made ___ 
-41     0.5934557854           1           ___ left 
-42     0.5934557854           1           departed ___ 
-43     0.5132020019           1           ___ did 
-44     0.5132020019           1           ___ having 
-45     0.5132020019           1           pursued ___ 
-46     0.4476568815           1           ___ continued 
-47     0.4476568815           1           been ___ 
-48     0.3928089939           1           ___ made 
-49     0.3901712335           3           were ___ 
-50     0.2706001409           1           ___ have 
-51     0.0556969356           1           ___ being 
-52     0.03375733151          1           ___ was 
-53     0.03375733151          1           was ___ 
-54     0.002258286709         1           had ___ 
+1      3.181073006            2           ___ attend 
+2      2.626743249            4           ___ killed 
+3      2.339070012            2           ___ fled 
+4      2.339070012            2           ___ perceiving 
+5      1.90608912             2           avoid ___ 
+6      1.90608912             2           surrounded ___ 
+7      1.589768769            6           ___ had 
+8      1.400725887            2           ___ gave 
+9      1.400725887            2           hundred ___ 
+10     1.230577291            2           pursued ___ 
+11     1.168866756            1           ___ appeared 
+12     1.168866756            1           ___ bid 
+13     1.168866756            1           ___ carrying 
+14     1.168866756            1           ___ detroit 
+15     1.168866756            1           ___ divided 
+16     1.168866756            1           ___ entertained 
+17     1.168866756            1           ___ evacuated 
+18     1.168866756            1           ___ extricated 
+19     1.168866756            1           ___ finished 
+20     1.168866756            1           ___ finished 
+21     1.168866756            1           ___ inflamed 
+22     1.168866756            1           ___ invent 
+23     1.168866756            1           ___ learned 
+24     1.168866756            1           ___ marched 
+25     1.168866756            1           ___ numbering 
+26     1.168866756            1           ___ observing 
+27     1.168866756            1           ___ placid 
+28     1.168866756            1           ___ promised 
+29     1.168866756            1           ___ put 
+30     1.168866756            1           ___ rushed 
+31     1.168866756            1           ___ shake 
+32     1.168866756            1           ___ shot 
+33     1.168866756            1           ___ stealing 
+34     1.168866756            1           ___ told 
+35     1.168866756            1           ___ turned 
+36     1.168866756            1           ___ viewing 
+37     1.168866756            1           commanded ___ 
+38     1.168866756            1           confined ___ 
+39     1.168866756            1           descending ___ 
+40     1.168866756            1           expecting ___ 
+41     1.168866756            1           harassed ___ 
+42     1.168866756            1           infested ___ 
+43     1.168866756            1           lost ___ 
+44     1.168866756            1           opened ___ 
+45     1.168866756            1           overtook ___ 
+46     1.168866756            1           pursue ___ 
+47     1.168866756            1           rush ___ 
+48     1.168866756            1           saying ___ 
+49     1.168866756            1           trading ___ 
+50     1.168866756            1           treating ___ 
+51     0.8075607635           1           ___ attacked 
+52     0.8075607635           1           ___ determined 
+53     0.8075607635           1           ___ plundered 
+54     0.8075607635           1           ___ seemed 
+55     0.8075607635           1           ___ signed 
+56     0.8075607635           1           conducted ___ 
+57     0.8075607635           1           expect ___ 
+58     0.8075607635           1           i ___ 
+59     0.8075607635           1           informed ___ 
+60     0.8075607635           1           signed ___ 
+61     0.8075607635           1           wounded ___ 
+62     0.7865437175           2           ___ arrived 
+63     0.7099520879           2           ___ have 
+64     0.6147324411           1           ___ behold 
+65     0.6147324411           1           ___ received 
+66     0.6147324411           1           given ___ 
+67     0.4865245688           1           ___ disposed 
+68     0.4865245688           1           made ___ 
+69     0.3928174727           1           ___ left 
+70     0.3928174727           1           departed ___ 
+71     0.3928174727           1           have ___ 
+72     0.3246765281           4           were ___ 
+73     0.3206220621           1           ___ did 
+74     0.3206220621           1           ___ having 
+75     0.2631362987           1           ___ continued 
+76     0.2631362987           1           been ___ 
+77     0.2163487524           1           ___ made 
+78     0.2163487524           1           made ___ 
+79     0.1940801429           1           ___ were 
+80     0.1183268312           1           have ___ 
+81     0.1004370059           1           had ___ 
+82     0.0462497277           1           killed ___ 
+83     0.008713239871         2           ___ was 
+84     0.008713239871         2           was ___ 
+85     0.0002600882495        1           ___ being 

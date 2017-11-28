@@ -1,6 +1,8 @@
 Top 100 bigram collocations in data\clean\boone_from_filson.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which adverb_filter returns False. Depending on adverb_filter, potentially filtered using the following terms of interest:
 	indian
 	native
+	tribe
+	savage
 	cahokia
 	cayuga
 	chickasaw
@@ -121,6 +123,8 @@ Top 100 bigram collocations in data\clean\boone_from_filson.txt, with a window s
 	coyaha
 	indians
 	natives
+	tribes
+	savages
 	cahokias
 	cayugas
 	chickasaws
@@ -239,14 +243,263 @@ Top 100 bigram collocations in data\clean\boone_from_filson.txt, with a window s
 	twightwees
 	algonquins
 	coyahas
+	indianes
+	nativees
+	tribees
+	savagees
+	cahokiaes
+	cayugaes
+	chickasawes
+	dakotaes
+	delawarees
+	eriees
+	haudenosauneees
+	mohawkes
+	illinies
+	iowaes
+	kaskaskiaes
+	kickapooes
+	otoees
+	mdewakantones
+	menomineees
+	mesquakiees
+	miamies
+	michiganeaes
+	missouries
+	moingwenaes
+	munseees
+	nanticokees
+	tuscaroraes
+	onondagaes
+	ojibwees
+	oneidaes
+	ottawaes
+	piankashaes
+	potawatomies
+	santeees
+	saukcfoxes
+	senecaes
+	shawneees
+	tamaroaes
+	winnebagoes
+	wyandotes
+	yanktones
+	mohawkes
+	cherokeees
+	lakotaes
+	yuchies
+	wahpetones
+	santeees
+	iroquoises
+	chickashaes
+	siouxes
+	lenapees
+	iroquoises
+	kanienkehakaes
+	illinoises
+	iowayes
+	caskaskiaes
+	kikapooes
+	dakotaes
+	weaes
+	michigameaes
+	missouriaes
+	moingonaes
+	munceyes
+	iroquoises
+	ojibwaes
+	iroquoises
+	odawaes
+	pottawatomies
+	saukes
+	mingoes
+	shawanoes
+	ho-chunkes
+	hurones
+	iroquoises
+	tslagies
+	lakhotaes
+	eucheees
+	sissetones
+	siouxes
+	chikashaes
+	lennies
+	lenapees
+	kanonsionnies
+	illiniwekes
+	kikapues
+	siouxes
+	peoriaes
+	minsies
+	chippewaes
+	odaawaes
+	pottawatomiees
+	foxes
+	iroquoises
+	sewaneees
+	hocakes
+	wendates
+	aniyunwiyaes
+	siouxes
+	ucheees
+	oyatees
+	unamies
+	peoriaes
+	kiwigapawaes
+	shakopeees
+	maumeees
+	munsiees
+	ojibwayes
+	nishnabekes
+	saces
+	savannahes
+	hochunkes
+	tetones
+	uchies
+	dakotaes
+	myamiaes
+	minisinkes
+	anishinaabees
+	tsoyahaes
+	siouxes
+	twightweees
+	algonquines
+	coyahaes
+	indianses
+	nativeses
+	tribeses
+	savageses
+	cahokiases
+	cayugases
+	chickasawses
+	dakotases
+	delawareses
+	erieses
+	haudenosauneeses
+	mohawkses
+	illinises
+	iowases
+	kaskaskiases
+	kickapooses
+	otoeses
+	mdewakantonses
+	menomineeses
+	mesquakieses
+	miamises
+	michiganeases
+	missourises
+	moingwenases
+	munseeses
+	nanticokeses
+	tuscarorases
+	onondagases
+	ojibweses
+	oneidases
+	ottawases
+	piankashases
+	potawatomises
+	santeeses
+	saukcfoxses
+	senecases
+	shawneeses
+	tamaroases
+	winnebagoses
+	wyandotses
+	yanktonses
+	mohawkses
+	cherokeeses
+	lakotases
+	yuchises
+	wahpetonses
+	santeeses
+	iroquoisses
+	chickashases
+	siouxses
+	lenapeses
+	iroquoisses
+	kanienkehakases
+	illinoisses
+	iowayses
+	caskaskiases
+	kikapooses
+	dakotases
+	weases
+	michigameases
+	missouriases
+	moingonases
+	munceyses
+	iroquoisses
+	ojibwases
+	iroquoisses
+	odawases
+	pottawatomises
+	saukses
+	mingoses
+	shawanoses
+	ho-chunkses
+	huronses
+	iroquoisses
+	tslagises
+	lakhotases
+	eucheeses
+	sissetonses
+	siouxses
+	chikashases
+	lennises
+	lenapeses
+	kanonsionnises
+	illiniwekses
+	kikapuses
+	siouxses
+	peoriases
+	minsises
+	chippewases
+	odaawases
+	pottawatomieses
+	foxses
+	iroquoisses
+	sewaneeses
+	hocakses
+	wendatses
+	aniyunwiyases
+	siouxses
+	ucheeses
+	oyateses
+	unamises
+	peoriases
+	kiwigapawases
+	shakopeeses
+	maumeeses
+	munsieses
+	ojibwayses
+	nishnabekses
+	sacses
+	savannahses
+	hochunkses
+	tetonses
+	uchises
+	dakotases
+	myamiases
+	minisinkses
+	anishinaabeses
+	tsoyahases
+	siouxses
+	twightweeses
+	algonquinses
+	coyahases
 Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
 -----------------------------------------------------
 Rank | Log-Likelihood Score | Frequency | Collocation
 -----------------------------------------------------
-1      1.032368293            1           ___ before 
-2      0.8314845487           1           again ___ 
-3      0.8314845487           1           fully ___ 
-4      0.6952202707           1           ___ entirely 
-5      0.5934557854           1           frequently ___ 
-6      0.5132020019           1           ___ well 
-7      0.2123197101           1           immediately ___ 
+1      1.168866756            1           ___ instantly 
+2      0.8075607635           1           ___ before 
+3      0.8075607635           1           continually ___ 
+4      0.6420587582           2           ___ so 
+5      0.6147324411           1           again ___ 
+6      0.6147324411           1           fully ___ 
+7      0.4865245688           1           ___ entirely 
+8      0.3928174727           1           frequently ___ 
+9      0.3206220621           1           ___ well 
+10     0.07617594724          1           ___ immediately 
+11     0.07617594724          1           immediately ___ 
+12     0.03485757767          1           ___ now 

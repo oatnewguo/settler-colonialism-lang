@@ -1,90 +1,593 @@
-Top 100 bigram collocations in data\harrison.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 3. Filtered for bigrams for which adjective_filter returns False. Depending on adjective_filter, potentially filtered using the following terms of interest:
+Top 100 bigram collocations in data\clean\harrison.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which adjective_filter returns False. Depending on adjective_filter, potentially filtered using the following terms of interest:
 	indian
+	native
+	tribe
+	savage
+	cahokia
+	cayuga
+	chickasaw
+	dakota
+	delaware
+	erie
+	haudenosaunee
+	mohawk
+	illini
+	iowa
+	kaskaskia
+	kickapoo
+	otoe
+	mdewakanton
+	menominee
+	mesquakie
+	miami
+	michiganea
+	missouri
+	moingwena
+	munsee
+	nanticoke
+	tuscarora
+	onondaga
+	ojibwe
+	oneida
+	ottawa
+	piankasha
+	potawatomi
+	santee
+	saukcfox
+	seneca
+	shawnee
+	tamaroa
+	winnebago
+	wyandot
+	yankton
+	mohawk
+	cherokee
+	lakota
+	yuchi
+	wahpeton
+	santee
+	iroquois
+	chickasha
+	sioux
+	lenape
+	iroquois
+	kanienkehaka
+	illinois
+	ioway
+	caskaskia
+	kikapoo
+	dakota
+	wea
+	michigamea
+	missouria
+	moingona
+	muncey
+	iroquois
+	ojibwa
+	iroquois
+	odawa
+	pottawatomi
+	sauk
+	mingo
+	shawano
+	ho-chunk
+	huron
+	iroquois
+	tslagi
+	lakhota
+	euchee
+	sisseton
+	sioux
+	chikasha
+	lenni
+	lenape
+	kanonsionni
+	illiniwek
+	kikapu
+	sioux
+	peoria
+	minsi
+	chippewa
+	odaawa
+	pottawatomie
+	fox
+	iroquois
+	sewanee
+	hocak
+	wendat
+	aniyunwiya
+	sioux
+	uchee
+	oyate
+	unami
+	peoria
+	kiwigapawa
+	shakopee
+	maumee
+	munsie
+	ojibway
+	nishnabek
+	sac
+	savannah
+	hochunk
+	teton
+	uchi
+	dakota
+	myamia
+	minisink
+	anishinaabe
+	tsoyaha
+	sioux
+	twightwee
+	algonquin
+	coyaha
 	indians
+	natives
+	tribes
+	savages
+	cahokias
+	cayugas
+	chickasaws
+	dakotas
+	delawares
+	eries
+	haudenosaunees
+	mohawks
+	illinis
+	iowas
+	kaskaskias
+	kickapoos
+	otoes
+	mdewakantons
+	menominees
+	mesquakies
+	miamis
+	michiganeas
+	missouris
+	moingwenas
+	munsees
+	nanticokes
+	tuscaroras
+	onondagas
+	ojibwes
+	oneidas
+	ottawas
+	piankashas
+	potawatomis
+	santees
+	saukcfoxs
+	senecas
+	shawnees
+	tamaroas
+	winnebagos
+	wyandots
+	yanktons
+	mohawks
+	cherokees
+	lakotas
+	yuchis
+	wahpetons
+	santees
+	iroquoiss
+	chickashas
+	siouxs
+	lenapes
+	iroquoiss
+	kanienkehakas
+	illinoiss
+	ioways
+	caskaskias
+	kikapoos
+	dakotas
+	weas
+	michigameas
+	missourias
+	moingonas
+	munceys
+	iroquoiss
+	ojibwas
+	iroquoiss
+	odawas
+	pottawatomis
+	sauks
+	mingos
+	shawanos
+	ho-chunks
+	hurons
+	iroquoiss
+	tslagis
+	lakhotas
+	euchees
+	sissetons
+	siouxs
+	chikashas
+	lennis
+	lenapes
+	kanonsionnis
+	illiniweks
+	kikapus
+	siouxs
+	peorias
+	minsis
+	chippewas
+	odaawas
+	pottawatomies
+	foxs
+	iroquoiss
+	sewanees
+	hocaks
+	wendats
+	aniyunwiyas
+	siouxs
+	uchees
+	oyates
+	unamis
+	peorias
+	kiwigapawas
+	shakopees
+	maumees
+	munsies
+	ojibways
+	nishnabeks
+	sacs
+	savannahs
+	hochunks
+	tetons
+	uchis
+	dakotas
+	myamias
+	minisinks
+	anishinaabes
+	tsoyahas
+	siouxs
+	twightwees
+	algonquins
+	coyahas
+	indianes
+	nativees
+	tribees
+	savagees
+	cahokiaes
+	cayugaes
+	chickasawes
+	dakotaes
+	delawarees
+	eriees
+	haudenosauneees
+	mohawkes
+	illinies
+	iowaes
+	kaskaskiaes
+	kickapooes
+	otoees
+	mdewakantones
+	menomineees
+	mesquakiees
+	miamies
+	michiganeaes
+	missouries
+	moingwenaes
+	munseees
+	nanticokees
+	tuscaroraes
+	onondagaes
+	ojibwees
+	oneidaes
+	ottawaes
+	piankashaes
+	potawatomies
+	santeees
+	saukcfoxes
+	senecaes
+	shawneees
+	tamaroaes
+	winnebagoes
+	wyandotes
+	yanktones
+	mohawkes
+	cherokeees
+	lakotaes
+	yuchies
+	wahpetones
+	santeees
+	iroquoises
+	chickashaes
+	siouxes
+	lenapees
+	iroquoises
+	kanienkehakaes
+	illinoises
+	iowayes
+	caskaskiaes
+	kikapooes
+	dakotaes
+	weaes
+	michigameaes
+	missouriaes
+	moingonaes
+	munceyes
+	iroquoises
+	ojibwaes
+	iroquoises
+	odawaes
+	pottawatomies
+	saukes
+	mingoes
+	shawanoes
+	ho-chunkes
+	hurones
+	iroquoises
+	tslagies
+	lakhotaes
+	eucheees
+	sissetones
+	siouxes
+	chikashaes
+	lennies
+	lenapees
+	kanonsionnies
+	illiniwekes
+	kikapues
+	siouxes
+	peoriaes
+	minsies
+	chippewaes
+	odaawaes
+	pottawatomiees
+	foxes
+	iroquoises
+	sewaneees
+	hocakes
+	wendates
+	aniyunwiyaes
+	siouxes
+	ucheees
+	oyatees
+	unamies
+	peoriaes
+	kiwigapawaes
+	shakopeees
+	maumeees
+	munsiees
+	ojibwayes
+	nishnabekes
+	saces
+	savannahes
+	hochunkes
+	tetones
+	uchies
+	dakotaes
+	myamiaes
+	minisinkes
+	anishinaabees
+	tsoyahaes
+	siouxes
+	twightweees
+	algonquines
+	coyahaes
+	indianses
+	nativeses
+	tribeses
+	savageses
+	cahokiases
+	cayugases
+	chickasawses
+	dakotases
+	delawareses
+	erieses
+	haudenosauneeses
+	mohawkses
+	illinises
+	iowases
+	kaskaskiases
+	kickapooses
+	otoeses
+	mdewakantonses
+	menomineeses
+	mesquakieses
+	miamises
+	michiganeases
+	missourises
+	moingwenases
+	munseeses
+	nanticokeses
+	tuscarorases
+	onondagases
+	ojibweses
+	oneidases
+	ottawases
+	piankashases
+	potawatomises
+	santeeses
+	saukcfoxses
+	senecases
+	shawneeses
+	tamaroases
+	winnebagoses
+	wyandotses
+	yanktonses
+	mohawkses
+	cherokeeses
+	lakotases
+	yuchises
+	wahpetonses
+	santeeses
+	iroquoisses
+	chickashases
+	siouxses
+	lenapeses
+	iroquoisses
+	kanienkehakases
+	illinoisses
+	iowayses
+	caskaskiases
+	kikapooses
+	dakotases
+	weases
+	michigameases
+	missouriases
+	moingonases
+	munceyses
+	iroquoisses
+	ojibwases
+	iroquoisses
+	odawases
+	pottawatomises
+	saukses
+	mingoses
+	shawanoses
+	ho-chunkses
+	huronses
+	iroquoisses
+	tslagises
+	lakhotases
+	eucheeses
+	sissetonses
+	siouxses
+	chikashases
+	lennises
+	lenapeses
+	kanonsionnises
+	illiniwekses
+	kikapuses
+	siouxses
+	peoriases
+	minsises
+	chippewases
+	odaawases
+	pottawatomieses
+	foxses
+	iroquoisses
+	sewaneeses
+	hocakses
+	wendatses
+	aniyunwiyases
+	siouxses
+	ucheeses
+	oyateses
+	unamises
+	peoriases
+	kiwigapawases
+	shakopeeses
+	maumeeses
+	munsieses
+	ojibwayses
+	nishnabekses
+	sacses
+	savannahses
+	hochunkses
+	tetonses
+	uchises
+	dakotases
+	myamiases
+	minisinkses
+	anishinaabeses
+	tsoyahases
+	siouxses
+	twightweeses
+	algonquinses
+	coyahases
 Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
----------------------------------
+-----------------------------------------------------
 Rank | Log-Likelihood Score | Frequency | Collocation
 -----------------------------------------------------
-1      40.64253379            32          friendly ___ 
-2      37.87007988            32          hostile ___ 
-3      12.00358645            25          british ___ 
-4      11.40839842            12          old ___ 
-5      8.100383886            7           ardent ___ 
-6      7.708788219            14          british ___ 
-7      7.246136027            29          other ___ 
-8      7.103446804            6           ___ boundary 
-9      6.483644008            17          many ___ 
-10     5.453920086            4           strange ___ 
-11     5.010042541            11          large ___ 
-12     4.012383219            6           ___ upper 
-13     3.824490146            4           northern ___ 
-14     3.454365412            9           western ___ 
-15     3.358601626            4           ___ coun- 
-16     3.255128832            3           poor ___ 
-17     3.242363184            10          small ___ 
-18     3.046392007            9           late ___ 
-19     3.034160713            4           ___ ter- 
-20     2.986222016            4           southern ___ 
-21     2.890945227            10          several ___ 
-22     2.705540353            3           ___ maiden 
-23     2.639213318            3           rendezvous ___ 
-24     2.458426798            3           ___ quiet 
-25     2.116022989            3           northwestern ___ 
-26     2.0617111              5           different ___ 
-27     2.007346209            18          ___ i 
-28     2.003176675            5           late ___ 
-29     1.544452429            5           several ___ 
-30     1.516977655            3           friendly ___ 
-31     1.451213873            10          ___ british 
-32     1.395819155            4           large ___ 
-33     1.300600227            6           considerable ___ 
-34     1.263160289            3           further ___ 
-35     1.116234902            6           ___ con- 
-36     1.092356182            3           ex- ___ 
-37     1.043014014            4           ___ short 
-38     1.031713439            4           ___ hostile 
-39     0.8886639933           3           american ___ 
-40     0.8695513035           7           more ___ 
-41     0.8505090138           3           ___ immediate 
-42     0.8381875573           3           ___ ” 
-43     0.8232404351           4           ___ other 
-44     0.8028023885           7           ___ white 
-45     0.7945231028           4           ___ ex- 
-46     0.7793625431           3           ___ impossible 
-47     0.6486746825           10          ___ such 
-48     0.6456677499           3           ___ ___ 
-49     0.630933331            8           few ___ 
-50     0.4997175137           5           ___ small 
-51     0.4537212315           3           ___ greater 
-52     0.4338411217           3           ___ own 
-53     0.3717417964           5           general ___ 
-54     0.3611716072           3           ___ upper 
-55     0.3241613407           3           little ___ 
-56     0.3214180752           4           ___ late 
-57     0.3068979012           9           ___ united 
-58     0.2940166652           3           ___ certain 
-59     0.2940166652           3           certain ___ 
-60     0.2635992507           3           present ___ 
-61     0.2451507201           3           ___ last 
-62     0.2156033567           6           great ___ 
-63     0.1719807971           3           ___ least 
-64     0.1687920756           3           ___ â€ 
-65     0.147931818            4           such ___ 
-66     0.1468910845           4           ___ own 
-67     0.1037382969           3           ___ com- 
-68     0.08977700109          3           ___ other 
-69     0.07665377357          7           ___ great 
-70     0.07623479644          4           ___ first 
-71     0.07194066894          3           i ___ 
-72     0.06582171253          3           con- ___ 
-73     0.05161560312          5           great ___ 
-74     0.02679899532          4           ___ much 
-75     0.00938157053          4           ___ many 
-76     0.007280575376         3           ___ several 
-77     0.00649090994          3           ___ present 
-78     0.001731610876         8           ___ general 
-79     0.001551929581         4           other ___ 
-80     0.001338501824         3           ___ united 
-81     0.0006728982742        4           general ___ 
-82     0.0001409307744        5           last ___ 
-83     4.260688564e-05        4           ___ i 
+1      44.90301692            53          hostile ___ 
+2      39.67361679            46          friendly ___ 
+3      35.84168427            116         other ___ 
+4      14.04059846            40          several ___ 
+5      13.47646297            24          different ___ 
+6      11.91409255            14          lake ___ 
+7      11.71141542            47          british ___ 
+8      9.24872193             24          old ___ 
+9      8.305465085            8           warlike ___ 
+10     7.719939482            8           neighboring ___ 
+11     7.222756602            11          southern ___ 
+12     6.882849695            6           i ___ 
+13     6.309285947            9           ardent ___ 
+14     5.858205234            6           kicka- ___ 
+15     5.723255641            8           northern ___ 
+16     5.507303798            22          large ___ 
+17     4.933098404            6           ___ dela- 
+18     4.807425909            22          late ___ 
+19     4.607575625            3           amable ___ 
+20     4.327343023            1           major ___ 
+21     4.318943055            4           ___ shawanoese 
+22     4.318943055            4           shawanoese ___ 
+23     4.201148109            8           distant ___ 
+24     4.197688816            9           ___ boundary 
+25     3.846631557            6           neigh- ___ 
+26     3.62216555             11          principal ___ 
+27     3.621007865            8           numerous ___ 
+28     3.444181557            2           chevalier ___ 
+29     3.444181557            2           half- ___ 
+30     3.444181557            2           nondescript ___ 
+31     3.444181557            2           winebagoes ___ 
+32     3.434965669            7           big ___ 
+33     3.379722611            5           shawanese ___ 
+34     3.269922495            2           ___ major 
+35     3.227048347            27          many ___ 
+36     3.10447304             4           neighbouring ___ 
+37     3.10447304             4           strange ___ 
+38     2.850877302            6           northwestern ___ 
+39     2.845930578            7           ___ chief 
+40     2.597294658            2           ___ immovable 
+41     2.597294658            2           ___ pressed 
+42     2.597294658            2           ___ turkey 
+43     2.597294658            2           ___ witness 
+44     2.597294658            2           vermil- ___ 
+45     2.514761712            14          ___ great 
+46     2.493768983            13          ___ upper 
+47     2.354387709            8           ___ coun- 
+48     2.223193103            14          general ___ 
+49     2.159427326            2           murdered ___ 
+50     2.159427326            2           petty ___ 
+51     2.055408482            3           spirituous ___ 
+52     2.046669514            4           necessary ___ 
+53     2.044573007            18          small ___ 
+54     1.996004816            5           ___ northwestern 
+55     1.915126146            3           ___ indiana 
+56     1.864792658            2           ___ chiefs 
+57     1.864792658            2           ___ inclined 
+58     1.864792658            2           ___ terre 
+59     1.864792658            2           alter- ___ 
+60     1.864792658            2           ver- ___ 
+61     1.864792658            2           wretched ___ 
+62     1.804415484            3           ___ hos- 
+63     1.804415484            3           kas- ___ 
+64     1.804415484            3           shawnese ___ 
+65     1.797671695            1           ___ humble 
+66     1.696753157            3           ___ navigable 
+67     1.655426246            5           ___ ter- 
+68     1.6479322              6           various ___ 
+69     1.644283607            2           ___ central 
+70     1.644283607            2           ___ manifest 
+71     1.644283607            2           mes- ___ 
+72     1.644283607            2           puta- ___ 
+73     1.635474094            4           ___ quiet 
+74     1.605567714            5           ___ southern 
+75     1.5716111              4           ___ faithful 
+76     1.568643567            2           possible ___ 
+77     1.567312916            1           ___ proper 
+78     1.567312916            1           proper ___ 
+79     1.558016102            10          ___ hostile 
+80     1.510827426            4           english ___ 
+81     1.469240964            2           ___ commander-in-chief 
+82     1.469240964            2           ___ jealous 
+83     1.469240964            2           easier ___ 
+84     1.43700335             2           ___ u. 
+85     1.42536331             3           confidential ___ 
+86     1.420520521            1           ___ best 
+87     1.417895702            11          young ___ 
+88     1.412139068            20          ___ white 
+89     1.407273706            1           ___ pa. 
+90     1.397609478            4           w. ___ 
+91     1.348452327            3           powerful ___ 
+92     1.324971237            2           ___ af- 
+93     1.324971237            2           disposi- ___ 
+94     1.324971237            2           knowl- ___ 
+95     1.324971237            2           naked ___ 
+96     1.324971237            2           settled ___ 
+97     1.315014496            17          ___ general 
+98     1.307602297            2           ___ new 
+99     1.307602297            2           new ___ 
+100    1.298635902            1           -e ___ 

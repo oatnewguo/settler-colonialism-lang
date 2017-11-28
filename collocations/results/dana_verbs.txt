@@ -1,0 +1,593 @@
+Top 100 bigram collocations in data\clean\dana.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which verb_filter returns False. Depending on verb_filter, potentially filtered using the following terms of interest:
+	indian
+	native
+	tribe
+	savage
+	cahokia
+	cayuga
+	chickasaw
+	dakota
+	delaware
+	erie
+	haudenosaunee
+	mohawk
+	illini
+	iowa
+	kaskaskia
+	kickapoo
+	otoe
+	mdewakanton
+	menominee
+	mesquakie
+	miami
+	michiganea
+	missouri
+	moingwena
+	munsee
+	nanticoke
+	tuscarora
+	onondaga
+	ojibwe
+	oneida
+	ottawa
+	piankasha
+	potawatomi
+	santee
+	saukcfox
+	seneca
+	shawnee
+	tamaroa
+	winnebago
+	wyandot
+	yankton
+	mohawk
+	cherokee
+	lakota
+	yuchi
+	wahpeton
+	santee
+	iroquois
+	chickasha
+	sioux
+	lenape
+	iroquois
+	kanienkehaka
+	illinois
+	ioway
+	caskaskia
+	kikapoo
+	dakota
+	wea
+	michigamea
+	missouria
+	moingona
+	muncey
+	iroquois
+	ojibwa
+	iroquois
+	odawa
+	pottawatomi
+	sauk
+	mingo
+	shawano
+	ho-chunk
+	huron
+	iroquois
+	tslagi
+	lakhota
+	euchee
+	sisseton
+	sioux
+	chikasha
+	lenni
+	lenape
+	kanonsionni
+	illiniwek
+	kikapu
+	sioux
+	peoria
+	minsi
+	chippewa
+	odaawa
+	pottawatomie
+	fox
+	iroquois
+	sewanee
+	hocak
+	wendat
+	aniyunwiya
+	sioux
+	uchee
+	oyate
+	unami
+	peoria
+	kiwigapawa
+	shakopee
+	maumee
+	munsie
+	ojibway
+	nishnabek
+	sac
+	savannah
+	hochunk
+	teton
+	uchi
+	dakota
+	myamia
+	minisink
+	anishinaabe
+	tsoyaha
+	sioux
+	twightwee
+	algonquin
+	coyaha
+	indians
+	natives
+	tribes
+	savages
+	cahokias
+	cayugas
+	chickasaws
+	dakotas
+	delawares
+	eries
+	haudenosaunees
+	mohawks
+	illinis
+	iowas
+	kaskaskias
+	kickapoos
+	otoes
+	mdewakantons
+	menominees
+	mesquakies
+	miamis
+	michiganeas
+	missouris
+	moingwenas
+	munsees
+	nanticokes
+	tuscaroras
+	onondagas
+	ojibwes
+	oneidas
+	ottawas
+	piankashas
+	potawatomis
+	santees
+	saukcfoxs
+	senecas
+	shawnees
+	tamaroas
+	winnebagos
+	wyandots
+	yanktons
+	mohawks
+	cherokees
+	lakotas
+	yuchis
+	wahpetons
+	santees
+	iroquoiss
+	chickashas
+	siouxs
+	lenapes
+	iroquoiss
+	kanienkehakas
+	illinoiss
+	ioways
+	caskaskias
+	kikapoos
+	dakotas
+	weas
+	michigameas
+	missourias
+	moingonas
+	munceys
+	iroquoiss
+	ojibwas
+	iroquoiss
+	odawas
+	pottawatomis
+	sauks
+	mingos
+	shawanos
+	ho-chunks
+	hurons
+	iroquoiss
+	tslagis
+	lakhotas
+	euchees
+	sissetons
+	siouxs
+	chikashas
+	lennis
+	lenapes
+	kanonsionnis
+	illiniweks
+	kikapus
+	siouxs
+	peorias
+	minsis
+	chippewas
+	odaawas
+	pottawatomies
+	foxs
+	iroquoiss
+	sewanees
+	hocaks
+	wendats
+	aniyunwiyas
+	siouxs
+	uchees
+	oyates
+	unamis
+	peorias
+	kiwigapawas
+	shakopees
+	maumees
+	munsies
+	ojibways
+	nishnabeks
+	sacs
+	savannahs
+	hochunks
+	tetons
+	uchis
+	dakotas
+	myamias
+	minisinks
+	anishinaabes
+	tsoyahas
+	siouxs
+	twightwees
+	algonquins
+	coyahas
+	indianes
+	nativees
+	tribees
+	savagees
+	cahokiaes
+	cayugaes
+	chickasawes
+	dakotaes
+	delawarees
+	eriees
+	haudenosauneees
+	mohawkes
+	illinies
+	iowaes
+	kaskaskiaes
+	kickapooes
+	otoees
+	mdewakantones
+	menomineees
+	mesquakiees
+	miamies
+	michiganeaes
+	missouries
+	moingwenaes
+	munseees
+	nanticokees
+	tuscaroraes
+	onondagaes
+	ojibwees
+	oneidaes
+	ottawaes
+	piankashaes
+	potawatomies
+	santeees
+	saukcfoxes
+	senecaes
+	shawneees
+	tamaroaes
+	winnebagoes
+	wyandotes
+	yanktones
+	mohawkes
+	cherokeees
+	lakotaes
+	yuchies
+	wahpetones
+	santeees
+	iroquoises
+	chickashaes
+	siouxes
+	lenapees
+	iroquoises
+	kanienkehakaes
+	illinoises
+	iowayes
+	caskaskiaes
+	kikapooes
+	dakotaes
+	weaes
+	michigameaes
+	missouriaes
+	moingonaes
+	munceyes
+	iroquoises
+	ojibwaes
+	iroquoises
+	odawaes
+	pottawatomies
+	saukes
+	mingoes
+	shawanoes
+	ho-chunkes
+	hurones
+	iroquoises
+	tslagies
+	lakhotaes
+	eucheees
+	sissetones
+	siouxes
+	chikashaes
+	lennies
+	lenapees
+	kanonsionnies
+	illiniwekes
+	kikapues
+	siouxes
+	peoriaes
+	minsies
+	chippewaes
+	odaawaes
+	pottawatomiees
+	foxes
+	iroquoises
+	sewaneees
+	hocakes
+	wendates
+	aniyunwiyaes
+	siouxes
+	ucheees
+	oyatees
+	unamies
+	peoriaes
+	kiwigapawaes
+	shakopeees
+	maumeees
+	munsiees
+	ojibwayes
+	nishnabekes
+	saces
+	savannahes
+	hochunkes
+	tetones
+	uchies
+	dakotaes
+	myamiaes
+	minisinkes
+	anishinaabees
+	tsoyahaes
+	siouxes
+	twightweees
+	algonquines
+	coyahaes
+	indianses
+	nativeses
+	tribeses
+	savageses
+	cahokiases
+	cayugases
+	chickasawses
+	dakotases
+	delawareses
+	erieses
+	haudenosauneeses
+	mohawkses
+	illinises
+	iowases
+	kaskaskiases
+	kickapooses
+	otoeses
+	mdewakantonses
+	menomineeses
+	mesquakieses
+	miamises
+	michiganeases
+	missourises
+	moingwenases
+	munseeses
+	nanticokeses
+	tuscarorases
+	onondagases
+	ojibweses
+	oneidases
+	ottawases
+	piankashases
+	potawatomises
+	santeeses
+	saukcfoxses
+	senecases
+	shawneeses
+	tamaroases
+	winnebagoses
+	wyandotses
+	yanktonses
+	mohawkses
+	cherokeeses
+	lakotases
+	yuchises
+	wahpetonses
+	santeeses
+	iroquoisses
+	chickashases
+	siouxses
+	lenapeses
+	iroquoisses
+	kanienkehakases
+	illinoisses
+	iowayses
+	caskaskiases
+	kikapooses
+	dakotases
+	weases
+	michigameases
+	missouriases
+	moingonases
+	munceyses
+	iroquoisses
+	ojibwases
+	iroquoisses
+	odawases
+	pottawatomises
+	saukses
+	mingoses
+	shawanoses
+	ho-chunkses
+	huronses
+	iroquoisses
+	tslagises
+	lakhotases
+	eucheeses
+	sissetonses
+	siouxses
+	chikashases
+	lennises
+	lenapeses
+	kanonsionnises
+	illiniwekses
+	kikapuses
+	siouxses
+	peoriases
+	minsises
+	chippewases
+	odaawases
+	pottawatomieses
+	foxses
+	iroquoisses
+	sewaneeses
+	hocakses
+	wendatses
+	aniyunwiyases
+	siouxses
+	ucheeses
+	oyateses
+	unamises
+	peoriases
+	kiwigapawases
+	shakopeeses
+	maumeeses
+	munsieses
+	ojibwayses
+	nishnabekses
+	sacses
+	savannahses
+	hochunkses
+	tetonses
+	uchises
+	dakotases
+	myamiases
+	minisinkses
+	anishinaabeses
+	tsoyahases
+	siouxses
+	twightweeses
+	algonquinses
+	coyahases
+Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
+-----------------------------------------------------
+Rank | Log-Likelihood Score | Frequency | Collocation
+-----------------------------------------------------
+1      9.103908656            4           is ___ 
+2      5.740244727            6           lake ___ 
+3      3.918200382            2           ___ abandon 
+4      3.918200382            2           ___ alarge 
+5      3.918200382            2           ___ defeated 
+6      3.918200382            2           ___ negotiated 
+7      3.918200382            2           belonged ___ 
+8      3.065162457            2           purchased ___ 
+9      3.065162457            2           ___ believe 
+10     3.065162457            2           ___ opposed 
+11     2.337342286            3           ___ takes 
+12     2.121299206            4           ___ running 
+13     1.912505435            2           lake ___ 
+14     1.912505435            2           st. ___ 
+15     1.858141333            4           joins ___ 
+16     1.847535199            1           ___ be 
+17     1.532457793            1           ___ assumed 
+18     1.532457793            1           ___ astripbordering 
+19     1.532457793            1           ___ chiefs 
+20     1.532457793            1           ___ constituted 
+21     1.532457793            1           ___ engraved 
+22     1.532457793            1           ___ escape 
+23     1.532457793            1           ___ gather 
+24     1.532457793            1           ___ inhabited 
+25     1.532457793            1           ___ live 
+26     1.532457793            1           ___ manufacture 
+27     1.532457793            1           ___ narrows 
+28     1.532457793            1           ___ north 
+29     1.532457793            1           ___ prairas 
+30     1.532457793            1           ___ prevented 
+31     1.532457793            1           ___ resolved 
+32     1.532457793            1           ___ runing 
+33     1.532457793            1           ___ seized 
+34     1.532457793            1           ___ subjected 
+35     1.532457793            1           ___ uniting 
+36     1.532457793            1           ___ vary 
+37     1.532457793            1           ascended ___ 
+38     1.532457793            1           astonishing ___ 
+39     1.532457793            1           astripbordering ___ 
+40     1.532457793            1           bathe ___ 
+41     1.532457793            1           belongs ___ 
+42     1.532457793            1           carlisle ___ 
+43     1.532457793            1           float ___ 
+44     1.532457793            1           indulged ___ 
+45     1.532457793            1           massacred ___ 
+46     1.532457793            1           mississippi ___ 
+47     1.532457793            1           reduced ___ 
+48     1.532457793            1           resides ___ 
+49     1.532457793            1           ripens ___ 
+50     1.532457793            1           snake ___ 
+51     1.160060865            1           ___ avoid 
+52     1.160060865            1           ___ chiefly 
+53     1.160060865            1           ___ contemplated 
+54     1.160060865            1           ___ display 
+55     1.160060865            1           ___ eating 
+56     1.160060865            1           ___ empty 
+57     1.160060865            1           ___ extinguished 
+58     1.160060865            1           ___ interrupted 
+59     1.160060865            1           ___ meander 
+60     1.160060865            1           ___ recorded 
+61     1.160060865            1           ___ resided 
+62     1.160060865            1           ___ stationed 
+63     1.160060865            1           ___ wander 
+64     1.160060865            1           creeks ___ 
+65     1.160060865            1           empty ___ 
+66     1.160060865            1           exterminated ___ 
+67     1.160060865            1           extinguished ___ 
+68     1.160060865            1           owned ___ 
+69     1.160060865            1           pays ___ 
+70     1.160060865            1           skirting ___ 
+71     1.160060865            1           stood ___ 
+72     1.160060865            1           wander ___ 
+73     1.120479644            2           ___ raised 
+74     1.017428007            1           have ___ 
+75     0.9861764474           1           been ___ 
+76     0.9561391416           1           ___ adopted 
+77     0.9561391416           1           ___ diminished 
+78     0.9561391416           1           ___ expanding 
+79     0.9561391416           1           ___ increasing 
+80     0.9561391416           1           ___ mississippi 
+81     0.9561391416           1           ___ raise 
+82     0.9561391416           1           prevents ___ 
+83     0.9561391416           1           resorted ___ 
+84     0.9561391416           1           respecting ___ 
+85     0.9561391416           1           unite ___ 
+86     0.9408949695           25          ___ are 
+87     0.8603483997           2           enters ___ 
+88     0.8168354031           1           ___ belonging 
+89     0.8168354031           1           ___ contain 
+90     0.8168354031           1           ___ indicate 
+91     0.8168354031           1           ___ leads 
+92     0.8168354031           1           ___ pours 
+93     0.8168354031           1           ___ traverse 
+94     0.8168354031           1           acquired ___ 
+95     0.8168354031           1           belonging ___ 
+96     0.8168354031           1           claimed ___ 
+97     0.8168354031           1           directed ___ 
+98     0.8168354031           1           leading ___ 
+99     0.8121743008           3           ___ flowing 
+100    0.7686071922           10          are ___ 

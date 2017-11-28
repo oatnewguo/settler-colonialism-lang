@@ -20,8 +20,8 @@ class Collocations:
 
         if tagged_words_path == None:
             #open input file, extract text, and close file
-            document = open(file_path, 'r')
-            raw = document.read().encode().decode('utf-8').lower()[3:]
+            document = open(file_path, 'r', encoding='utf-8')
+            raw = document.read().lower()[3:]
             document.close()
 
             #tokenize text into words and tag parts of speech using Averaged
@@ -34,7 +34,7 @@ class Collocations:
         else:
             #load pre-tagged words
             import ast
-            document = open(tagged_words_path, 'r')
+            document = open(tagged_words_path, 'r', encoding='utf-8')
             self.tagged_words = ast.literal_eval(document.read())
             document.close()
 
@@ -44,12 +44,12 @@ class Collocations:
         destination_path - string path to .txt output file
         '''
 
-        words = open(destination_path, 'w')
+        words = open(destination_path, 'w', encoding='utf-8')
         words.write(str(self.tagged_words))
         words.close()
 
     def tagged_bigrams(self, destination_path, num_bigrams=100, window_size=5,
-        freq_filter=3, bigram_filter=None, terms=None, collapse_terms=False):
+        freq_filter=1, bigram_filter=None, terms=None, collapse_terms=False):
         '''Finds bigrams in the list tagged_words in the manner specified by the
             parameters and writes results to a text file.
 
@@ -91,7 +91,7 @@ class Collocations:
                 finder.apply_ngram_filter(partial(bigram_filter, terms))
 
         #open output file, write results, and close file
-        results = open(destination_path, 'w')
+        results = open(destination_path, 'w', encoding='utf-8')
         results.write('Top {} bigram collocations in {}, with a window size of '
             '{}. Filtered for bigrams with a minimum frequency of {}. '
             .format(num_bigrams, self.file_path, window_size, freq_filter))

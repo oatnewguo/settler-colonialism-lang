@@ -1,59 +1,593 @@
-Top 100 bigram collocations in data\harrison.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 3. Filtered for bigrams for which adverb_filter returns False. Depending on adverb_filter, potentially filtered using the following terms of interest:
+Top 100 bigram collocations in data\clean\harrison.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which adverb_filter returns False. Depending on adverb_filter, potentially filtered using the following terms of interest:
 	indian
+	native
+	tribe
+	savage
+	cahokia
+	cayuga
+	chickasaw
+	dakota
+	delaware
+	erie
+	haudenosaunee
+	mohawk
+	illini
+	iowa
+	kaskaskia
+	kickapoo
+	otoe
+	mdewakanton
+	menominee
+	mesquakie
+	miami
+	michiganea
+	missouri
+	moingwena
+	munsee
+	nanticoke
+	tuscarora
+	onondaga
+	ojibwe
+	oneida
+	ottawa
+	piankasha
+	potawatomi
+	santee
+	saukcfox
+	seneca
+	shawnee
+	tamaroa
+	winnebago
+	wyandot
+	yankton
+	mohawk
+	cherokee
+	lakota
+	yuchi
+	wahpeton
+	santee
+	iroquois
+	chickasha
+	sioux
+	lenape
+	iroquois
+	kanienkehaka
+	illinois
+	ioway
+	caskaskia
+	kikapoo
+	dakota
+	wea
+	michigamea
+	missouria
+	moingona
+	muncey
+	iroquois
+	ojibwa
+	iroquois
+	odawa
+	pottawatomi
+	sauk
+	mingo
+	shawano
+	ho-chunk
+	huron
+	iroquois
+	tslagi
+	lakhota
+	euchee
+	sisseton
+	sioux
+	chikasha
+	lenni
+	lenape
+	kanonsionni
+	illiniwek
+	kikapu
+	sioux
+	peoria
+	minsi
+	chippewa
+	odaawa
+	pottawatomie
+	fox
+	iroquois
+	sewanee
+	hocak
+	wendat
+	aniyunwiya
+	sioux
+	uchee
+	oyate
+	unami
+	peoria
+	kiwigapawa
+	shakopee
+	maumee
+	munsie
+	ojibway
+	nishnabek
+	sac
+	savannah
+	hochunk
+	teton
+	uchi
+	dakota
+	myamia
+	minisink
+	anishinaabe
+	tsoyaha
+	sioux
+	twightwee
+	algonquin
+	coyaha
 	indians
+	natives
+	tribes
+	savages
+	cahokias
+	cayugas
+	chickasaws
+	dakotas
+	delawares
+	eries
+	haudenosaunees
+	mohawks
+	illinis
+	iowas
+	kaskaskias
+	kickapoos
+	otoes
+	mdewakantons
+	menominees
+	mesquakies
+	miamis
+	michiganeas
+	missouris
+	moingwenas
+	munsees
+	nanticokes
+	tuscaroras
+	onondagas
+	ojibwes
+	oneidas
+	ottawas
+	piankashas
+	potawatomis
+	santees
+	saukcfoxs
+	senecas
+	shawnees
+	tamaroas
+	winnebagos
+	wyandots
+	yanktons
+	mohawks
+	cherokees
+	lakotas
+	yuchis
+	wahpetons
+	santees
+	iroquoiss
+	chickashas
+	siouxs
+	lenapes
+	iroquoiss
+	kanienkehakas
+	illinoiss
+	ioways
+	caskaskias
+	kikapoos
+	dakotas
+	weas
+	michigameas
+	missourias
+	moingonas
+	munceys
+	iroquoiss
+	ojibwas
+	iroquoiss
+	odawas
+	pottawatomis
+	sauks
+	mingos
+	shawanos
+	ho-chunks
+	hurons
+	iroquoiss
+	tslagis
+	lakhotas
+	euchees
+	sissetons
+	siouxs
+	chikashas
+	lennis
+	lenapes
+	kanonsionnis
+	illiniweks
+	kikapus
+	siouxs
+	peorias
+	minsis
+	chippewas
+	odaawas
+	pottawatomies
+	foxs
+	iroquoiss
+	sewanees
+	hocaks
+	wendats
+	aniyunwiyas
+	siouxs
+	uchees
+	oyates
+	unamis
+	peorias
+	kiwigapawas
+	shakopees
+	maumees
+	munsies
+	ojibways
+	nishnabeks
+	sacs
+	savannahs
+	hochunks
+	tetons
+	uchis
+	dakotas
+	myamias
+	minisinks
+	anishinaabes
+	tsoyahas
+	siouxs
+	twightwees
+	algonquins
+	coyahas
+	indianes
+	nativees
+	tribees
+	savagees
+	cahokiaes
+	cayugaes
+	chickasawes
+	dakotaes
+	delawarees
+	eriees
+	haudenosauneees
+	mohawkes
+	illinies
+	iowaes
+	kaskaskiaes
+	kickapooes
+	otoees
+	mdewakantones
+	menomineees
+	mesquakiees
+	miamies
+	michiganeaes
+	missouries
+	moingwenaes
+	munseees
+	nanticokees
+	tuscaroraes
+	onondagaes
+	ojibwees
+	oneidaes
+	ottawaes
+	piankashaes
+	potawatomies
+	santeees
+	saukcfoxes
+	senecaes
+	shawneees
+	tamaroaes
+	winnebagoes
+	wyandotes
+	yanktones
+	mohawkes
+	cherokeees
+	lakotaes
+	yuchies
+	wahpetones
+	santeees
+	iroquoises
+	chickashaes
+	siouxes
+	lenapees
+	iroquoises
+	kanienkehakaes
+	illinoises
+	iowayes
+	caskaskiaes
+	kikapooes
+	dakotaes
+	weaes
+	michigameaes
+	missouriaes
+	moingonaes
+	munceyes
+	iroquoises
+	ojibwaes
+	iroquoises
+	odawaes
+	pottawatomies
+	saukes
+	mingoes
+	shawanoes
+	ho-chunkes
+	hurones
+	iroquoises
+	tslagies
+	lakhotaes
+	eucheees
+	sissetones
+	siouxes
+	chikashaes
+	lennies
+	lenapees
+	kanonsionnies
+	illiniwekes
+	kikapues
+	siouxes
+	peoriaes
+	minsies
+	chippewaes
+	odaawaes
+	pottawatomiees
+	foxes
+	iroquoises
+	sewaneees
+	hocakes
+	wendates
+	aniyunwiyaes
+	siouxes
+	ucheees
+	oyatees
+	unamies
+	peoriaes
+	kiwigapawaes
+	shakopeees
+	maumeees
+	munsiees
+	ojibwayes
+	nishnabekes
+	saces
+	savannahes
+	hochunkes
+	tetones
+	uchies
+	dakotaes
+	myamiaes
+	minisinkes
+	anishinaabees
+	tsoyahaes
+	siouxes
+	twightweees
+	algonquines
+	coyahaes
+	indianses
+	nativeses
+	tribeses
+	savageses
+	cahokiases
+	cayugases
+	chickasawses
+	dakotases
+	delawareses
+	erieses
+	haudenosauneeses
+	mohawkses
+	illinises
+	iowases
+	kaskaskiases
+	kickapooses
+	otoeses
+	mdewakantonses
+	menomineeses
+	mesquakieses
+	miamises
+	michiganeases
+	missourises
+	moingwenases
+	munseeses
+	nanticokeses
+	tuscarorases
+	onondagases
+	ojibweses
+	oneidases
+	ottawases
+	piankashases
+	potawatomises
+	santeeses
+	saukcfoxses
+	senecases
+	shawneeses
+	tamaroases
+	winnebagoses
+	wyandotses
+	yanktonses
+	mohawkses
+	cherokeeses
+	lakotases
+	yuchises
+	wahpetonses
+	santeeses
+	iroquoisses
+	chickashases
+	siouxses
+	lenapeses
+	iroquoisses
+	kanienkehakases
+	illinoisses
+	iowayses
+	caskaskiases
+	kikapooses
+	dakotases
+	weases
+	michigameases
+	missouriases
+	moingonases
+	munceyses
+	iroquoisses
+	ojibwases
+	iroquoisses
+	odawases
+	pottawatomises
+	saukses
+	mingoses
+	shawanoses
+	ho-chunkses
+	huronses
+	iroquoisses
+	tslagises
+	lakhotases
+	eucheeses
+	sissetonses
+	siouxses
+	chikashases
+	lennises
+	lenapeses
+	kanonsionnises
+	illiniwekses
+	kikapuses
+	siouxses
+	peoriases
+	minsises
+	chippewases
+	odaawases
+	pottawatomieses
+	foxses
+	iroquoisses
+	sewaneeses
+	hocakses
+	wendatses
+	aniyunwiyases
+	siouxses
+	ucheeses
+	oyateses
+	unamises
+	peoriases
+	kiwigapawases
+	shakopeeses
+	maumeeses
+	munsieses
+	ojibwayses
+	nishnabekses
+	sacses
+	savannahses
+	hochunkses
+	tetonses
+	uchises
+	dakotases
+	myamiases
+	minisinkses
+	anishinaabeses
+	tsoyahases
+	siouxses
+	twightweeses
+	algonquinses
+	coyahases
 Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
----------------------------------
+-----------------------------------------------------
 Rank | Log-Likelihood Score | Frequency | Collocation
 -----------------------------------------------------
-1      4.107717734            6           ___ frequently 
-2      3.653714824            3           ___ continually 
-3      2.82724427             12          not ___ 
-4      2.767944753            5           ___ extremely 
-5      2.758474982            16          ___ very 
-6      2.17727796             4           not ___ 
-7      1.950517349            4           ___ generally 
-8      1.320922234            3           ___ lately 
-9      1.191545715            12          ___ now 
-10     1.162791531            3           frequently ___ 
-11     0.9301121967           5           ___ still 
-12     0.8762340165           38          ___ not 
-13     0.8630258538           3           ___ probably 
-14     0.8430940341           3           ___ just 
-15     0.7814972088           7           ___ more 
-16     0.779697219            5           well ___ 
-17     0.6543173979           5           also ___ 
-18     0.6517455709           4           ___ again 
-19     0.6517455709           4           again ___ 
-20     0.5421139861           6           ___ soon 
-21     0.5391951194           3           as ___ 
-22     0.512588554            3           ___ not 
-23     0.5034354813           3           lately ___ 
-24     0.4760231587           5           ___ there 
-25     0.2723130655           7           ___ here 
-26     0.2505070268           6           so ___ 
-27     0.2369103585           4           ___ never 
-28     0.2212158774           3           ___ indeed 
-29     0.2107692507           4           very ___ 
-30     0.2062384178           3           ___ entirely 
-31     0.2062384178           3           entirely ___ 
-32     0.1742071173           3           ___ only 
-33     0.15715194             6           well ___ 
-34     0.1056327012           8           ___ as 
-35     0.09334562708          5           ___ only 
-36     0.08977700109          3           ___ so 
-37     0.07861754025          4           ___ as 
-38     0.07039430267          3           ___ here 
-39     0.06281302356          4           soon ___ 
-40     0.04996441505          3           ___ ever 
-41     0.03663723493          3           ___ much 
-42     0.03663723493          3           much ___ 
-43     0.03097294692          5           however ___ 
-44     0.03015387439          5           ___ well 
-45     0.02044719865          3           then ___ 
-46     0.02007891236          4           here ___ 
-47     0.01843963522          8           ___ so 
-48     0.01612274762          14          ___ not 
-49     0.01058227456          3           ___ immediately 
-50     0.006473257291         5           ___ also 
-51     0.003048975443         3           ___ now 
-52     0.003048975443         3           now ___ 
+1      18.36804664            25          not ___ 
+2      4.582904434            10          so ___ 
+3      3.444181557            2           amonb ___ 
+4      3.444181557            2           fidentially ___ 
+5      3.052042812            9           ___ frequently 
+6      2.965807593            1           immediately ___ 
+7      2.907752095            31          ___ here 
+8      2.900086536            9           ___ generally 
+9      2.846739858            8           as ___ 
+10     2.665472999            9           ___ extremely 
+11     2.597294658            2           ___ eagerly 
+12     2.597294658            2           ___ unnecessarily 
+13     2.597294658            2           past ___ 
+14     2.523198529            4           ___ v/ere 
+15     2.405924355            4           ___ decidedly 
+16     2.159427326            2           ___ mutually 
+17     2.159427326            2           ___ peaceably 
+18     1.923230362            3           ___ continually 
+19     1.868929796            6           ___ really 
+20     1.816155125            5           ___ actually 
+21     1.811341504            1           yet ___ 
+22     1.804415484            3           ___ closely 
+23     1.653489016            2           never ___ 
+24     1.621153348            1           just ___ 
+25     1.469240964            2           ___ explicitly 
+26     1.424826063            32          ___ now 
+27     1.324971237            2           improperly ___ 
+28     1.307547261            11          now ___ 
+29     1.298635902            1           ___ ally 
+30     1.298635902            1           ___ auj 
+31     1.298635902            1           ___ charly 
+32     1.298635902            1           ___ cruely 
+33     1.298635902            1           ___ dastardly 
+34     1.298635902            1           ___ deri\'e 
+35     1.298635902            1           ___ fortably 
+36     1.298635902            1           ___ frendly 
+37     1.298635902            1           ___ frequertly 
+38     1.298635902            1           ___ ilaslily 
+39     1.298635902            1           ___ in^ 
+40     1.298635902            1           ___ inately 
+41     1.298635902            1           ___ ios 
+42     1.298635902            1           ___ iuver 
+43     1.298635902            1           ___ ky. 
+44     1.298635902            1           ___ leisurely 
+45     1.298635902            1           ___ lijondly 
+46     1.298635902            1           ___ onoxa 
+47     1.298635902            1           ___ profosedly 
+48     1.298635902            1           ___ rroviously 
+49     1.298635902            1           ___ tov/ard 
+50     1.298635902            1           ___ v.'here 
+51     1.298635902            1           ___ v^ell 
+52     1.298635902            1           ___ whereas 
+53     1.298635902            1           actly ___ 
+54     1.298635902            1           ago- ___ 
+55     1.298635902            1           attrib ___ 
+56     1.298635902            1           cipally ___ 
+57     1.298635902            1           ed ___ 
+58     1.298635902            1           escoit ___ 
+59     1.298635902            1           extrcinely ___ 
+60     1.298635902            1           fi'iendly ___ 
+61     1.298635902            1           hiijhly ___ 
+62     1.298635902            1           labossiere ___ 
+63     1.298635902            1           lake ___ 
+64     1.298635902            1           lie ___ 
+65     1.298635902            1           south-east ___ 
+66     1.298635902            1           sure ___ 
+67     1.298635902            1           tully ___ 
+68     1.298635902            1           verily ___ 
+69     1.298635902            1           vfhere ___ 
+70     1.294268204            4           ___ perfectly 
+71     1.236993431            3           there ___ 
+72     1.202925135            2           ___ mostly 
+73     1.202925135            2           ___ unequivocally 
+74     1.161532326            12          ___ just 
+75     1.148699445            12          very ___ 
+76     1.120575901            1           ___ even 
+77     1.086210145            5           ___ august 
+78     1.085284816            9           most ___ 
+79     1.069538637            1           ___ therefore 
+80     1.049848626            9           ___ certainly 
+81     1.037441278            12          ___ still 
+82     0.9720973116           15          ___ there 
+83     0.9344043622           3           altogether ___ 
+84     0.9323856497           1           ___ * 
+85     0.9323856497           1           ___ alternately 
+86     0.9323856497           1           ___ fartlier 
+87     0.9323856497           1           ___ parently 
+88     0.9323856497           1           ___ plentifully 
+89     0.9323856497           1           ___ re- 
+90     0.9323856497           1           ___ smartly 
+91     0.9323856497           1           ___ tinually 
+92     0.9323856497           1           ___ vehemently 
+93     0.9323856497           1           ___ vv'ere 
+94     0.9323856497           1           ___ westwardly 
+95     0.9323856497           1           billy ___ 
+96     0.9323856497           1           hotly ___ 
+97     0.9323856497           1           lower ___ 
+98     0.9323856497           1           prominently ___ 
+99     0.9323856497           1           westwardly ___ 
+100    0.924107453            2           ___ friendly 

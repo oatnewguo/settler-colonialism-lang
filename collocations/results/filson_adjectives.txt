@@ -1,6 +1,8 @@
 Top 100 bigram collocations in data\clean\filson.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which adjective_filter returns False. Depending on adjective_filter, potentially filtered using the following terms of interest:
 	indian
 	native
+	tribe
+	savage
 	cahokia
 	cayuga
 	chickasaw
@@ -121,6 +123,8 @@ Top 100 bigram collocations in data\clean\filson.txt, with a window size of 5. F
 	coyaha
 	indians
 	natives
+	tribes
+	savages
 	cahokias
 	cayugas
 	chickasaws
@@ -239,46 +243,297 @@ Top 100 bigram collocations in data\clean\filson.txt, with a window size of 5. F
 	twightwees
 	algonquins
 	coyahas
+	indianes
+	nativees
+	tribees
+	savagees
+	cahokiaes
+	cayugaes
+	chickasawes
+	dakotaes
+	delawarees
+	eriees
+	haudenosauneees
+	mohawkes
+	illinies
+	iowaes
+	kaskaskiaes
+	kickapooes
+	otoees
+	mdewakantones
+	menomineees
+	mesquakiees
+	miamies
+	michiganeaes
+	missouries
+	moingwenaes
+	munseees
+	nanticokees
+	tuscaroraes
+	onondagaes
+	ojibwees
+	oneidaes
+	ottawaes
+	piankashaes
+	potawatomies
+	santeees
+	saukcfoxes
+	senecaes
+	shawneees
+	tamaroaes
+	winnebagoes
+	wyandotes
+	yanktones
+	mohawkes
+	cherokeees
+	lakotaes
+	yuchies
+	wahpetones
+	santeees
+	iroquoises
+	chickashaes
+	siouxes
+	lenapees
+	iroquoises
+	kanienkehakaes
+	illinoises
+	iowayes
+	caskaskiaes
+	kikapooes
+	dakotaes
+	weaes
+	michigameaes
+	missouriaes
+	moingonaes
+	munceyes
+	iroquoises
+	ojibwaes
+	iroquoises
+	odawaes
+	pottawatomies
+	saukes
+	mingoes
+	shawanoes
+	ho-chunkes
+	hurones
+	iroquoises
+	tslagies
+	lakhotaes
+	eucheees
+	sissetones
+	siouxes
+	chikashaes
+	lennies
+	lenapees
+	kanonsionnies
+	illiniwekes
+	kikapues
+	siouxes
+	peoriaes
+	minsies
+	chippewaes
+	odaawaes
+	pottawatomiees
+	foxes
+	iroquoises
+	sewaneees
+	hocakes
+	wendates
+	aniyunwiyaes
+	siouxes
+	ucheees
+	oyatees
+	unamies
+	peoriaes
+	kiwigapawaes
+	shakopeees
+	maumeees
+	munsiees
+	ojibwayes
+	nishnabekes
+	saces
+	savannahes
+	hochunkes
+	tetones
+	uchies
+	dakotaes
+	myamiaes
+	minisinkes
+	anishinaabees
+	tsoyahaes
+	siouxes
+	twightweees
+	algonquines
+	coyahaes
+	indianses
+	nativeses
+	tribeses
+	savageses
+	cahokiases
+	cayugases
+	chickasawses
+	dakotases
+	delawareses
+	erieses
+	haudenosauneeses
+	mohawkses
+	illinises
+	iowases
+	kaskaskiases
+	kickapooses
+	otoeses
+	mdewakantonses
+	menomineeses
+	mesquakieses
+	miamises
+	michiganeases
+	missourises
+	moingwenases
+	munseeses
+	nanticokeses
+	tuscarorases
+	onondagases
+	ojibweses
+	oneidases
+	ottawases
+	piankashases
+	potawatomises
+	santeeses
+	saukcfoxses
+	senecases
+	shawneeses
+	tamaroases
+	winnebagoses
+	wyandotses
+	yanktonses
+	mohawkses
+	cherokeeses
+	lakotases
+	yuchises
+	wahpetonses
+	santeeses
+	iroquoisses
+	chickashases
+	siouxses
+	lenapeses
+	iroquoisses
+	kanienkehakases
+	illinoisses
+	iowayses
+	caskaskiases
+	kikapooses
+	dakotases
+	weases
+	michigameases
+	missouriases
+	moingonases
+	munceyses
+	iroquoisses
+	ojibwases
+	iroquoisses
+	odawases
+	pottawatomises
+	saukses
+	mingoses
+	shawanoses
+	ho-chunkses
+	huronses
+	iroquoisses
+	tslagises
+	lakhotases
+	eucheeses
+	sissetonses
+	siouxses
+	chikashases
+	lennises
+	lenapeses
+	kanonsionnises
+	illiniwekses
+	kikapuses
+	siouxses
+	peoriases
+	minsises
+	chippewases
+	odaawases
+	pottawatomieses
+	foxses
+	iroquoisses
+	sewaneeses
+	hocakses
+	wendatses
+	aniyunwiyases
+	siouxses
+	ucheeses
+	oyateses
+	unamises
+	peoriases
+	kiwigapawases
+	shakopeeses
+	maumeeses
+	munsieses
+	ojibwayses
+	nishnabekses
+	sacses
+	savannahses
+	hochunkses
+	tetonses
+	uchises
+	dakotases
+	myamiases
+	minisinkses
+	anishinaabeses
+	tsoyahases
+	siouxses
+	twightweeses
+	algonquinses
+	coyahases
 Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
 -----------------------------------------------------
 Rank | Log-Likelihood Score | Frequency | Collocation
 -----------------------------------------------------
-1      6.197517938            4           lake ___ 
-2      4.645912719            3           shawanese ___ 
-3      3.949164054            2           ___ inhabit 
-4      3.949164054            2           ___ occupy 
-5      3.095794461            2           ___ nearest 
-6      3.095794461            2           long-isle ___ 
-7      1.54715845             1           ___ born 
-8      1.54715845             1           ___ chicasaws 
-9      1.54715845             1           ___ ignorant 
-10     1.54715845             1           ___ live 
-11     1.54715845             1           ___ ozaw 
-12     1.54715845             1           ___ thirty-six 
-13     1.54715845             1           ___ torrid 
-14     1.54715845             1           ___ urus 
-15     1.54715845             1           creek ___ 
-16     1.54715845             1           inhabit ___ 
-17     1.54715845             1           isle-river ___ 
-18     1.54715845             1           middle-settlement ___ 
-19     1.54715845             1           twenty-eight ___ 
-20     1.452263855            2           different ___ 
-21     1.452263855            2           ___ different 
-22     1.213001472            2           little ___ 
-23     1.174454474            1           mobile ___ 
-24     0.9702261764           1           greater ___ 
-25     0.9702261764           1           tenese ___ 
-26     0.830616337            1           ___ col. 
-27     0.830616337            1           ___ lake 
-28     0.830616337            1           former ___ 
-29     0.830616337            1           true ___ 
-30     0.7255052816           1           ___ north-carolina 
-31     0.7255052816           1           various ___ 
-32     0.641903919            1           ___ white 
-33     0.5389696405           3           great ___ 
-34     0.5148127241           1           west ___ 
-35     0.4647460979           1           ___ green 
-36     0.3175602924           1           present ___ 
-37     0.2898718934           1           common ___ 
-38     0.2432221059           2           other ___ 
-39     0.1273353116           1           such ___ 
+1      5.885469117            4           lake ___ 
+2      4.412213928            3           shawanese ___ 
+3      3.791922258            2           ___ inhabit 
+4      3.791922258            2           ___ occupy 
+5      3.581764896            3           various ___ 
+6      2.94021963             2           ___ nearest 
+7      2.94021963             2           long-isle ___ 
+8      1.469482792            1           ___ born 
+9      1.469482792            1           ___ chicasaws 
+10     1.469482792            1           ___ ignorant 
+11     1.469482792            1           ___ live 
+12     1.469482792            1           ___ ozaw 
+13     1.469482792            1           ___ thirty-six 
+14     1.469482792            1           ___ torrid 
+15     1.469482792            1           ___ urus 
+16     1.469482792            1           creek ___ 
+17     1.469482792            1           inhabit ___ 
+18     1.469482792            1           isle-river ___ 
+19     1.469482792            1           middle-settlement ___ 
+20     1.469482792            1           twenty-eight ___ 
+21     1.310028313            2           ___ different 
+22     1.310028313            2           different ___ 
+23     1.098445805            1           mobile ___ 
+24     1.098445805            1           singular ___ 
+25     1.075769803            2           little ___ 
+26     0.8958845955           1           greater ___ 
+27     0.8958845955           1           tenese ___ 
+28     0.7579419439           1           ___ col. 
+29     0.7579419439           1           ___ lake 
+30     0.7579419439           1           american ___ 
+31     0.7579419439           1           former ___ 
+32     0.7579419439           1           s. ___ 
+33     0.7579419439           1           true ___ 
+34     0.6544981755           1           ___ north-carolina 
+35     0.6544981755           1           particular ___ 
+36     0.6102391321           2           such ___ 
+37     0.5900161857           3           other ___ 
+38     0.5725641992           1           ___ white 
+39     0.4488080749           1           west ___ 
+40     0.4004091329           1           ___ green 
+41     0.397111171            3           great ___ 
+42     0.3215477165           1           small ___ 
+43     0.2598950578           1           ___ much 
+44     0.2598950578           1           present ___ 
+45     0.2338748399           1           common ___ 
+46     0.0212260246           1           ___ great 

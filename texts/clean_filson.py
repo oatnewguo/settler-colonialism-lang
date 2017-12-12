@@ -14,5 +14,5 @@ def main(path, new_path):
     new_file.close()
 
 if __name__ == '__main__':
-    main('raw\\filson.txt', 'clean\\filson.txt')
-    main('raw\\boone_from_filson.txt', 'clean\\boone_from_filson.txt')
+    main('raw/filson.txt', 'clean/filson.txt')
+    main('raw/boone_from_filson.txt', 'clean/boone_from_filson.txt')

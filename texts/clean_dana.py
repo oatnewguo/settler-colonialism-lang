@@ -153,4 +153,4 @@ def main(path, new_path):
     new_file.close()
 
 if __name__ == '__main__':
-    main('raw\\dana.txt', 'clean\\dana.txt')
+    main('raw/dana.txt', 'clean/dana.txt')

@@ -1,7 +1,9 @@
 import nltk
 from nltk.collocations import *
-from nltk.tag import PerceptronTagger
+from nltk.tag import StanfordPOSTagger
 from functools import partial
+import os
+import re
 
 class Collocations:
 
@@ -24,11 +26,19 @@ class Collocations:
             raw = document.read().lower()
             document.close()
 
-            #tokenize text into words and tag parts of speech using Averaged
-            #Perceptron tagger
+            #tokenize text into words and tag parts of speech using the
+            #Stanford part-of-speech tagger
             sentences = nltk.sent_tokenize(raw)
             tokenized_sentences = [nltk.word_tokenize(w) for w in sentences]
-            tagger = PerceptronTagger()
+
+            java_path = 'C:/Program Files/Java/jdk-9.0.1/bin/java.exe'
+            os.environ['JAVAHOME'] = java_path
+            path_to_model = ('stanford-postagger-full-2017-06-09/models/'
+                'english-left3words-distsim.tagger')
+            path_to_jar = ('stanford-postagger-full-2017-06-09/'
+                'stanford-postagger.jar')
+            tagger = StanfordPOSTagger(path_to_model, path_to_jar)
+            tagger.java_options='-mx4096m'
             tagged_sentences = tagger.tag_sents(tokenized_sentences)
             self.tagged_words = sum(tagged_sentences, [])
         else:
@@ -129,6 +139,9 @@ class Collocations:
             --- if None, then the function will not filter for terms of interest
         word1, word2 - tuples of a string word and its string pos tag
         '''
+        if re.search('\w', word1[0]) == None or re.search('\w', word2[0]) == None:
+            return True
+
         if terms == None:
             if (word1[1] == 'JJ' or word2[1] == 'JJ'):
                 return False
@@ -149,6 +162,9 @@ class Collocations:
             --- if None, then the function will not filter for terms of interest
         word1, word2 - tuples of a string word and its string pos tag
         '''
+        if re.search('\w', word1[0]) == None or re.search('\w', word2[0]) == None:
+            return True
+
         if terms == None:
             if (word1[1].startswith('VB') or word2[1].startswith('VB')):
                 return False
@@ -169,6 +185,9 @@ class Collocations:
             --- if None, then the function will not filter for terms of interest
         word1, word2 - tuples of a string word and its string pos tag
         '''
+        if re.search('\w', word1[0]) == None or re.search('\w', word2[0]) == None:
+            return True
+
         if terms == None:
             if (word1[1].startswith('RB') or word2[1].startswith('RB')):
                 return False

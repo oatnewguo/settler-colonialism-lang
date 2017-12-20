@@ -1,0 +1,593 @@
+Top 100 bigram collocations in data\clean\clair.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which adjective_filter returns False. Depending on adjective_filter, potentially filtered using the following terms of interest:
+	indian
+	native
+	tribe
+	savage
+	cahokia
+	cayuga
+	chickasaw
+	dakota
+	delaware
+	erie
+	haudenosaunee
+	mohawk
+	illini
+	iowa
+	kaskaskia
+	kickapoo
+	otoe
+	mdewakanton
+	menominee
+	mesquakie
+	miami
+	michiganea
+	missouri
+	moingwena
+	munsee
+	nanticoke
+	tuscarora
+	onondaga
+	ojibwe
+	oneida
+	ottawa
+	piankasha
+	potawatomi
+	santee
+	saukcfox
+	seneca
+	shawnee
+	tamaroa
+	winnebago
+	wyandot
+	yankton
+	mohawk
+	cherokee
+	lakota
+	yuchi
+	wahpeton
+	santee
+	iroquois
+	chickasha
+	sioux
+	lenape
+	iroquois
+	kanienkehaka
+	illinois
+	ioway
+	caskaskia
+	kikapoo
+	dakota
+	wea
+	michigamea
+	missouria
+	moingona
+	muncey
+	iroquois
+	ojibwa
+	iroquois
+	odawa
+	pottawatomi
+	sauk
+	mingo
+	shawano
+	ho-chunk
+	huron
+	iroquois
+	tslagi
+	lakhota
+	euchee
+	sisseton
+	sioux
+	chikasha
+	lenni
+	lenape
+	kanonsionni
+	illiniwek
+	kikapu
+	sioux
+	peoria
+	minsi
+	chippewa
+	odaawa
+	pottawatomie
+	fox
+	iroquois
+	sewanee
+	hocak
+	wendat
+	aniyunwiya
+	sioux
+	uchee
+	oyate
+	unami
+	peoria
+	kiwigapawa
+	shakopee
+	maumee
+	munsie
+	ojibway
+	nishnabek
+	sac
+	savannah
+	hochunk
+	teton
+	uchi
+	dakota
+	myamia
+	minisink
+	anishinaabe
+	tsoyaha
+	sioux
+	twightwee
+	algonquin
+	coyaha
+	indians
+	natives
+	tribes
+	savages
+	cahokias
+	cayugas
+	chickasaws
+	dakotas
+	delawares
+	eries
+	haudenosaunees
+	mohawks
+	illinis
+	iowas
+	kaskaskias
+	kickapoos
+	otoes
+	mdewakantons
+	menominees
+	mesquakies
+	miamis
+	michiganeas
+	missouris
+	moingwenas
+	munsees
+	nanticokes
+	tuscaroras
+	onondagas
+	ojibwes
+	oneidas
+	ottawas
+	piankashas
+	potawatomis
+	santees
+	saukcfoxs
+	senecas
+	shawnees
+	tamaroas
+	winnebagos
+	wyandots
+	yanktons
+	mohawks
+	cherokees
+	lakotas
+	yuchis
+	wahpetons
+	santees
+	iroquoiss
+	chickashas
+	siouxs
+	lenapes
+	iroquoiss
+	kanienkehakas
+	illinoiss
+	ioways
+	caskaskias
+	kikapoos
+	dakotas
+	weas
+	michigameas
+	missourias
+	moingonas
+	munceys
+	iroquoiss
+	ojibwas
+	iroquoiss
+	odawas
+	pottawatomis
+	sauks
+	mingos
+	shawanos
+	ho-chunks
+	hurons
+	iroquoiss
+	tslagis
+	lakhotas
+	euchees
+	sissetons
+	siouxs
+	chikashas
+	lennis
+	lenapes
+	kanonsionnis
+	illiniweks
+	kikapus
+	siouxs
+	peorias
+	minsis
+	chippewas
+	odaawas
+	pottawatomies
+	foxs
+	iroquoiss
+	sewanees
+	hocaks
+	wendats
+	aniyunwiyas
+	siouxs
+	uchees
+	oyates
+	unamis
+	peorias
+	kiwigapawas
+	shakopees
+	maumees
+	munsies
+	ojibways
+	nishnabeks
+	sacs
+	savannahs
+	hochunks
+	tetons
+	uchis
+	dakotas
+	myamias
+	minisinks
+	anishinaabes
+	tsoyahas
+	siouxs
+	twightwees
+	algonquins
+	coyahas
+	indianes
+	nativees
+	tribees
+	savagees
+	cahokiaes
+	cayugaes
+	chickasawes
+	dakotaes
+	delawarees
+	eriees
+	haudenosauneees
+	mohawkes
+	illinies
+	iowaes
+	kaskaskiaes
+	kickapooes
+	otoees
+	mdewakantones
+	menomineees
+	mesquakiees
+	miamies
+	michiganeaes
+	missouries
+	moingwenaes
+	munseees
+	nanticokees
+	tuscaroraes
+	onondagaes
+	ojibwees
+	oneidaes
+	ottawaes
+	piankashaes
+	potawatomies
+	santeees
+	saukcfoxes
+	senecaes
+	shawneees
+	tamaroaes
+	winnebagoes
+	wyandotes
+	yanktones
+	mohawkes
+	cherokeees
+	lakotaes
+	yuchies
+	wahpetones
+	santeees
+	iroquoises
+	chickashaes
+	siouxes
+	lenapees
+	iroquoises
+	kanienkehakaes
+	illinoises
+	iowayes
+	caskaskiaes
+	kikapooes
+	dakotaes
+	weaes
+	michigameaes
+	missouriaes
+	moingonaes
+	munceyes
+	iroquoises
+	ojibwaes
+	iroquoises
+	odawaes
+	pottawatomies
+	saukes
+	mingoes
+	shawanoes
+	ho-chunkes
+	hurones
+	iroquoises
+	tslagies
+	lakhotaes
+	eucheees
+	sissetones
+	siouxes
+	chikashaes
+	lennies
+	lenapees
+	kanonsionnies
+	illiniwekes
+	kikapues
+	siouxes
+	peoriaes
+	minsies
+	chippewaes
+	odaawaes
+	pottawatomiees
+	foxes
+	iroquoises
+	sewaneees
+	hocakes
+	wendates
+	aniyunwiyaes
+	siouxes
+	ucheees
+	oyatees
+	unamies
+	peoriaes
+	kiwigapawaes
+	shakopeees
+	maumeees
+	munsiees
+	ojibwayes
+	nishnabekes
+	saces
+	savannahes
+	hochunkes
+	tetones
+	uchies
+	dakotaes
+	myamiaes
+	minisinkes
+	anishinaabees
+	tsoyahaes
+	siouxes
+	twightweees
+	algonquines
+	coyahaes
+	indianses
+	nativeses
+	tribeses
+	savageses
+	cahokiases
+	cayugases
+	chickasawses
+	dakotases
+	delawareses
+	erieses
+	haudenosauneeses
+	mohawkses
+	illinises
+	iowases
+	kaskaskiases
+	kickapooses
+	otoeses
+	mdewakantonses
+	menomineeses
+	mesquakieses
+	miamises
+	michiganeases
+	missourises
+	moingwenases
+	munseeses
+	nanticokeses
+	tuscarorases
+	onondagases
+	ojibweses
+	oneidases
+	ottawases
+	piankashases
+	potawatomises
+	santeeses
+	saukcfoxses
+	senecases
+	shawneeses
+	tamaroases
+	winnebagoses
+	wyandotses
+	yanktonses
+	mohawkses
+	cherokeeses
+	lakotases
+	yuchises
+	wahpetonses
+	santeeses
+	iroquoisses
+	chickashases
+	siouxses
+	lenapeses
+	iroquoisses
+	kanienkehakases
+	illinoisses
+	iowayses
+	caskaskiases
+	kikapooses
+	dakotases
+	weases
+	michigameases
+	missouriases
+	moingonases
+	munceyses
+	iroquoisses
+	ojibwases
+	iroquoisses
+	odawases
+	pottawatomises
+	saukses
+	mingoses
+	shawanoses
+	ho-chunkses
+	huronses
+	iroquoisses
+	tslagises
+	lakhotases
+	eucheeses
+	sissetonses
+	siouxses
+	chikashases
+	lennises
+	lenapeses
+	kanonsionnises
+	illiniwekses
+	kikapuses
+	siouxses
+	peoriases
+	minsises
+	chippewases
+	odaawases
+	pottawatomieses
+	foxses
+	iroquoisses
+	sewaneeses
+	hocakses
+	wendatses
+	aniyunwiyases
+	siouxses
+	ucheeses
+	oyateses
+	unamises
+	peoriases
+	kiwigapawases
+	shakopeeses
+	maumeeses
+	munsieses
+	ojibwayses
+	nishnabekses
+	sacses
+	savannahses
+	hochunkses
+	tetonses
+	uchises
+	dakotases
+	myamiases
+	minisinkses
+	anishinaabeses
+	tsoyahases
+	siouxses
+	twightweeses
+	algonquinses
+	coyahases
+Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
+-----------------------------------------------------
+Rank | Log-Likelihood Score | Frequency | Collocation
+-----------------------------------------------------
+1      21.41139006            45          great ___ 
+2      18.45658563            28          little ___ 
+3      15.91827503            14          hostile ___ 
+4      7.46313652             5           christian ___ 
+5      7.383238112            8           friendly ___ 
+6      6.851098719            6           ___ northern 
+7      6.25600918             12          western ___ 
+8      5.503648557            6           big ___ 
+9      5.480183733            7           shawanese ___ 
+10     5.249937591            5           northern ___ 
+11     4.882973082            4           lake ___ 
+12     4.210927035            10          tho ___ 
+13     3.662105531            3           moravian ___ 
+14     3.487748475            7           old ___ 
+15     3.471489777            1           i ___ 
+16     3.188477751            2           ___ inclined 
+17     3.188477751            2           perfidious ___ 
+18     3.046791145            3           spirituous ___ 
+19     2.743282965            2           nese ___ 
+20     2.743282965            2           shawa- ___ 
+21     2.59299166             4           ___ north-west 
+22     2.441320844            2           ___ averse 
+23     2.404798485            3           offensive ___ 
+24     2.213484344            2           missionary ___ 
+25     2.213484344            2           southern ___ 
+26     2.117839865            4           ___ shawanese 
+27     2.019516516            4           regular ___ 
+28     1.750143536            2           fresh ___ 
+29     1.750143536            2           pretty ___ 
+30     1.649581227            15          other ___ 
+31     1.637577337            2           aforesaid ___ 
+32     1.594195932            1           ___ afti-r 
+33     1.594195932            1           ___ bot- 
+34     1.594195932            1           ___ caho- 
+35     1.594195932            1           ___ che- 
+36     1.594195932            1           ___ chero- 
+37     1.594195932            1           ___ deliv- 
+38     1.594195932            1           ___ foruge 
+39     1.594195932            1           ___ har- 
+40     1.594195932            1           ___ hostili- 
+41     1.594195932            1           ___ iho 
+42     1.594195932            1           ___ iu 
+43     1.594195932            1           ___ measured 
+44     1.594195932            1           ___ monsy 
+45     1.594195932            1           ___ nei- 
+46     1.594195932            1           ___ novem- 
+47     1.594195932            1           ___ oiata- 
+48     1.594195932            1           ___ point-mi-cellar 
+49     1.594195932            1           ___ pota- 
+50     1.594195932            1           ___ prairic 
+51     1.594195932            1           ___ proportional 
+52     1.594195932            1           ___ s-ame 
+53     1.594195932            1           ___ see- 
+54     1.594195932            1           ___ shawanee 
+55     1.594195932            1           ___ shawanes-e 
+56     1.594195932            1           ___ shnwanese 
+57     1.594195932            1           ___ tardy 
+58     1.594195932            1           ___ thir- 
+59     1.594195932            1           ___ twenty-eight 
+60     1.594195932            1           ___ twight- 
+61     1.594195932            1           ___ westerly 
+62     1.594195932            1           ___ wyandol 
+63     1.594195932            1           affray ___ 
+64     1.594195932            1           border- ___ 
+65     1.594195932            1           capricious ___ 
+66     1.594195932            1           che- ___ 
+67     1.594195932            1           choetaw ___ 
+68     1.594195932            1           contra- ___ 
+69     1.594195932            1           cursed ___ 
+70     1.594195932            1           dearest ___ 
+71     1.594195932            1           deep-beaten ___ 
+72     1.594195932            1           deputy ___ 
+73     1.594195932            1           din- ___ 
+74     1.594195932            1           encouraging ___ 
+75     1.594195932            1           ese ___ 
+76     1.594195932            1           fam- ___ 
+77     1.594195932            1           further ___ 
+78     1.594195932            1           intotho ___ 
+79     1.594195932            1           kaskuskiaaml ___ 
+80     1.594195932            1           monsy ___ 
+81     1.594195932            1           neutral ___ 
+82     1.594195932            1           nn4 ___ 
+83     1.594195932            1           notwithstand- ___ 
+84     1.594195932            1           nttho ___ 
+85     1.594195932            1           perior ___ 
+86     1.594195932            1           prairic ___ 
+87     1.594195932            1           protracted ___ 
+88     1.594195932            1           scattering ___ 
+89     1.594195932            1           sha-.vanese ___ 
+90     1.594195932            1           shawan- ___ 
+91     1.594195932            1           stipendiary ___ 
+92     1.594195932            1           thair ___ 
+93     1.594195932            1           tho ___ 
+94     1.594195932            1           westerly ___ 
+95     1.594195932            1           wyandol ___ 
+96     1.538169345            2           absolute ___ 
+97     1.44934354             2           dian ___ 
+98     1.423553465            3           honorable ___ 
+99     1.360298937            7           several ___ 
+100    1.296356258            2           ___ previous 

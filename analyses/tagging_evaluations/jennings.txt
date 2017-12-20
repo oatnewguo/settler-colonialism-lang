@@ -1,0 +1,13 @@
+Number correctly tagged: 7
+Number incorrectly tagged: 0
+Estimated accuracy on text: 100.0%
+
+==============================================
+
+Y IN : with
+Y PRP$ : her
+Y DT : a
+Y IN : that
+Y DT : the
+Y IN : by
+Y IN : for

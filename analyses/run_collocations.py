@@ -3,7 +3,7 @@ from collocations import *
 
 def main():
     # assemble terms of interest
-    terms = ['indian', 'native', 'tribe', 'savage', 'aborigine']
+    terms = ['indian', 'native', 'tribe', 'savage']
     document = open('tribe_names.txt', 'r')
     tribe_names = document.read().lower()[3:]
     document.close()

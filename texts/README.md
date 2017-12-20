@@ -83,3 +83,11 @@ Peck, John Mason (1836) - A new guide for emigrants to the West : containing ske
 (not used due to being published in 1855) Harvey (1855) - History of the Shawnee Indians, from the year 1681 to 1854, inclusive
 
 (also unused) https://archive.org/details/topographicaldes00imla, https://books.google.com/books?id=rOeBDm8gNasC, https://books.google.com/books?id=HcY7AQAAMAAJ, https://books.google.com/books?id=iiMVAAAAYAAJ, https://archive.org/details/journaloftourint00harr
+
+## Cherokee Phoenix
+Vol. 1 (February 1828 - March 1829)
+Vol. 2 (March 1829 - April 1830)
+Vol. 3 (April 1830 - June 1831)
+Vol. 4 (June 1831 - August 1832)
+Vol. 5 (August 1832 - May 1834)
+  - http://www.wcu.edu/library/DigitalCollections/CherokeePhoenix/

@@ -97,7 +97,7 @@ def clean(text, new_path):
     new_file.write(new_string)
     new_file.close()
 
-main("text/St.Clair-Papers-V1.txt","text/SCP-V1-Cleaner.txt")
-main("text/St.Clair-Papers-V2.txt", "text/SCP-V2-Cleaner.txt")
-main("text/HarrisonLetters-V1.txt", "text/HL-V1-Cleaner.txt")
-main("text/HarrisonLetters-V2.txt", "text/HL-V2-Cleaner.txt")
+main('raw/stclair1.txt', 'middle/stclair1.txt')
+main('raw/stclair2.txt', 'middle/stclair2.txt')
+main('raw/harrison1.txt', 'middle/harrison1.txt')
+main('raw/harrison2.txt', 'middle/harrison2.txt')

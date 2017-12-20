@@ -4,8 +4,8 @@ from collocations import *
 def main():
     # assemble terms of interest
     terms = ['indian', 'native', 'tribe', 'savage']
-    document = open('tribe_names.txt', 'r')
-    tribe_names = document.read().lower()[3:]
+    document = open('tribe_names.txt', 'r', encoding='utf-8')
+    tribe_names = document.read()
     document.close()
     terms += nltk.word_tokenize(tribe_names)
     terms += [word + 's' for word in terms] + [word + 'es' for word in terms]
@@ -33,14 +33,16 @@ def main():
     #texts_to_run = ['filson', 'boone_from_filson', 'clair', 'clark', 'harrison', 'jennings', 'dana']
     texts_to_run = ['publicdiscourse', 'privatediscourse']
     for text in texts_to_run:
-        c = Collocations(file_path = '../texts/clean/'+text+'.txt',
-            tagged_words_path = 'tagged_words/'+text+'.txt')
+        c = Collocations(file_path = '../texts/clean/'+text+'.txt', tagged_words_path='tagged_words/'+text+'.txt')
+        #c.tagged_words_to_file(destination_path = 'tagged_words/'+text+'.txt')
+        c.tagged_bigrams(destination_path='results/'+text+'.txt',
+            bigram_filter=c.simple_filter, terms=terms, collapse_terms=True)
         c.tagged_bigrams(destination_path='results/'+text+'_adverbs.txt',
             bigram_filter=c.adverb_filter, terms=terms, collapse_terms=True)
         c.tagged_bigrams(destination_path='results/'+text+'_verbs.txt',
             bigram_filter=c.verb_filter, terms=terms, collapse_terms=True)
         c.tagged_bigrams(destination_path='results/'+text+'_adjectives.txt',
             bigram_filter=c.adjective_filter, terms=terms, collapse_terms=True)
-            
+
 if __name__ == '__main__':
     main()

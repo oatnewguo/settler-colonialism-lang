@@ -1,593 +1,450 @@
-Top 100 bigram collocations in data\clean\privatediscourse.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which adverb_filter returns False. Depending on adverb_filter, potentially filtered using the following terms of interest:
+Top 100 bigram collocations in ../texts/clean/privatediscourse.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which adverb_filter returns False. Depending on adverb_filter, potentially filtered using the following terms of interest:
 	indian
 	native
 	tribe
 	savage
-	cahokia
-	cayuga
-	chickasaw
-	dakota
-	delaware
-	erie
-	haudenosaunee
-	mohawk
-	illini
-	iowa
-	kaskaskia
-	kickapoo
-	otoe
-	mdewakanton
-	menominee
-	mesquakie
-	miami
-	michiganea
-	missouri
-	moingwena
-	munsee
-	nanticoke
-	tuscarora
-	onondaga
-	ojibwe
-	oneida
-	ottawa
-	piankasha
-	potawatomi
-	santee
-	saukcfox
-	seneca
-	shawnee
-	tamaroa
-	winnebago
-	wyandot
-	yankton
-	mohawk
-	cherokee
-	lakota
-	yuchi
-	wahpeton
-	santee
-	iroquois
-	chickasha
-	sioux
-	lenape
-	iroquois
-	kanienkehaka
-	illinois
-	ioway
-	caskaskia
-	kikapoo
-	dakota
-	wea
-	michigamea
-	missouria
-	moingona
-	muncey
-	iroquois
-	ojibwa
-	iroquois
-	odawa
-	pottawatomi
-	sauk
-	mingo
-	shawano
-	ho-chunk
-	huron
-	iroquois
-	tslagi
-	lakhota
-	euchee
-	sisseton
-	sioux
-	chikasha
-	lenni
-	lenape
-	kanonsionni
-	illiniwek
-	kikapu
-	sioux
-	peoria
-	minsi
-	chippewa
-	odaawa
-	pottawatomie
-	fox
-	iroquois
-	sewanee
-	hocak
-	wendat
-	aniyunwiya
-	sioux
-	uchee
-	oyate
-	unami
-	peoria
-	kiwigapawa
-	shakopee
-	maumee
-	munsie
-	ojibway
-	nishnabek
-	sac
-	savannah
-	hochunk
-	teton
-	uchi
-	dakota
-	myamia
-	minisink
-	anishinaabe
-	tsoyaha
-	sioux
-	twightwee
-	algonquin
-	coyaha
+	Algonquin
+	Anishinaabe
+	Aniyunwiya
+	Cahokia
+	Caskaskia
+	Cayuga
+	Cherokee
+	Chicamauga
+	Chickasaw
+	Chickasha
+	Chikasha
+	Chippewa
+	Coyaha
+	Dakota
+	Delaware
+	Erie
+	Euchee
+	Fox
+	Haudenosaunee
+	Hillabee
+	Ho-Chunk
+	Hocak
+	Hochunk
+	Huron
+	Illini
+	Illiniwek
+	Iowa
+	Ioway
+	Iroquois
+	Kanienkehaka
+	Kanonsionni
+	Kaskaskia
+	Kickapoo
+	Kikapoo
+	Kikapu
+	Kiwigapawa
+	Lakhota
+	Lakota
+	Lenape
+	Lenni
+	Maumee
+	Mdewakanton
+	Menominee
+	Mesquakie
+	Miami
+	Michigamea
+	Michiganea
+	Mingo
+	Minisink
+	Minsi
+	Mississago
+	Missouri
+	Missouria
+	Mohawk
+	Moingona
+	Moingwena
+	Muncey
+	Munsee
+	Munsie
+	Myamia
+	Nanticoke
+	Nishnabek
+	Odaawa
+	Odawa
+	Ojibwa
+	Ojibway
+	Ojibwe
+	Oneida
+	Onondaga
+	Onondago
+	Otoe
+	Ottawa
+	Oyate
+	Pawnee
+	Peoria
+	Piankasha
+	Potawatomi
+	Pottawatomi
+	Pottawatomie
+	Pottawattomi
+	Sac
+	Santee
+	Sauk
+	Saukcfox
+	Savannah
+	Seneca
+	Sewanee
+	Shakopee
+	Shawano
+	Shawnee
+	Shawnese
+	Sioux
+	Sisseton
+	Tamaroa
+	Teton
+	Tondanwandey
+	Tslagi
+	Tsoyaha
+	Tuscarora
+	Twightwee
+	Uchee
+	Uchi
+	Unami
+	Wahpeton
+	Wea
+	Wendat
+	Winnebago
+	Wyandot
+	Wyandott
+	Yankton
+	Yuchi
 	indians
 	natives
 	tribes
 	savages
-	cahokias
-	cayugas
-	chickasaws
-	dakotas
-	delawares
-	eries
-	haudenosaunees
-	mohawks
-	illinis
-	iowas
-	kaskaskias
-	kickapoos
-	otoes
-	mdewakantons
-	menominees
-	mesquakies
-	miamis
-	michiganeas
-	missouris
-	moingwenas
-	munsees
-	nanticokes
-	tuscaroras
-	onondagas
-	ojibwes
-	oneidas
-	ottawas
-	piankashas
-	potawatomis
-	santees
-	saukcfoxs
-	senecas
-	shawnees
-	tamaroas
-	winnebagos
-	wyandots
-	yanktons
-	mohawks
-	cherokees
-	lakotas
-	yuchis
-	wahpetons
-	santees
-	iroquoiss
-	chickashas
-	siouxs
-	lenapes
-	iroquoiss
-	kanienkehakas
-	illinoiss
-	ioways
-	caskaskias
-	kikapoos
-	dakotas
-	weas
-	michigameas
-	missourias
-	moingonas
-	munceys
-	iroquoiss
-	ojibwas
-	iroquoiss
-	odawas
-	pottawatomis
-	sauks
-	mingos
-	shawanos
-	ho-chunks
-	hurons
-	iroquoiss
-	tslagis
-	lakhotas
-	euchees
-	sissetons
-	siouxs
-	chikashas
-	lennis
-	lenapes
-	kanonsionnis
-	illiniweks
-	kikapus
-	siouxs
-	peorias
-	minsis
-	chippewas
-	odaawas
-	pottawatomies
-	foxs
-	iroquoiss
-	sewanees
-	hocaks
-	wendats
-	aniyunwiyas
-	siouxs
-	uchees
-	oyates
-	unamis
-	peorias
-	kiwigapawas
-	shakopees
-	maumees
-	munsies
-	ojibways
-	nishnabeks
-	sacs
-	savannahs
-	hochunks
-	tetons
-	uchis
-	dakotas
-	myamias
-	minisinks
-	anishinaabes
-	tsoyahas
-	siouxs
-	twightwees
-	algonquins
-	coyahas
+	Algonquins
+	Anishinaabes
+	Aniyunwiyas
+	Cahokias
+	Caskaskias
+	Cayugas
+	Cherokees
+	Chicamaugas
+	Chickasaws
+	Chickashas
+	Chikashas
+	Chippewas
+	Coyahas
+	Dakotas
+	Delawares
+	Eries
+	Euchees
+	Foxs
+	Haudenosaunees
+	Hillabees
+	Ho-Chunks
+	Hocaks
+	Hochunks
+	Hurons
+	Illinis
+	Illiniweks
+	Iowas
+	Ioways
+	Iroquoiss
+	Kanienkehakas
+	Kanonsionnis
+	Kaskaskias
+	Kickapoos
+	Kikapoos
+	Kikapus
+	Kiwigapawas
+	Lakhotas
+	Lakotas
+	Lenapes
+	Lennis
+	Maumees
+	Mdewakantons
+	Menominees
+	Mesquakies
+	Miamis
+	Michigameas
+	Michiganeas
+	Mingos
+	Minisinks
+	Minsis
+	Mississagos
+	Missouris
+	Missourias
+	Mohawks
+	Moingonas
+	Moingwenas
+	Munceys
+	Munsees
+	Munsies
+	Myamias
+	Nanticokes
+	Nishnabeks
+	Odaawas
+	Odawas
+	Ojibwas
+	Ojibways
+	Ojibwes
+	Oneidas
+	Onondagas
+	Onondagos
+	Otoes
+	Ottawas
+	Oyates
+	Pawnees
+	Peorias
+	Piankashas
+	Potawatomis
+	Pottawatomis
+	Pottawatomies
+	Pottawattomis
+	Sacs
+	Santees
+	Sauks
+	Saukcfoxs
+	Savannahs
+	Senecas
+	Sewanees
+	Shakopees
+	Shawanos
+	Shawnees
+	Shawneses
+	Siouxs
+	Sissetons
+	Tamaroas
+	Tetons
+	Tondanwandeys
+	Tslagis
+	Tsoyahas
+	Tuscaroras
+	Twightwees
+	Uchees
+	Uchis
+	Unamis
+	Wahpetons
+	Weas
+	Wendats
+	Winnebagos
+	Wyandots
+	Wyandotts
+	Yanktons
+	Yuchis
 	indianes
 	nativees
 	tribees
 	savagees
-	cahokiaes
-	cayugaes
-	chickasawes
-	dakotaes
-	delawarees
-	eriees
-	haudenosauneees
-	mohawkes
-	illinies
-	iowaes
-	kaskaskiaes
-	kickapooes
-	otoees
-	mdewakantones
-	menomineees
-	mesquakiees
-	miamies
-	michiganeaes
-	missouries
-	moingwenaes
-	munseees
-	nanticokees
-	tuscaroraes
-	onondagaes
-	ojibwees
-	oneidaes
-	ottawaes
-	piankashaes
-	potawatomies
-	santeees
-	saukcfoxes
-	senecaes
-	shawneees
-	tamaroaes
-	winnebagoes
-	wyandotes
-	yanktones
-	mohawkes
-	cherokeees
-	lakotaes
-	yuchies
-	wahpetones
-	santeees
-	iroquoises
-	chickashaes
-	siouxes
-	lenapees
-	iroquoises
-	kanienkehakaes
-	illinoises
-	iowayes
-	caskaskiaes
-	kikapooes
-	dakotaes
-	weaes
-	michigameaes
-	missouriaes
-	moingonaes
-	munceyes
-	iroquoises
-	ojibwaes
-	iroquoises
-	odawaes
-	pottawatomies
-	saukes
-	mingoes
-	shawanoes
-	ho-chunkes
-	hurones
-	iroquoises
-	tslagies
-	lakhotaes
-	eucheees
-	sissetones
-	siouxes
-	chikashaes
-	lennies
-	lenapees
-	kanonsionnies
-	illiniwekes
-	kikapues
-	siouxes
-	peoriaes
-	minsies
-	chippewaes
-	odaawaes
-	pottawatomiees
-	foxes
-	iroquoises
-	sewaneees
-	hocakes
-	wendates
-	aniyunwiyaes
-	siouxes
-	ucheees
-	oyatees
-	unamies
-	peoriaes
-	kiwigapawaes
-	shakopeees
-	maumeees
-	munsiees
-	ojibwayes
-	nishnabekes
-	saces
-	savannahes
-	hochunkes
-	tetones
-	uchies
-	dakotaes
-	myamiaes
-	minisinkes
-	anishinaabees
-	tsoyahaes
-	siouxes
-	twightweees
-	algonquines
-	coyahaes
-	indianses
-	nativeses
-	tribeses
-	savageses
-	cahokiases
-	cayugases
-	chickasawses
-	dakotases
-	delawareses
-	erieses
-	haudenosauneeses
-	mohawkses
-	illinises
-	iowases
-	kaskaskiases
-	kickapooses
-	otoeses
-	mdewakantonses
-	menomineeses
-	mesquakieses
-	miamises
-	michiganeases
-	missourises
-	moingwenases
-	munseeses
-	nanticokeses
-	tuscarorases
-	onondagases
-	ojibweses
-	oneidases
-	ottawases
-	piankashases
-	potawatomises
-	santeeses
-	saukcfoxses
-	senecases
-	shawneeses
-	tamaroases
-	winnebagoses
-	wyandotses
-	yanktonses
-	mohawkses
-	cherokeeses
-	lakotases
-	yuchises
-	wahpetonses
-	santeeses
-	iroquoisses
-	chickashases
-	siouxses
-	lenapeses
-	iroquoisses
-	kanienkehakases
-	illinoisses
-	iowayses
-	caskaskiases
-	kikapooses
-	dakotases
-	weases
-	michigameases
-	missouriases
-	moingonases
-	munceyses
-	iroquoisses
-	ojibwases
-	iroquoisses
-	odawases
-	pottawatomises
-	saukses
-	mingoses
-	shawanoses
-	ho-chunkses
-	huronses
-	iroquoisses
-	tslagises
-	lakhotases
-	eucheeses
-	sissetonses
-	siouxses
-	chikashases
-	lennises
-	lenapeses
-	kanonsionnises
-	illiniwekses
-	kikapuses
-	siouxses
-	peoriases
-	minsises
-	chippewases
-	odaawases
-	pottawatomieses
-	foxses
-	iroquoisses
-	sewaneeses
-	hocakses
-	wendatses
-	aniyunwiyases
-	siouxses
-	ucheeses
-	oyateses
-	unamises
-	peoriases
-	kiwigapawases
-	shakopeeses
-	maumeeses
-	munsieses
-	ojibwayses
-	nishnabekses
-	sacses
-	savannahses
-	hochunkses
-	tetonses
-	uchises
-	dakotases
-	myamiases
-	minisinkses
-	anishinaabeses
-	tsoyahases
-	siouxses
-	twightweeses
-	algonquinses
-	coyahases
+	Algonquines
+	Anishinaabees
+	Aniyunwiyaes
+	Cahokiaes
+	Caskaskiaes
+	Cayugaes
+	Cherokeees
+	Chicamaugaes
+	Chickasawes
+	Chickashaes
+	Chikashaes
+	Chippewaes
+	Coyahaes
+	Dakotaes
+	Delawarees
+	Eriees
+	Eucheees
+	Foxes
+	Haudenosauneees
+	Hillabeees
+	Ho-Chunkes
+	Hocakes
+	Hochunkes
+	Hurones
+	Illinies
+	Illiniwekes
+	Iowaes
+	Iowayes
+	Iroquoises
+	Kanienkehakaes
+	Kanonsionnies
+	Kaskaskiaes
+	Kickapooes
+	Kikapooes
+	Kikapues
+	Kiwigapawaes
+	Lakhotaes
+	Lakotaes
+	Lenapees
+	Lennies
+	Maumeees
+	Mdewakantones
+	Menomineees
+	Mesquakiees
+	Miamies
+	Michigameaes
+	Michiganeaes
+	Mingoes
+	Minisinkes
+	Minsies
+	Mississagoes
+	Missouries
+	Missouriaes
+	Mohawkes
+	Moingonaes
+	Moingwenaes
+	Munceyes
+	Munseees
+	Munsiees
+	Myamiaes
+	Nanticokees
+	Nishnabekes
+	Odaawaes
+	Odawaes
+	Ojibwaes
+	Ojibwayes
+	Ojibwees
+	Oneidaes
+	Onondagaes
+	Onondagoes
+	Otoees
+	Ottawaes
+	Oyatees
+	Pawneees
+	Peoriaes
+	Piankashaes
+	Potawatomies
+	Pottawatomies
+	Pottawatomiees
+	Pottawattomies
+	Saces
+	Santeees
+	Saukes
+	Saukcfoxes
+	Savannahes
+	Senecaes
+	Sewaneees
+	Shakopeees
+	Shawanoes
+	Shawneees
+	Shawnesees
+	Siouxes
+	Sissetones
+	Tamaroaes
+	Tetones
+	Tondanwandeyes
+	Tslagies
+	Tsoyahaes
+	Tuscaroraes
+	Twightweees
+	Ucheees
+	Uchies
+	Unamies
+	Wahpetones
+	Weaes
+	Wendates
+	Winnebagoes
+	Wyandotes
+	Wyandottes
+	Yanktones
+	Yuchies
 Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
 -----------------------------------------------------
 Rank | Log-Likelihood Score | Frequency | Collocation
 -----------------------------------------------------
-1      26.52008533            39          not ___ 
-2      7.03866659             13          so ___ 
-3      4.497058598            15          very ___ 
-4      4.385947504            13          ___ frequently 
-5      3.943659988            4           ___ peaceably 
-6      3.729493742            1           yet ___ 
-7      3.680448015            2           fidentially ___ 
-8      2.830128032            2           alvord ___ 
-9      2.830128032            2           cipally ___ 
-10     2.781504219            2           never ___ 
-11     2.71802626             4           ___ closely 
-12     2.59864875             32          ___ here 
-13     2.467298624            1           therefore ___ 
-14     2.388827605            2           ___ eagerly 
-15     2.388827605            2           ___ tinually 
-16     2.388827605            2           belong ___ 
-17     2.148809929            7           only ___ 
-18     2.146104847            15          ___ just 
-19     2.090759829            2           ___ unnecessarily 
-20     2.090759829            2           distant ___ 
-21     2.090759829            2           offensively ___ 
-22     1.970251803            10          ___ generally 
-23     1.866817657            2           ___ mutually 
-24     1.818100312            3           far ___ 
-25     1.816483367            3           ___ though 
-26     1.721187889            4           ___ continually 
-27     1.68834188             2           boldly ___ 
-28     1.683519349            3           too ___ 
-29     1.650987286            6           ___ perfectly 
-30     1.511059028            15          as ___ 
-31     1.506560797            40          ___ now 
-32     1.483327075            15          now ___ 
-33     1.415159745            2           ___ v/ere 
-34     1.415054774            1           'such ___ 
-35     1.415054774            1           ___ /t05.fortably 
-36     1.415054774            1           ___ aect.no.4 
-37     1.415054774            1           ___ ago.mr 
-38     1.415054774            1           ___ aparantly 
-39     1.415054774            1           ___ charly 
-40     1.415054774            1           ___ coutiously 
-41     1.415054774            1           ___ cruely 
-42     1.415054774            1           ___ customarily 
-43     1.415054774            1           ___ daringly 
-44     1.415054774            1           ___ dastardly 
-45     1.415054774            1           ___ etc.has 
-46     1.415054774            1           ___ feb'y 
-47     1.415054774            1           ___ frendly 
-48     1.415054774            1           ___ frequertly 
-49     1.415054774            1           ___ inately 
-50     1.415054774            1           ___ initrely 
-51     1.415054774            1           ___ ireland.early 
-52     1.415054774            1           ___ it.before 
-53     1.415054774            1           ___ it.of 
-54     1.415054774            1           ___ iuver 
-55     1.415054774            1           ___ ky. 
-56     1.415054774            1           ___ leisurely 
-57     1.415054774            1           ___ potawattimies.father 
-58     1.415054774            1           ___ rroviously 
-59     1.415054774            1           ___ sitting.here 
-60     1.415054774            1           ___ sustained 
-61     1.415054774            1           ___ to.there 
-62     1.415054774            1           ago- ___ 
-63     1.415054774            1           amonb ___ 
-64     1.415054774            1           before.genl.winchester ___ 
-65     1.415054774            1           ensign ___ 
-66     1.415054774            1           escoit ___ 
-67     1.415054774            1           hiijhly ___ 
-68     1.415054774            1           him.the ___ 
-69     1.415054774            1           hotly ___ 
-70     1.415054774            1           iar ___ 
-71     1.415054774            1           it.father ___ 
-72     1.415054774            1           labossiere ___ 
-73     1.415054774            1           masonville ___ 
-74     1.415054774            1           neutrality.i ___ 
-75     1.415054774            1           none.father ___ 
-76     1.415054774            1           perticlarly ___ 
-77     1.415054774            1           sustained ___ 
-78     1.415054774            1           tipton ___ 
-79     1.415054774            1           tully ___ 
-80     1.415054774            1           unsuccessfully ___ 
-81     1.415054774            1           volly ___ 
-82     1.345611534            7           more ___ 
-83     1.306487814            2           ___ explicitly 
-84     1.306487814            2           past ___ 
-85     1.126042509            2           ___ feby 
-86     1.11212724             17          ___ immediately 
-87     1.11212724             17          ___ there 
-88     1.0968431              4           immediately ___ 
-89     1.045371147            1           ___ hostilely 
-90     1.045371147            1           ___ knew 
-91     1.045371147            1           ___ no.1 
-92     1.045371147            1           ___ ostensibly 
-93     1.045371147            1           ___ prairie 
-94     1.045371147            1           actly ___ 
-95     1.045371147            1           aney ___ 
-96     1.045371147            1           billy ___ 
-97     1.045371147            1           fere ___ 
-98     1.045371147            1           mayet ___ 
-99     1.045371147            1           prominently ___ 
-100    1.0316827              3           ___ therefore 
+1      12.27163693            27          not ___ 
+2      7.24244269             14          ___ frequently 
+3      4.800368793            11          ___ generally 
+4      4.116388785            9           so ___ 
+5      3.175626063            4           ___ closely 
+6      3.110295739            5           ___ continually 
+7      3.015912543            2           ___ eagerly 
+8      2.966142884            5           now ___ 
+9      2.572413498            2           ___ peaceably 
+10     2.272147107            2           ___ mutually 
+11     2.204255947            9           ___ probably 
+12     2.164534916            3           ___ hereunto 
+13     2.068797878            3           ___ decidedly 
+14     1.825400136            1           yet ___ 
+15     1.820449025            3           ___ aside 
+16     1.7481847              3           ___ warmly 
+17     1.652665975            11          ___ again 
+18     1.597808723            4           heretofore ___ 
+19     1.555722072            3           ___ westward 
+20     1.543189273            12          ___ there 
+21     1.507939016            1           ___ aparantly 
+22     1.507939016            1           ___ customarily 
+23     1.507939016            1           ___ damige 
+24     1.507939016            1           ___ daringly 
+25     1.507939016            1           ___ desperately 
+26     1.507939016            1           ___ fortably 
+27     1.507939016            1           ___ frendly 
+28     1.507939016            1           ___ frequertly 
+29     1.507939016            1           ___ gre 
+30     1.507939016            1           ___ herewitli 
+31     1.507939016            1           ___ initrely 
+32     1.507939016            1           hiijhly ___ 
+33     1.507939016            1           hotly ___ 
+34     1.507939016            1           obably ___ 
+35     1.507939016            1           perticlarly ___ 
+36     1.507939016            1           tully ___ 
+37     1.507939016            1           verily ___ 
+38     1.507939016            1           volly ___ 
+39     1.469348717            6           about ___ 
+40     1.379169741            2           ___ undoubtedly 
+41     1.32594754             2           immediately ___ 
+42     1.296331744            3           ___ exceedingly 
+43     1.292509216            1           ___ dear 
+44     1.292509216            1           dear ___ 
+45     1.292039583            2           ___ recently 
+46     1.292039583            2           suddenly ___ 
+47     1.218021163            5           ___ also 
+48     1.213605176            2           ___ mostly 
+49     1.152785195            4           ___ constantly 
+50     1.151300201            6           frequently ___ 
+51     1.13605703             1           ___ indiscriminately 
+52     1.13605703             1           ___ last 
+53     1.13605703             1           ___ ostensibly 
+54     1.13605703             1           ___ sparingly 
+55     1.13605703             1           ___ sure 
+56     1.13605703             1           confidentially ___ 
+57     1.13605703             1           joyfully ___ 
+58     1.13605703             1           likely ___ 
+59     1.13605703             1           unsuccessfully ___ 
+60     1.123738436            11          very ___ 
+61     1.097637036            4           ___ northwest 
+62     1.09080783             3           ___ off 
+63     1.07745483             2           ___ fortunately 
+64     1.017771173            2           repeatedly ___ 
+65     0.9507050811           1           just ___ 
+66     0.9436980585           9           ___ just 
+67     0.9326501634           1           ___ astray 
+68     0.9326501634           1           ___ heavily 
+69     0.9326501634           1           ___ industriously 
+70     0.9326501634           1           ___ sooner 
+71     0.9326501634           1           imperfectly ___ 
+72     0.9326501634           1           nowhere ___ 
+73     0.8641974785           2           ___ faithfully 
+74     0.8549837002           15          ___ soon 
+75     0.8367458882           3           ___ actually 
+76     0.8239916808           2           ___ far 
+77     0.8239916808           2           far ___ 
+78     0.8146746764           6           here ___ 
+79     0.7994376825           4           ___ early 
+80     0.7938611943           1           ___ chearfully 
+81     0.7938611943           1           ___ gladly 
+82     0.7938611943           1           ___ namely 
+83     0.7938611943           1           ___ smartly 
+84     0.7938611943           1           ___ southwardly 
+85     0.7938611943           1           ___ wisely 
+86     0.7938611943           1           latterly ___ 
+87     0.7938611943           1           northward ___ 
+88     0.7938611943           1           offensively ___ 
+89     0.7938611943           1           vigorously ___ 
+90     0.7784789298           2           ___ apparently 
+91     0.7157077935           2           therefore ___ 
+92     0.7030698259           2           ___ close 
+93     0.6895704491           1           ___ boldly 
+94     0.6895704491           1           ___ unnecessarily 
+95     0.6895704491           1           boldly ___ 
+96     0.6895704491           1           literally ___ 
+97     0.667450431            5           ___ back 
+98     0.6451128601           3           ___ likewise 
+99     0.6446213341           10          ___ much 
+100    0.6419587242           5           however ___ 

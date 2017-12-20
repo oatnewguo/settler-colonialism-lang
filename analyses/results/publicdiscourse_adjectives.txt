@@ -1,593 +1,450 @@
-Top 100 bigram collocations in data\clean\publicdiscourse.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which adjective_filter returns False. Depending on adjective_filter, potentially filtered using the following terms of interest:
+Top 100 bigram collocations in ../texts/clean/publicdiscourse.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which adjective_filter returns False. Depending on adjective_filter, potentially filtered using the following terms of interest:
 	indian
 	native
 	tribe
 	savage
-	cahokia
-	cayuga
-	chickasaw
-	dakota
-	delaware
-	erie
-	haudenosaunee
-	mohawk
-	illini
-	iowa
-	kaskaskia
-	kickapoo
-	otoe
-	mdewakanton
-	menominee
-	mesquakie
-	miami
-	michiganea
-	missouri
-	moingwena
-	munsee
-	nanticoke
-	tuscarora
-	onondaga
-	ojibwe
-	oneida
-	ottawa
-	piankasha
-	potawatomi
-	santee
-	saukcfox
-	seneca
-	shawnee
-	tamaroa
-	winnebago
-	wyandot
-	yankton
-	mohawk
-	cherokee
-	lakota
-	yuchi
-	wahpeton
-	santee
-	iroquois
-	chickasha
-	sioux
-	lenape
-	iroquois
-	kanienkehaka
-	illinois
-	ioway
-	caskaskia
-	kikapoo
-	dakota
-	wea
-	michigamea
-	missouria
-	moingona
-	muncey
-	iroquois
-	ojibwa
-	iroquois
-	odawa
-	pottawatomi
-	sauk
-	mingo
-	shawano
-	ho-chunk
-	huron
-	iroquois
-	tslagi
-	lakhota
-	euchee
-	sisseton
-	sioux
-	chikasha
-	lenni
-	lenape
-	kanonsionni
-	illiniwek
-	kikapu
-	sioux
-	peoria
-	minsi
-	chippewa
-	odaawa
-	pottawatomie
-	fox
-	iroquois
-	sewanee
-	hocak
-	wendat
-	aniyunwiya
-	sioux
-	uchee
-	oyate
-	unami
-	peoria
-	kiwigapawa
-	shakopee
-	maumee
-	munsie
-	ojibway
-	nishnabek
-	sac
-	savannah
-	hochunk
-	teton
-	uchi
-	dakota
-	myamia
-	minisink
-	anishinaabe
-	tsoyaha
-	sioux
-	twightwee
-	algonquin
-	coyaha
+	Algonquin
+	Anishinaabe
+	Aniyunwiya
+	Cahokia
+	Caskaskia
+	Cayuga
+	Cherokee
+	Chicamauga
+	Chickasaw
+	Chickasha
+	Chikasha
+	Chippewa
+	Coyaha
+	Dakota
+	Delaware
+	Erie
+	Euchee
+	Fox
+	Haudenosaunee
+	Hillabee
+	Ho-Chunk
+	Hocak
+	Hochunk
+	Huron
+	Illini
+	Illiniwek
+	Iowa
+	Ioway
+	Iroquois
+	Kanienkehaka
+	Kanonsionni
+	Kaskaskia
+	Kickapoo
+	Kikapoo
+	Kikapu
+	Kiwigapawa
+	Lakhota
+	Lakota
+	Lenape
+	Lenni
+	Maumee
+	Mdewakanton
+	Menominee
+	Mesquakie
+	Miami
+	Michigamea
+	Michiganea
+	Mingo
+	Minisink
+	Minsi
+	Mississago
+	Missouri
+	Missouria
+	Mohawk
+	Moingona
+	Moingwena
+	Muncey
+	Munsee
+	Munsie
+	Myamia
+	Nanticoke
+	Nishnabek
+	Odaawa
+	Odawa
+	Ojibwa
+	Ojibway
+	Ojibwe
+	Oneida
+	Onondaga
+	Onondago
+	Otoe
+	Ottawa
+	Oyate
+	Pawnee
+	Peoria
+	Piankasha
+	Potawatomi
+	Pottawatomi
+	Pottawatomie
+	Pottawattomi
+	Sac
+	Santee
+	Sauk
+	Saukcfox
+	Savannah
+	Seneca
+	Sewanee
+	Shakopee
+	Shawano
+	Shawnee
+	Shawnese
+	Sioux
+	Sisseton
+	Tamaroa
+	Teton
+	Tondanwandey
+	Tslagi
+	Tsoyaha
+	Tuscarora
+	Twightwee
+	Uchee
+	Uchi
+	Unami
+	Wahpeton
+	Wea
+	Wendat
+	Winnebago
+	Wyandot
+	Wyandott
+	Yankton
+	Yuchi
 	indians
 	natives
 	tribes
 	savages
-	cahokias
-	cayugas
-	chickasaws
-	dakotas
-	delawares
-	eries
-	haudenosaunees
-	mohawks
-	illinis
-	iowas
-	kaskaskias
-	kickapoos
-	otoes
-	mdewakantons
-	menominees
-	mesquakies
-	miamis
-	michiganeas
-	missouris
-	moingwenas
-	munsees
-	nanticokes
-	tuscaroras
-	onondagas
-	ojibwes
-	oneidas
-	ottawas
-	piankashas
-	potawatomis
-	santees
-	saukcfoxs
-	senecas
-	shawnees
-	tamaroas
-	winnebagos
-	wyandots
-	yanktons
-	mohawks
-	cherokees
-	lakotas
-	yuchis
-	wahpetons
-	santees
-	iroquoiss
-	chickashas
-	siouxs
-	lenapes
-	iroquoiss
-	kanienkehakas
-	illinoiss
-	ioways
-	caskaskias
-	kikapoos
-	dakotas
-	weas
-	michigameas
-	missourias
-	moingonas
-	munceys
-	iroquoiss
-	ojibwas
-	iroquoiss
-	odawas
-	pottawatomis
-	sauks
-	mingos
-	shawanos
-	ho-chunks
-	hurons
-	iroquoiss
-	tslagis
-	lakhotas
-	euchees
-	sissetons
-	siouxs
-	chikashas
-	lennis
-	lenapes
-	kanonsionnis
-	illiniweks
-	kikapus
-	siouxs
-	peorias
-	minsis
-	chippewas
-	odaawas
-	pottawatomies
-	foxs
-	iroquoiss
-	sewanees
-	hocaks
-	wendats
-	aniyunwiyas
-	siouxs
-	uchees
-	oyates
-	unamis
-	peorias
-	kiwigapawas
-	shakopees
-	maumees
-	munsies
-	ojibways
-	nishnabeks
-	sacs
-	savannahs
-	hochunks
-	tetons
-	uchis
-	dakotas
-	myamias
-	minisinks
-	anishinaabes
-	tsoyahas
-	siouxs
-	twightwees
-	algonquins
-	coyahas
+	Algonquins
+	Anishinaabes
+	Aniyunwiyas
+	Cahokias
+	Caskaskias
+	Cayugas
+	Cherokees
+	Chicamaugas
+	Chickasaws
+	Chickashas
+	Chikashas
+	Chippewas
+	Coyahas
+	Dakotas
+	Delawares
+	Eries
+	Euchees
+	Foxs
+	Haudenosaunees
+	Hillabees
+	Ho-Chunks
+	Hocaks
+	Hochunks
+	Hurons
+	Illinis
+	Illiniweks
+	Iowas
+	Ioways
+	Iroquoiss
+	Kanienkehakas
+	Kanonsionnis
+	Kaskaskias
+	Kickapoos
+	Kikapoos
+	Kikapus
+	Kiwigapawas
+	Lakhotas
+	Lakotas
+	Lenapes
+	Lennis
+	Maumees
+	Mdewakantons
+	Menominees
+	Mesquakies
+	Miamis
+	Michigameas
+	Michiganeas
+	Mingos
+	Minisinks
+	Minsis
+	Mississagos
+	Missouris
+	Missourias
+	Mohawks
+	Moingonas
+	Moingwenas
+	Munceys
+	Munsees
+	Munsies
+	Myamias
+	Nanticokes
+	Nishnabeks
+	Odaawas
+	Odawas
+	Ojibwas
+	Ojibways
+	Ojibwes
+	Oneidas
+	Onondagas
+	Onondagos
+	Otoes
+	Ottawas
+	Oyates
+	Pawnees
+	Peorias
+	Piankashas
+	Potawatomis
+	Pottawatomis
+	Pottawatomies
+	Pottawattomis
+	Sacs
+	Santees
+	Sauks
+	Saukcfoxs
+	Savannahs
+	Senecas
+	Sewanees
+	Shakopees
+	Shawanos
+	Shawnees
+	Shawneses
+	Siouxs
+	Sissetons
+	Tamaroas
+	Tetons
+	Tondanwandeys
+	Tslagis
+	Tsoyahas
+	Tuscaroras
+	Twightwees
+	Uchees
+	Uchis
+	Unamis
+	Wahpetons
+	Weas
+	Wendats
+	Winnebagos
+	Wyandots
+	Wyandotts
+	Yanktons
+	Yuchis
 	indianes
 	nativees
 	tribees
 	savagees
-	cahokiaes
-	cayugaes
-	chickasawes
-	dakotaes
-	delawarees
-	eriees
-	haudenosauneees
-	mohawkes
-	illinies
-	iowaes
-	kaskaskiaes
-	kickapooes
-	otoees
-	mdewakantones
-	menomineees
-	mesquakiees
-	miamies
-	michiganeaes
-	missouries
-	moingwenaes
-	munseees
-	nanticokees
-	tuscaroraes
-	onondagaes
-	ojibwees
-	oneidaes
-	ottawaes
-	piankashaes
-	potawatomies
-	santeees
-	saukcfoxes
-	senecaes
-	shawneees
-	tamaroaes
-	winnebagoes
-	wyandotes
-	yanktones
-	mohawkes
-	cherokeees
-	lakotaes
-	yuchies
-	wahpetones
-	santeees
-	iroquoises
-	chickashaes
-	siouxes
-	lenapees
-	iroquoises
-	kanienkehakaes
-	illinoises
-	iowayes
-	caskaskiaes
-	kikapooes
-	dakotaes
-	weaes
-	michigameaes
-	missouriaes
-	moingonaes
-	munceyes
-	iroquoises
-	ojibwaes
-	iroquoises
-	odawaes
-	pottawatomies
-	saukes
-	mingoes
-	shawanoes
-	ho-chunkes
-	hurones
-	iroquoises
-	tslagies
-	lakhotaes
-	eucheees
-	sissetones
-	siouxes
-	chikashaes
-	lennies
-	lenapees
-	kanonsionnies
-	illiniwekes
-	kikapues
-	siouxes
-	peoriaes
-	minsies
-	chippewaes
-	odaawaes
-	pottawatomiees
-	foxes
-	iroquoises
-	sewaneees
-	hocakes
-	wendates
-	aniyunwiyaes
-	siouxes
-	ucheees
-	oyatees
-	unamies
-	peoriaes
-	kiwigapawaes
-	shakopeees
-	maumeees
-	munsiees
-	ojibwayes
-	nishnabekes
-	saces
-	savannahes
-	hochunkes
-	tetones
-	uchies
-	dakotaes
-	myamiaes
-	minisinkes
-	anishinaabees
-	tsoyahaes
-	siouxes
-	twightweees
-	algonquines
-	coyahaes
-	indianses
-	nativeses
-	tribeses
-	savageses
-	cahokiases
-	cayugases
-	chickasawses
-	dakotases
-	delawareses
-	erieses
-	haudenosauneeses
-	mohawkses
-	illinises
-	iowases
-	kaskaskiases
-	kickapooses
-	otoeses
-	mdewakantonses
-	menomineeses
-	mesquakieses
-	miamises
-	michiganeases
-	missourises
-	moingwenases
-	munseeses
-	nanticokeses
-	tuscarorases
-	onondagases
-	ojibweses
-	oneidases
-	ottawases
-	piankashases
-	potawatomises
-	santeeses
-	saukcfoxses
-	senecases
-	shawneeses
-	tamaroases
-	winnebagoses
-	wyandotses
-	yanktonses
-	mohawkses
-	cherokeeses
-	lakotases
-	yuchises
-	wahpetonses
-	santeeses
-	iroquoisses
-	chickashases
-	siouxses
-	lenapeses
-	iroquoisses
-	kanienkehakases
-	illinoisses
-	iowayses
-	caskaskiases
-	kikapooses
-	dakotases
-	weases
-	michigameases
-	missouriases
-	moingonases
-	munceyses
-	iroquoisses
-	ojibwases
-	iroquoisses
-	odawases
-	pottawatomises
-	saukses
-	mingoses
-	shawanoses
-	ho-chunkses
-	huronses
-	iroquoisses
-	tslagises
-	lakhotases
-	eucheeses
-	sissetonses
-	siouxses
-	chikashases
-	lennises
-	lenapeses
-	kanonsionnises
-	illiniwekses
-	kikapuses
-	siouxses
-	peoriases
-	minsises
-	chippewases
-	odaawases
-	pottawatomieses
-	foxses
-	iroquoisses
-	sewaneeses
-	hocakses
-	wendatses
-	aniyunwiyases
-	siouxses
-	ucheeses
-	oyateses
-	unamises
-	peoriases
-	kiwigapawases
-	shakopeeses
-	maumeeses
-	munsieses
-	ojibwayses
-	nishnabekses
-	sacses
-	savannahses
-	hochunkses
-	tetonses
-	uchises
-	dakotases
-	myamiases
-	minisinkses
-	anishinaabeses
-	tsoyahases
-	siouxses
-	twightweeses
-	algonquinses
-	coyahases
+	Algonquines
+	Anishinaabees
+	Aniyunwiyaes
+	Cahokiaes
+	Caskaskiaes
+	Cayugaes
+	Cherokeees
+	Chicamaugaes
+	Chickasawes
+	Chickashaes
+	Chikashaes
+	Chippewaes
+	Coyahaes
+	Dakotaes
+	Delawarees
+	Eriees
+	Eucheees
+	Foxes
+	Haudenosauneees
+	Hillabeees
+	Ho-Chunkes
+	Hocakes
+	Hochunkes
+	Hurones
+	Illinies
+	Illiniwekes
+	Iowaes
+	Iowayes
+	Iroquoises
+	Kanienkehakaes
+	Kanonsionnies
+	Kaskaskiaes
+	Kickapooes
+	Kikapooes
+	Kikapues
+	Kiwigapawaes
+	Lakhotaes
+	Lakotaes
+	Lenapees
+	Lennies
+	Maumeees
+	Mdewakantones
+	Menomineees
+	Mesquakiees
+	Miamies
+	Michigameaes
+	Michiganeaes
+	Mingoes
+	Minisinkes
+	Minsies
+	Mississagoes
+	Missouries
+	Missouriaes
+	Mohawkes
+	Moingonaes
+	Moingwenaes
+	Munceyes
+	Munseees
+	Munsiees
+	Myamiaes
+	Nanticokees
+	Nishnabekes
+	Odaawaes
+	Odawaes
+	Ojibwaes
+	Ojibwayes
+	Ojibwees
+	Oneidaes
+	Onondagaes
+	Onondagoes
+	Otoees
+	Ottawaes
+	Oyatees
+	Pawneees
+	Peoriaes
+	Piankashaes
+	Potawatomies
+	Pottawatomies
+	Pottawatomiees
+	Pottawattomies
+	Saces
+	Santeees
+	Saukes
+	Saukcfoxes
+	Savannahes
+	Senecaes
+	Sewaneees
+	Shakopeees
+	Shawanoes
+	Shawneees
+	Shawnesees
+	Siouxes
+	Sissetones
+	Tamaroaes
+	Tetones
+	Tondanwandeyes
+	Tslagies
+	Tsoyahaes
+	Tuscaroraes
+	Twightweees
+	Ucheees
+	Uchies
+	Unamies
+	Wahpetones
+	Weaes
+	Wendates
+	Winnebagoes
+	Wyandotes
+	Wyandottes
+	Yanktones
+	Yuchies
 Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
 -----------------------------------------------------
 Rank | Log-Likelihood Score | Frequency | Collocation
 -----------------------------------------------------
-1      18.51174983            18          lake ___ 
-2      7.982650093            6           shawanese ___ 
-3      5.332555522            12          little ___ 
-4      5.303547041            20          great ___ 
-5      5.183012161            3           ___ occupy 
-6      4.745158357            4           hostile ___ 
-7      4.204834869            7           big ___ 
-8      3.829384968            2           ___ inhabit 
-9      3.829384968            2           indians�three ___ 
-10     3.829384968            2           naudowessie ___ 
-11     3.351795927            3           barbarous ___ 
-12     2.977285802            2           long-isle ___ 
-13     2.977285802            2           miserable ___ 
-14     2.534206267            2           natchez ___ 
-15     2.217422164            4           chief ___ 
-16     2.17506066             5           ___ lake 
-17     1.845663008            3           ___ vast 
-18     1.828383679            2           modern ___ 
-19     1.678902005            2           fourth ___ 
-20     1.620446013            4           ___ superior 
-21     1.488553392            1           ___ chicasaws 
-22     1.488553392            1           ___ combined 
-23     1.488553392            1           ___ fairfield 
-24     1.488553392            1           ___ honorable 
-25     1.488553392            1           ___ l'arbre 
-26     1.488553392            1           ___ obannon 
-27     1.488553392            1           ___ ozaw 
-28     1.488553392            1           ___ puant 
-29     1.488553392            1           ___ rivers.this 
-30     1.488553392            1           ___ thirty-six 
-31     1.488553392            1           ___ torrid 
-32     1.488553392            1           ___ tract 
-33     1.488553392            1           ___ urus 
-34     1.488553392            1           byseveral ___ 
-35     1.488553392            1           farther ___ 
-36     1.488553392            1           feathered ___ 
-37     1.488553392            1           generous ___ 
-38     1.488553392            1           head ___ 
-39     1.488553392            1           immediate ___ 
-40     1.488553392            1           informed ___ 
-41     1.488553392            1           inhabit ___ 
-42     1.488553392            1           isle-river ___ 
-43     1.488553392            1           middle-settlement ___ 
-44     1.488553392            1           n ___ 
-45     1.488553392            1           neighboring ___ 
-46     1.488553392            1           occupied ___ 
-47     1.488553392            1           rudest ___ 
-48     1.488553392            1           twenty-eight ___ 
-49     1.488553392            1           unmerited ___ 
-50     1.488553392            1           untutored ___ 
-51     1.488553392            1           wrought ___ 
-52     1.183226759            4           common ___ 
-53     1.117094173            1           ___ born 
-54     1.117094173            1           ___ choicest 
-55     1.117094173            1           ___ edwardsville 
-56     1.117094173            1           ___ equidistant 
-57     1.117094173            1           ___ ignorant 
-58     1.117094173            1           ___ lands 
-59     1.117094173            1           ___ plenty 
-60     1.117094173            1           celebrated ___ 
-61     1.117094173            1           disastrous ___ 
-62     1.117094173            1           horrid ___ 
-63     1.117094173            1           nineteenth ___ 
-64     1.117094173            1           occupy ___ 
-65     1.117094173            1           plenty ___ 
-66     1.117094173            1           southeastern ___ 
-67     1.117094173            1           st ___ 
-68     1.108435462            2           ___ nearest 
-69     0.9846037813           2           ___ only 
-70     0.9750902987           3           ___ different 
-71     0.9141101469           1           ___ mean 
-72     0.9141101469           1           ___ turtle 
-73     0.9141101469           1           ___ utmost 
-74     0.9141101469           1           ___ width 
-75     0.9141101469           1           earliest ___ 
-76     0.9141101469           1           innocent ___ 
-77     0.9141101469           1           majestic ___ 
-78     0.9141101469           1           tenese ___ 
-79     0.9141101469           1           unexplored ___ 
-80     0.7884285962           2           british ___ 
-81     0.7757440917           1           ___ exclusive 
-82     0.7757440917           1           ___ smart 
-83     0.7757440917           1           ___ total 
-84     0.7757440917           1           exclusive ___ 
-85     0.7757440917           1           fierce ___ 
-86     0.7757440917           1           northeastern ___ 
-87     0.7680330348           3           principal ___ 
-88     0.7178382957           3           ___ green 
-89     0.6718763333           1           mad ___ 
-90     0.6718763333           1           respectable ___ 
-91     0.6718763333           1           streams ___ 
-92     0.6718763333           1           successful ___ 
-93     0.6718763333           1           true ___ 
-94     0.6709501559           3           ___ st. 
-95     0.6709501559           3           st. ___ 
-96     0.6388428636           2           lower ___ 
-97     0.5895177805           1           ___ easy 
-98     0.5895177805           1           ___ singular 
-99     0.5895177805           1           ___ territorial 
-100    0.5895177805           1           singular ___ 
+1      14.02119761            10          hostile ___ 
+2      13.1535397             11          powerful ___ 
+3      11.33205513            33          several ___ 
+4      9.380532195            4           sundry ___ 
+5      8.548207065            7           ___ hostile 
+6      6.819861343            5           fierce ___ 
+7      6.470776904            3           brothertown ___ 
+8      6.434525574            4           feathered ___ 
+9      6.022669446            34          other ___ 
+10     5.993084391            6           neighbouring ___ 
+11     5.152870282            4           barbarous ___ 
+12     4.690113454            2           ___ crossand 
+13     4.614217235            3           ___ resident 
+14     4.586009981            8           british ___ 
+15     3.831675258            2           vilest ___ 
+16     3.826199322            3           ___ extinct 
+17     3.38225661             2           rudest ___ 
+18     3.362692556            23          many ___ 
+19     3.323124912            3           ___ choctaw 
+20     3.323124912            3           choctaw ___ 
+21     3.076070608            2           kickapoo ___ 
+22     3.076070608            2           untutored ___ 
+23     2.844010205            2           shawanese ___ 
+24     2.803324377            3           bloody ___ 
+25     2.803324377            3           famous ___ 
+26     2.733373671            3           mixed ___ 
+27     2.519536746            9           principal ___ 
+28     2.501595072            2           ___ drunk 
+29     2.471990263            9           northern ___ 
+30     2.251207374            2           ___ superstitious 
+31     2.236760914            8           southern ___ 
+32     2.101993049            1           good ___ 
+33     2.054525539            2           creek ___ 
+34     2.054525539            2           feeble ___ 
+35     1.970171445            2           miserable ___ 
+36     1.918962083            5           poor ___ 
+37     1.915799826            1           ___ buffalo 
+38     1.915799826            1           ___ causeless 
+39     1.915799826            1           ___ despicable 
+40     1.915799826            1           ___ dispossessed 
+41     1.915799826            1           ___ exotick 
+42     1.915799826            1           ___ healthier 
+43     1.915799826            1           ___ hellis 
+44     1.915799826            1           ___ inconclusive 
+45     1.915799826            1           ___ inflamed 
+46     1.915799826            1           ___ maskoki 
+47     1.915799826            1           ___ morse 
+48     1.915799826            1           ___ supperless 
+49     1.915799826            1           ___ thetj 
+50     1.915799826            1           ___ tptal 
+51     1.915799826            1           ___ unceded 
+52     1.915799826            1           ___ unquestiona 
+53     1.915799826            1           auxiliary ___ 
+54     1.915799826            1           azedarach ___ 
+55     1.915799826            1           byseveral ___ 
+56     1.915799826            1           chien ___ 
+57     1.915799826            1           dable ___ 
+58     1.915799826            1           dearborn ___ 
+59     1.915799826            1           degraded ___ 
+60     1.915799826            1           durate ___ 
+61     1.915799826            1           elusive ___ 
+62     1.915799826            1           establishedin ___ 
+63     1.915799826            1           fringed ___ 
+64     1.915799826            1           fumed ___ 
+65     1.915799826            1           housatonic ___ 
+66     1.915799826            1           incursive ___ 
+67     1.915799826            1           insipid ___ 
+68     1.915799826            1           lightest ___ 
+69     1.915799826            1           lower ___ 
+70     1.915799826            1           magnanimous ___ 
+71     1.915799826            1           neatest ___ 
+72     1.915799826            1           nick ___ 
+73     1.915799826            1           parallehof ___ 
+74     1.915799826            1           paunched ___ 
+75     1.915799826            1           plumy ___ 
+76     1.915799826            1           restless ___ 
+77     1.915799826            1           reverberatory ___ 
+78     1.915799826            1           riveringenuous ___ 
+79     1.915799826            1           semi ___ 
+80     1.915799826            1           supperless ___ 
+81     1.915799826            1           unmerited ___ 
+82     1.915799826            1           unquenchable ___ 
+83     1.893090133            2           aboriginal ___ 
+84     1.875155845            3           ___ fond 
+85     1.837917404            1           high ___ 
+86     1.834007894            1           ___ same 
+87     1.822181696            2           ___ fierce 
+88     1.822181696            2           modern ___ 
+89     1.776773451            3           ___ muddy 
+90     1.695583267            2           innocent ___ 
+91     1.658925198            8           ___ numerous 
+92     1.5379982              1           ___ athletic 
+93     1.5379982              1           ___ brothertown 
+94     1.5379982              1           ___ consolidated 
+95     1.5379982              1           ___ dirtiest 
+96     1.5379982              1           ___ fabulous 
+97     1.5379982              1           ___ hideous 
+98     1.5379982              1           ___ impedi 
+99     1.5379982              1           ___ tortured 
+100    1.5379982              1           ___ unsafe 

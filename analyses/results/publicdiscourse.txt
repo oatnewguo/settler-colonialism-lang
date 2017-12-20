@@ -1,0 +1,450 @@
+Top 100 bigram collocations in ../texts/clean/publicdiscourse.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which simple_filter returns False. Depending on simple_filter, potentially filtered using the following terms of interest:
+	indian
+	native
+	tribe
+	savage
+	Algonquin
+	Anishinaabe
+	Aniyunwiya
+	Cahokia
+	Caskaskia
+	Cayuga
+	Cherokee
+	Chicamauga
+	Chickasaw
+	Chickasha
+	Chikasha
+	Chippewa
+	Coyaha
+	Dakota
+	Delaware
+	Erie
+	Euchee
+	Fox
+	Haudenosaunee
+	Hillabee
+	Ho-Chunk
+	Hocak
+	Hochunk
+	Huron
+	Illini
+	Illiniwek
+	Iowa
+	Ioway
+	Iroquois
+	Kanienkehaka
+	Kanonsionni
+	Kaskaskia
+	Kickapoo
+	Kikapoo
+	Kikapu
+	Kiwigapawa
+	Lakhota
+	Lakota
+	Lenape
+	Lenni
+	Maumee
+	Mdewakanton
+	Menominee
+	Mesquakie
+	Miami
+	Michigamea
+	Michiganea
+	Mingo
+	Minisink
+	Minsi
+	Mississago
+	Missouri
+	Missouria
+	Mohawk
+	Moingona
+	Moingwena
+	Muncey
+	Munsee
+	Munsie
+	Myamia
+	Nanticoke
+	Nishnabek
+	Odaawa
+	Odawa
+	Ojibwa
+	Ojibway
+	Ojibwe
+	Oneida
+	Onondaga
+	Onondago
+	Otoe
+	Ottawa
+	Oyate
+	Pawnee
+	Peoria
+	Piankasha
+	Potawatomi
+	Pottawatomi
+	Pottawatomie
+	Pottawattomi
+	Sac
+	Santee
+	Sauk
+	Saukcfox
+	Savannah
+	Seneca
+	Sewanee
+	Shakopee
+	Shawano
+	Shawnee
+	Shawnese
+	Sioux
+	Sisseton
+	Tamaroa
+	Teton
+	Tondanwandey
+	Tslagi
+	Tsoyaha
+	Tuscarora
+	Twightwee
+	Uchee
+	Uchi
+	Unami
+	Wahpeton
+	Wea
+	Wendat
+	Winnebago
+	Wyandot
+	Wyandott
+	Yankton
+	Yuchi
+	indians
+	natives
+	tribes
+	savages
+	Algonquins
+	Anishinaabes
+	Aniyunwiyas
+	Cahokias
+	Caskaskias
+	Cayugas
+	Cherokees
+	Chicamaugas
+	Chickasaws
+	Chickashas
+	Chikashas
+	Chippewas
+	Coyahas
+	Dakotas
+	Delawares
+	Eries
+	Euchees
+	Foxs
+	Haudenosaunees
+	Hillabees
+	Ho-Chunks
+	Hocaks
+	Hochunks
+	Hurons
+	Illinis
+	Illiniweks
+	Iowas
+	Ioways
+	Iroquoiss
+	Kanienkehakas
+	Kanonsionnis
+	Kaskaskias
+	Kickapoos
+	Kikapoos
+	Kikapus
+	Kiwigapawas
+	Lakhotas
+	Lakotas
+	Lenapes
+	Lennis
+	Maumees
+	Mdewakantons
+	Menominees
+	Mesquakies
+	Miamis
+	Michigameas
+	Michiganeas
+	Mingos
+	Minisinks
+	Minsis
+	Mississagos
+	Missouris
+	Missourias
+	Mohawks
+	Moingonas
+	Moingwenas
+	Munceys
+	Munsees
+	Munsies
+	Myamias
+	Nanticokes
+	Nishnabeks
+	Odaawas
+	Odawas
+	Ojibwas
+	Ojibways
+	Ojibwes
+	Oneidas
+	Onondagas
+	Onondagos
+	Otoes
+	Ottawas
+	Oyates
+	Pawnees
+	Peorias
+	Piankashas
+	Potawatomis
+	Pottawatomis
+	Pottawatomies
+	Pottawattomis
+	Sacs
+	Santees
+	Sauks
+	Saukcfoxs
+	Savannahs
+	Senecas
+	Sewanees
+	Shakopees
+	Shawanos
+	Shawnees
+	Shawneses
+	Siouxs
+	Sissetons
+	Tamaroas
+	Tetons
+	Tondanwandeys
+	Tslagis
+	Tsoyahas
+	Tuscaroras
+	Twightwees
+	Uchees
+	Uchis
+	Unamis
+	Wahpetons
+	Weas
+	Wendats
+	Winnebagos
+	Wyandots
+	Wyandotts
+	Yanktons
+	Yuchis
+	indianes
+	nativees
+	tribees
+	savagees
+	Algonquines
+	Anishinaabees
+	Aniyunwiyaes
+	Cahokiaes
+	Caskaskiaes
+	Cayugaes
+	Cherokeees
+	Chicamaugaes
+	Chickasawes
+	Chickashaes
+	Chikashaes
+	Chippewaes
+	Coyahaes
+	Dakotaes
+	Delawarees
+	Eriees
+	Eucheees
+	Foxes
+	Haudenosauneees
+	Hillabeees
+	Ho-Chunkes
+	Hocakes
+	Hochunkes
+	Hurones
+	Illinies
+	Illiniwekes
+	Iowaes
+	Iowayes
+	Iroquoises
+	Kanienkehakaes
+	Kanonsionnies
+	Kaskaskiaes
+	Kickapooes
+	Kikapooes
+	Kikapues
+	Kiwigapawaes
+	Lakhotaes
+	Lakotaes
+	Lenapees
+	Lennies
+	Maumeees
+	Mdewakantones
+	Menomineees
+	Mesquakiees
+	Miamies
+	Michigameaes
+	Michiganeaes
+	Mingoes
+	Minisinkes
+	Minsies
+	Mississagoes
+	Missouries
+	Missouriaes
+	Mohawkes
+	Moingonaes
+	Moingwenaes
+	Munceyes
+	Munseees
+	Munsiees
+	Myamiaes
+	Nanticokees
+	Nishnabekes
+	Odaawaes
+	Odawaes
+	Ojibwaes
+	Ojibwayes
+	Ojibwees
+	Oneidaes
+	Onondagaes
+	Onondagoes
+	Otoees
+	Ottawaes
+	Oyatees
+	Pawneees
+	Peoriaes
+	Piankashaes
+	Potawatomies
+	Pottawatomies
+	Pottawatomiees
+	Pottawattomies
+	Saces
+	Santeees
+	Saukes
+	Saukcfoxes
+	Savannahes
+	Senecaes
+	Sewaneees
+	Shakopeees
+	Shawanoes
+	Shawneees
+	Shawnesees
+	Siouxes
+	Sissetones
+	Tamaroaes
+	Tetones
+	Tondanwandeyes
+	Tslagies
+	Tsoyahaes
+	Tuscaroraes
+	Twightweees
+	Ucheees
+	Uchies
+	Unamies
+	Wahpetones
+	Weaes
+	Wendates
+	Winnebagoes
+	Wyandotes
+	Wyandottes
+	Yanktones
+	Yuchies
+Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
+-----------------------------------------------------
+Rank | Log-Likelihood Score | Frequency | Collocation
+-----------------------------------------------------
+1      92.10355818            1050        the ___ 
+2      44.76820583            76          ___ who 
+3      43.12625685            41          ___ corn 
+4      36.53354115            82          ___ ___ 
+5      32.74098832            25          ___ title 
+6      31.96525507            19          crow ___ 
+7      28.55104582            25          ___ reside 
+8      27.18256326            62          these ___ 
+9      24.23921426            24          ___ nations 
+10     22.65132393            59          ___ were 
+11     21.14857031            13          ___ extinguished 
+12     20.12361203            14          snake ___ 
+13     19.79006659            22          against ___ 
+14     19.45734124            123         by ___ 
+15     18.65443369            501         of ___ 
+16     18.24376236            74          ___ they 
+17     16.70767146            14          bands ___ 
+18     16.28971245            6           it ___ 
+19     16.10223968            14          purchased ___ 
+20     15.88574664            22          among ___ 
+21     14.5975888             45          ___ had 
+22     14.02119761            10          hostile ___ 
+23     13.1535397             11          powerful ___ 
+24     12.89063626            63          an ___ 
+25     12.83912682            41          is ___ 
+26     12.30606407            8           ___ warfare 
+27     12.09340717            19          ___ war 
+28     11.64921706            19          ___ boundary 
+29     11.42075054            16          ___ villages 
+30     11.33865963            20          ___ village 
+31     11.33205513            33          several ___ 
+32     10.8770973             17          nation ___ 
+33     10.76754617            7           ___ inhabiting 
+34     9.380532195            4           sundry ___ 
+35     9.229102548            6           ___ fled 
+36     9.219521956            14          ___ whom 
+37     9.175651161            28          ___ lands 
+38     8.70374246             58          ___ their 
+39     8.548207065            7           ___ hostile 
+40     8.28254256             5           paunch ___ 
+41     8.20377618             12          nations ___ 
+42     8.184570549            46          ___ have 
+43     8.167093796            7           ___ killed 
+44     8.002672494            9           possession ___ 
+45     7.844578133            107         ___ are 
+46     7.776397727            10          ___ live 
+47     7.690733193            5           ___ tecumseh 
+48     7.629325166            10          ___ treaty 
+49     7.463930556            11          trade ___ 
+50     7.379903472            20          all ___ 
+51     7.052878339            11          osage ___ 
+52     6.819861343            5           fierce ___ 
+53     6.725525419            8           ___ traders 
+54     6.646884909            6           ___ residing 
+55     6.543344109            6           ___ encamped 
+56     6.473300307            9           party ___ 
+57     6.470776904            3           brothertown ___ 
+58     6.447713028            7           ___ claims 
+59     6.434525574            4           feathered ___ 
+60     6.215071097            11          ___ miles 
+61     6.164409831            6           ___ resided 
+62     6.152438092            4           extinguishment ___ 
+63     6.022669446            34          other ___ 
+64     5.993084391            6           neighbouring ___ 
+65     5.858240342            12          ___ nation 
+66     5.799281658            5           ___ meal 
+67     5.717272048            81          with ___ 
+68     5.633674128            12          miles ___ 
+69     5.61286319             81          in ___ 
+70     5.469504172            11          natchez ___ 
+71     5.400092241            6           delaware ___ 
+72     5.369464225            5           ___ wars 
+73     5.315123713            4           ___ prophet 
+74     5.300609608            9           ___ trade 
+75     5.265623978            3           incursions ___ 
+76     5.18148991             5           ___ attacked 
+77     5.152870282            4           barbarous ___ 
+78     5.02319368             89          ___ on 
+79     4.972373936            6           dog ___ 
+80     4.967565472            8           formerly ___ 
+81     4.902624525            7           ___ chief 
+82     4.865106546            4           ___ reservations 
+83     4.846848347            5           cultivate ___ 
+84     4.808785965            6           ___ hunters 
+85     4.770827832            8           amongst ___ 
+86     4.730672467            25          on ___ 
+87     4.690113454            2           ___ crossand 
+88     4.690113454            2           ___ irom 
+89     4.690113454            2           ___ tongues 
+90     4.690113454            2           ___ wrapping 
+91     4.690113454            2           naudowessie ___ 
+92     4.690113454            2           quapa ___ 
+93     4.690113454            2           riside ___ 
+94     4.614217235            3           ___ resident 
+95     4.614217235            3           ___ wigwams 
+96     4.614217235            3           stockbridge ___ 
+97     4.586009981            8           british ___ 
+98     4.460672015            474         ___ the 
+99     4.396136243            4           ___ tongue 
+100    4.299165588            5           seneca ___ 

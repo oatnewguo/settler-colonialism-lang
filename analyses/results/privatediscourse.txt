@@ -1,0 +1,450 @@
+Top 100 bigram collocations in ../texts/clean/privatediscourse.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which simple_filter returns False. Depending on simple_filter, potentially filtered using the following terms of interest:
+	indian
+	native
+	tribe
+	savage
+	Algonquin
+	Anishinaabe
+	Aniyunwiya
+	Cahokia
+	Caskaskia
+	Cayuga
+	Cherokee
+	Chicamauga
+	Chickasaw
+	Chickasha
+	Chikasha
+	Chippewa
+	Coyaha
+	Dakota
+	Delaware
+	Erie
+	Euchee
+	Fox
+	Haudenosaunee
+	Hillabee
+	Ho-Chunk
+	Hocak
+	Hochunk
+	Huron
+	Illini
+	Illiniwek
+	Iowa
+	Ioway
+	Iroquois
+	Kanienkehaka
+	Kanonsionni
+	Kaskaskia
+	Kickapoo
+	Kikapoo
+	Kikapu
+	Kiwigapawa
+	Lakhota
+	Lakota
+	Lenape
+	Lenni
+	Maumee
+	Mdewakanton
+	Menominee
+	Mesquakie
+	Miami
+	Michigamea
+	Michiganea
+	Mingo
+	Minisink
+	Minsi
+	Mississago
+	Missouri
+	Missouria
+	Mohawk
+	Moingona
+	Moingwena
+	Muncey
+	Munsee
+	Munsie
+	Myamia
+	Nanticoke
+	Nishnabek
+	Odaawa
+	Odawa
+	Ojibwa
+	Ojibway
+	Ojibwe
+	Oneida
+	Onondaga
+	Onondago
+	Otoe
+	Ottawa
+	Oyate
+	Pawnee
+	Peoria
+	Piankasha
+	Potawatomi
+	Pottawatomi
+	Pottawatomie
+	Pottawattomi
+	Sac
+	Santee
+	Sauk
+	Saukcfox
+	Savannah
+	Seneca
+	Sewanee
+	Shakopee
+	Shawano
+	Shawnee
+	Shawnese
+	Sioux
+	Sisseton
+	Tamaroa
+	Teton
+	Tondanwandey
+	Tslagi
+	Tsoyaha
+	Tuscarora
+	Twightwee
+	Uchee
+	Uchi
+	Unami
+	Wahpeton
+	Wea
+	Wendat
+	Winnebago
+	Wyandot
+	Wyandott
+	Yankton
+	Yuchi
+	indians
+	natives
+	tribes
+	savages
+	Algonquins
+	Anishinaabes
+	Aniyunwiyas
+	Cahokias
+	Caskaskias
+	Cayugas
+	Cherokees
+	Chicamaugas
+	Chickasaws
+	Chickashas
+	Chikashas
+	Chippewas
+	Coyahas
+	Dakotas
+	Delawares
+	Eries
+	Euchees
+	Foxs
+	Haudenosaunees
+	Hillabees
+	Ho-Chunks
+	Hocaks
+	Hochunks
+	Hurons
+	Illinis
+	Illiniweks
+	Iowas
+	Ioways
+	Iroquoiss
+	Kanienkehakas
+	Kanonsionnis
+	Kaskaskias
+	Kickapoos
+	Kikapoos
+	Kikapus
+	Kiwigapawas
+	Lakhotas
+	Lakotas
+	Lenapes
+	Lennis
+	Maumees
+	Mdewakantons
+	Menominees
+	Mesquakies
+	Miamis
+	Michigameas
+	Michiganeas
+	Mingos
+	Minisinks
+	Minsis
+	Mississagos
+	Missouris
+	Missourias
+	Mohawks
+	Moingonas
+	Moingwenas
+	Munceys
+	Munsees
+	Munsies
+	Myamias
+	Nanticokes
+	Nishnabeks
+	Odaawas
+	Odawas
+	Ojibwas
+	Ojibways
+	Ojibwes
+	Oneidas
+	Onondagas
+	Onondagos
+	Otoes
+	Ottawas
+	Oyates
+	Pawnees
+	Peorias
+	Piankashas
+	Potawatomis
+	Pottawatomis
+	Pottawatomies
+	Pottawattomis
+	Sacs
+	Santees
+	Sauks
+	Saukcfoxs
+	Savannahs
+	Senecas
+	Sewanees
+	Shakopees
+	Shawanos
+	Shawnees
+	Shawneses
+	Siouxs
+	Sissetons
+	Tamaroas
+	Tetons
+	Tondanwandeys
+	Tslagis
+	Tsoyahas
+	Tuscaroras
+	Twightwees
+	Uchees
+	Uchis
+	Unamis
+	Wahpetons
+	Weas
+	Wendats
+	Winnebagos
+	Wyandots
+	Wyandotts
+	Yanktons
+	Yuchis
+	indianes
+	nativees
+	tribees
+	savagees
+	Algonquines
+	Anishinaabees
+	Aniyunwiyaes
+	Cahokiaes
+	Caskaskiaes
+	Cayugaes
+	Cherokeees
+	Chicamaugaes
+	Chickasawes
+	Chickashaes
+	Chikashaes
+	Chippewaes
+	Coyahaes
+	Dakotaes
+	Delawarees
+	Eriees
+	Eucheees
+	Foxes
+	Haudenosauneees
+	Hillabeees
+	Ho-Chunkes
+	Hocakes
+	Hochunkes
+	Hurones
+	Illinies
+	Illiniwekes
+	Iowaes
+	Iowayes
+	Iroquoises
+	Kanienkehakaes
+	Kanonsionnies
+	Kaskaskiaes
+	Kickapooes
+	Kikapooes
+	Kikapues
+	Kiwigapawaes
+	Lakhotaes
+	Lakotaes
+	Lenapees
+	Lennies
+	Maumeees
+	Mdewakantones
+	Menomineees
+	Mesquakiees
+	Miamies
+	Michigameaes
+	Michiganeaes
+	Mingoes
+	Minisinkes
+	Minsies
+	Mississagoes
+	Missouries
+	Missouriaes
+	Mohawkes
+	Moingonaes
+	Moingwenaes
+	Munceyes
+	Munseees
+	Munsiees
+	Myamiaes
+	Nanticokees
+	Nishnabekes
+	Odaawaes
+	Odawaes
+	Ojibwaes
+	Ojibwayes
+	Ojibwees
+	Oneidaes
+	Onondagaes
+	Onondagoes
+	Otoees
+	Ottawaes
+	Oyatees
+	Pawneees
+	Peoriaes
+	Piankashaes
+	Potawatomies
+	Pottawatomies
+	Pottawatomiees
+	Pottawattomies
+	Saces
+	Santeees
+	Saukes
+	Saukcfoxes
+	Savannahes
+	Senecaes
+	Sewaneees
+	Shakopeees
+	Shawanoes
+	Shawneees
+	Shawnesees
+	Siouxes
+	Sissetones
+	Tamaroaes
+	Tetones
+	Tondanwandeyes
+	Tslagies
+	Tsoyahaes
+	Tuscaroraes
+	Twightweees
+	Ucheees
+	Uchies
+	Unamies
+	Wahpetones
+	Weaes
+	Wendates
+	Winnebagoes
+	Wyandotes
+	Wyandottes
+	Yanktones
+	Yuchies
+Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
+-----------------------------------------------------
+Rank | Log-Likelihood Score | Frequency | Collocation
+-----------------------------------------------------
+1      474.5151086            2624        the ___ 
+2      89.4163871             77          ___ affairs 
+3      88.86635085            1066        of ___ 
+4      60.10709116            110         all ___ 
+5      52.19591969            40          eel ___ 
+6      49.29888001            146         ___ who 
+7      47.10287665            118         other ___ 
+8      46.27334671            22          i ___ 
+9      42.95982601            61          among ___ 
+10     35.4552815             238         by ___ 
+11     35.26151856            139         an ___ 
+12     35.2072587             254         with ___ 
+13     32.95439437            36          hostile ___ 
+14     31.80825456            38          amongst ___ 
+15     31.23768683            24          sta ___ 
+16     30.48320472            142         ___ were 
+17     28.78959837            36          be ___ 
+18     27.86466723            22          it ___ 
+19     26.16429956            30          friendly ___ 
+20     24.50572245            31          ___ agent 
+21     23.28287058            19          ___ warfare 
+22     21.63350024            10          will ___ 
+23     18.24301599            18          have ___ 
+24     18.14024702            28          you ___ 
+25     17.86014825            15          neighbouring ___ 
+26     17.79924424            43          party ___ 
+27     17.47498053            18          combination ___ 
+28     17.44687478            136         ___ had 
+29     17.43610916            390         ___ of 
+30     17.27875633            13          treating ___ 
+31     17.06892301            26          at ___ 
+32     16.36954335            21          they ___ 
+33     16.31553277            52          against ___ 
+34     16.19318891            12          neighboring ___ 
+35     15.958745              9           my ___ 
+36     15.28277392            6           i ___ 
+37     15.08356046            17          wea ___ 
+38     15.07677264            39          several ___ 
+39     15.03463298            28          is ___ 
+40     14.99336702            160         ___ have 
+41     14.57437062            127         in ___ 
+42     14.29412608            18          delaware ___ 
+43     14.24237964            65          ___ country 
+44     14.08957859            33          ___ within 
+45     13.97585012            11          superintendent ___ 
+46     13.66352262            43          number ___ 
+47     13.6489218             26          different ___ 
+48     13.62484136            113         ___ are 
+49     13.47103738            26          miami ___ 
+50     13.12775592            57          river ___ 
+51     12.73715793            34          british ___ 
+52     12.27163693            27          not ___ 
+53     12.0644786             8           piankashaw ___ 
+54     11.92442275            15          your ___ 
+55     11.72510497            45          ___ against 
+56     11.62600734            10          extinguishment ___ 
+57     11.4594701             19          disposition ___ 
+58     11.4439624             21          body ___ 
+59     11.23656995            14          ___ title 
+60     11.1124144             10          warlike ___ 
+61     10.96309205            11          intercourse ___ 
+62     10.44143113            37          this ___ 
+63     10.22570318            9           ___ agency 
+64     9.880802247            44          ___ you 
+65     9.847763221            10          ___ allies 
+66     9.565289563            14          ___ trade 
+67     9.528328916            12          southern ___ 
+68     9.347684327            24          large ___ 
+69     9.302051466            131         ___ ___ 
+70     9.234233981            11          band ___ 
+71     9.123202147            12          would ___ 
+72     9.012509028            10          delaware ___ 
+73     8.885173213            15          ___ traders 
+74     8.765249912            21          ___ nations 
+75     8.736196293            9           ___ residing 
+76     8.718325113            10          ardent ___ 
+77     8.567568318            23          ___ quarter 
+78     8.49526928             2           can ___ 
+79     8.276749574            12          spirits ___ 
+80     8.04762865             28          ___ wabash 
+81     7.921913316            12          numerous ___ 
+82     7.657122903            480         ___ and 
+83     7.54004022             5           handbook ___ 
+84     7.497554629            38          these ___ 
+85     7.399136324            52          those ___ 
+86     7.384124604            23          ___ department 
+87     7.315006829            23          ___ your 
+88     7.24244269             14          ___ frequently 
+89     7.222986687            149         ___ at 
+90     7.184555012            41          which ___ 
+91     7.149413326            8           liquors ___ 
+92     6.985468259            9           has ___ 
+93     6.949496751            7           that ___ 
+94     6.816837936            6           ___ inhabiting 
+95     6.775467514            6           should ___ 
+96     6.73171033             2           under ___ 
+97     6.697192014            7           ___ neighbors 
+98     6.657010506            12          ___ killed 
+99     6.63052361             89          ___ i 
+100    6.615357622            5           exciting ___ 

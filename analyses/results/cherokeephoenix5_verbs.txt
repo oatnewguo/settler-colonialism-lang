@@ -1,0 +1,453 @@
+Top 100 bigram collocations in ../texts/clean/cherokeephoenix5.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which verb_filter returns False. Depending on verb_filter, potentially filtered using the following terms of interest:
+	indian
+	native
+	tribe
+	savage
+	onquin
+	anishinaabe
+	aniyunwiya
+	cahokia
+	caskaskia
+	cayuga
+	cherokee
+	chicamauga
+	chickasaw
+	chickasha
+	chikasha
+	chippewa
+	coyaha
+	dakota
+	delaware
+	erie
+	euchee
+	fox
+	haudenosaunee
+	hillabee
+	ho-chunk
+	hocak
+	hochunk
+	huron
+	illini
+	illiniwek
+	illinois
+	iowa
+	ioway
+	iroquois
+	kanienkehaka
+	kanonsionni
+	kaskaskia
+	kickapoo
+	kikapoo
+	kikapu
+	kiwigapawa
+	lakhota
+	lakota
+	lenape
+	lenni
+	maumee
+	mdewakanton
+	menominee
+	mesquakie
+	miami
+	michigamea
+	michiganea
+	mingo
+	minisink
+	minsi
+	mississago
+	missouri
+	missouria
+	mohawk
+	moingona
+	moingwena
+	muncey
+	munsee
+	munsie
+	myamia
+	nanticoke
+	nishnabek
+	odaawa
+	odawa
+	ojibwa
+	ojibway
+	ojibwe
+	oneida
+	onondaga
+	onondago
+	otoe
+	ottawa
+	oyate
+	pawnee
+	peoria
+	piankasha
+	potawatomi
+	pottawatomi
+	pottawatomie
+	pottawattomi
+	sac
+	santee
+	sauk
+	saukcfox
+	savannah
+	seneca
+	sewanee
+	shakopee
+	shawano
+	shawnee
+	shawnese
+	sioux
+	sisseton
+	tamaroa
+	teton
+	tondanwandey
+	tslagi
+	tsoyaha
+	tuscarora
+	twightwee
+	uchee
+	uchi
+	unami
+	wahpeton
+	wea
+	wendat
+	winnebago
+	wyandot
+	wyandott
+	yankton
+	yuchi
+	indians
+	natives
+	tribes
+	savages
+	onquins
+	anishinaabes
+	aniyunwiyas
+	cahokias
+	caskaskias
+	cayugas
+	cherokees
+	chicamaugas
+	chickasaws
+	chickashas
+	chikashas
+	chippewas
+	coyahas
+	dakotas
+	delawares
+	eries
+	euchees
+	foxs
+	haudenosaunees
+	hillabees
+	ho-chunks
+	hocaks
+	hochunks
+	hurons
+	illinis
+	illiniweks
+	illinoiss
+	iowas
+	ioways
+	iroquoiss
+	kanienkehakas
+	kanonsionnis
+	kaskaskias
+	kickapoos
+	kikapoos
+	kikapus
+	kiwigapawas
+	lakhotas
+	lakotas
+	lenapes
+	lennis
+	maumees
+	mdewakantons
+	menominees
+	mesquakies
+	miamis
+	michigameas
+	michiganeas
+	mingos
+	minisinks
+	minsis
+	mississagos
+	missouris
+	missourias
+	mohawks
+	moingonas
+	moingwenas
+	munceys
+	munsees
+	munsies
+	myamias
+	nanticokes
+	nishnabeks
+	odaawas
+	odawas
+	ojibwas
+	ojibways
+	ojibwes
+	oneidas
+	onondagas
+	onondagos
+	otoes
+	ottawas
+	oyates
+	pawnees
+	peorias
+	piankashas
+	potawatomis
+	pottawatomis
+	pottawatomies
+	pottawattomis
+	sacs
+	santees
+	sauks
+	saukcfoxs
+	savannahs
+	senecas
+	sewanees
+	shakopees
+	shawanos
+	shawnees
+	shawneses
+	siouxs
+	sissetons
+	tamaroas
+	tetons
+	tondanwandeys
+	tslagis
+	tsoyahas
+	tuscaroras
+	twightwees
+	uchees
+	uchis
+	unamis
+	wahpetons
+	weas
+	wendats
+	winnebagos
+	wyandots
+	wyandotts
+	yanktons
+	yuchis
+	indianes
+	nativees
+	tribees
+	savagees
+	onquines
+	anishinaabees
+	aniyunwiyaes
+	cahokiaes
+	caskaskiaes
+	cayugaes
+	cherokeees
+	chicamaugaes
+	chickasawes
+	chickashaes
+	chikashaes
+	chippewaes
+	coyahaes
+	dakotaes
+	delawarees
+	eriees
+	eucheees
+	foxes
+	haudenosauneees
+	hillabeees
+	ho-chunkes
+	hocakes
+	hochunkes
+	hurones
+	illinies
+	illiniwekes
+	illinoises
+	iowaes
+	iowayes
+	iroquoises
+	kanienkehakaes
+	kanonsionnies
+	kaskaskiaes
+	kickapooes
+	kikapooes
+	kikapues
+	kiwigapawaes
+	lakhotaes
+	lakotaes
+	lenapees
+	lennies
+	maumeees
+	mdewakantones
+	menomineees
+	mesquakiees
+	miamies
+	michigameaes
+	michiganeaes
+	mingoes
+	minisinkes
+	minsies
+	mississagoes
+	missouries
+	missouriaes
+	mohawkes
+	moingonaes
+	moingwenaes
+	munceyes
+	munseees
+	munsiees
+	myamiaes
+	nanticokees
+	nishnabekes
+	odaawaes
+	odawaes
+	ojibwaes
+	ojibwayes
+	ojibwees
+	oneidaes
+	onondagaes
+	onondagoes
+	otoees
+	ottawaes
+	oyatees
+	pawneees
+	peoriaes
+	piankashaes
+	potawatomies
+	pottawatomies
+	pottawatomiees
+	pottawattomies
+	saces
+	santeees
+	saukes
+	saukcfoxes
+	savannahes
+	senecaes
+	sewaneees
+	shakopeees
+	shawanoes
+	shawneees
+	shawnesees
+	siouxes
+	sissetones
+	tamaroaes
+	tetones
+	tondanwandeyes
+	tslagies
+	tsoyahaes
+	tuscaroraes
+	twightweees
+	ucheees
+	uchies
+	unamies
+	wahpetones
+	weaes
+	wendates
+	winnebagoes
+	wyandotes
+	wyandottes
+	yanktones
+	yuchies
+Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
+-----------------------------------------------------
+Rank | Log-Likelihood Score | Frequency | Collocation
+-----------------------------------------------------
+1      35.22623318            42          ___ residing 
+2      30.1860542             88          is ___ 
+3      23.46368247            106         be ___ 
+4      23.45427981            264         ___ are 
+5      22.69165066            196         ___ were 
+6      19.52276231            254         ___ have 
+7      19.19846408            50          have ___ 
+8      18.47724377            56          was ___ 
+9      17.14261459            18          extinguish ___ 
+10     17.06151676            32          has ___ 
+11     15.15736882            32          ___ killed 
+12     13.30559889            44          been ___ 
+13     10.95409038            20          ___ march 
+14     10.47385043            30          had ___ 
+15     8.958073329            12          deprive ___ 
+16     8.816463152            10          wandering ___ 
+17     8.475610196            18          occupied ___ 
+18     8.451628546            12          regulating ___ 
+19     8.270404846            16          connected ___ 
+20     7.992994142            12          emigrating ___ 
+21     7.539564014            22          protect ___ 
+22     7.124062709            46          were ___ 
+23     6.771309448            8           ___ cede 
+24     6.771309448            8           ___ contriving 
+25     6.640408786            82          are ___ 
+26     6.360931275            6           plunder ___ 
+27     5.913618561            4           ___ behaved 
+28     5.913618561            4           ___ clustered 
+29     5.913618561            4           ___ murdering 
+30     5.913618561            4           congregated ___ 
+31     5.913618561            4           levied ___ 
+32     5.913618561            4           tamed ___ 
+33     5.812168925            10          ___ provides 
+34     5.649926659            12          ___ live 
+35     5.649926659            12          ___ remain 
+36     5.634167775            8           ___ speaking 
+37     5.476332117            10          induce ___ 
+38     5.440732576            6           starved ___ 
+39     5.207550503            16          ___ had 
+40     4.930674353            18          committed ___ 
+41     4.885141075            10          ___ suffer 
+42     4.760812689            6           massacred ___ 
+43     4.622928202            10          ___ living 
+44     4.622928202            10          ___ turned 
+45     4.240550432            4           ___ alluded 
+46     4.240550432            4           ___ conducted 
+47     4.240550432            4           ___ denationalized 
+48     4.240550432            4           ___ interdict 
+49     4.240550432            4           ___ locating 
+50     4.240550432            4           ___ overtook 
+51     4.240550432            4           ___ recovered 
+52     4.240550432            4           ___ shut 
+53     4.240550432            4           ___ translating 
+54     4.240550432            4           allege ___ 
+55     4.240550432            4           depriving ___ 
+56     4.240550432            4           guarantee ___ 
+57     4.240550432            4           incumbered ___ 
+58     4.240550432            4           legislated ___ 
+59     4.240550432            4           penned ___ 
+60     4.240550432            4           persecute ___ 
+61     4.240550432            4           strolling ___ 
+62     4.240550432            4           teaching ___ 
+63     4.225531619            6           bordering ___ 
+64     4.225531619            6           civilize ___ 
+65     4.225531619            6           placing ___ 
+66     4.225531619            6           prevail ___ 
+67     4.225531619            6           ___ indicted 
+68     4.176344182            20          have ___ 
+69     4.159382895            12          ___ recognized 
+70     4.159382895            12          secured ___ 
+71     4.054857553            44          ___ having 
+72     3.940488954            10          ___ carried 
+73     3.913042439            4           do ___ 
+74     3.854055532            8           ___ concluded 
+75     3.787042953            6           ___ occupy 
+76     3.787042953            6           acquiring ___ 
+77     3.787042953            6           burnt ___ 
+78     3.787042953            6           swept ___ 
+79     3.614203402            12          ___ said 
+80     3.599077711            8           ___ reserved 
+81     3.464073277            2           ___ give 
+82     3.417925276            6           settling ___ 
+83     3.385521607            4           ___ composing 
+84     3.385521607            4           ___ dared 
+85     3.385521607            4           ___ exchange 
+86     3.385521607            4           ___ inhabited 
+87     3.385521607            4           ___ managing 
+88     3.385521607            4           ___ owned 
+89     3.385521607            4           ___ relying 
+90     3.385521607            4           aforesaid ___ 
+91     3.385521607            4           cheated ___ 
+92     3.385521607            4           cultivate ___ 
+93     3.385521607            4           deter ___ 
+94     3.385521607            4           subjecting ___ 
+95     3.385521607            4           translated ___ 
+96     3.379517227            10          ___ concluded 
+97     3.366138844            8           ___ brave 
+98     3.366138844            8           ___ learn 
+99     3.366138844            8           relating ___ 
+100    3.279599298            16          ___ making 

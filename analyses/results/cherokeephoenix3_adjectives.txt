@@ -1,0 +1,453 @@
+Top 100 bigram collocations in ../texts/clean/cherokeephoenix3.txt, with a window size of 5. Filtered for bigrams with a minimum frequency of 1. Filtered for bigrams for which adjective_filter returns False. Depending on adjective_filter, potentially filtered using the following terms of interest:
+	indian
+	native
+	tribe
+	savage
+	onquin
+	anishinaabe
+	aniyunwiya
+	cahokia
+	caskaskia
+	cayuga
+	cherokee
+	chicamauga
+	chickasaw
+	chickasha
+	chikasha
+	chippewa
+	coyaha
+	dakota
+	delaware
+	erie
+	euchee
+	fox
+	haudenosaunee
+	hillabee
+	ho-chunk
+	hocak
+	hochunk
+	huron
+	illini
+	illiniwek
+	illinois
+	iowa
+	ioway
+	iroquois
+	kanienkehaka
+	kanonsionni
+	kaskaskia
+	kickapoo
+	kikapoo
+	kikapu
+	kiwigapawa
+	lakhota
+	lakota
+	lenape
+	lenni
+	maumee
+	mdewakanton
+	menominee
+	mesquakie
+	miami
+	michigamea
+	michiganea
+	mingo
+	minisink
+	minsi
+	mississago
+	missouri
+	missouria
+	mohawk
+	moingona
+	moingwena
+	muncey
+	munsee
+	munsie
+	myamia
+	nanticoke
+	nishnabek
+	odaawa
+	odawa
+	ojibwa
+	ojibway
+	ojibwe
+	oneida
+	onondaga
+	onondago
+	otoe
+	ottawa
+	oyate
+	pawnee
+	peoria
+	piankasha
+	potawatomi
+	pottawatomi
+	pottawatomie
+	pottawattomi
+	sac
+	santee
+	sauk
+	saukcfox
+	savannah
+	seneca
+	sewanee
+	shakopee
+	shawano
+	shawnee
+	shawnese
+	sioux
+	sisseton
+	tamaroa
+	teton
+	tondanwandey
+	tslagi
+	tsoyaha
+	tuscarora
+	twightwee
+	uchee
+	uchi
+	unami
+	wahpeton
+	wea
+	wendat
+	winnebago
+	wyandot
+	wyandott
+	yankton
+	yuchi
+	indians
+	natives
+	tribes
+	savages
+	onquins
+	anishinaabes
+	aniyunwiyas
+	cahokias
+	caskaskias
+	cayugas
+	cherokees
+	chicamaugas
+	chickasaws
+	chickashas
+	chikashas
+	chippewas
+	coyahas
+	dakotas
+	delawares
+	eries
+	euchees
+	foxs
+	haudenosaunees
+	hillabees
+	ho-chunks
+	hocaks
+	hochunks
+	hurons
+	illinis
+	illiniweks
+	illinoiss
+	iowas
+	ioways
+	iroquoiss
+	kanienkehakas
+	kanonsionnis
+	kaskaskias
+	kickapoos
+	kikapoos
+	kikapus
+	kiwigapawas
+	lakhotas
+	lakotas
+	lenapes
+	lennis
+	maumees
+	mdewakantons
+	menominees
+	mesquakies
+	miamis
+	michigameas
+	michiganeas
+	mingos
+	minisinks
+	minsis
+	mississagos
+	missouris
+	missourias
+	mohawks
+	moingonas
+	moingwenas
+	munceys
+	munsees
+	munsies
+	myamias
+	nanticokes
+	nishnabeks
+	odaawas
+	odawas
+	ojibwas
+	ojibways
+	ojibwes
+	oneidas
+	onondagas
+	onondagos
+	otoes
+	ottawas
+	oyates
+	pawnees
+	peorias
+	piankashas
+	potawatomis
+	pottawatomis
+	pottawatomies
+	pottawattomis
+	sacs
+	santees
+	sauks
+	saukcfoxs
+	savannahs
+	senecas
+	sewanees
+	shakopees
+	shawanos
+	shawnees
+	shawneses
+	siouxs
+	sissetons
+	tamaroas
+	tetons
+	tondanwandeys
+	tslagis
+	tsoyahas
+	tuscaroras
+	twightwees
+	uchees
+	uchis
+	unamis
+	wahpetons
+	weas
+	wendats
+	winnebagos
+	wyandots
+	wyandotts
+	yanktons
+	yuchis
+	indianes
+	nativees
+	tribees
+	savagees
+	onquines
+	anishinaabees
+	aniyunwiyaes
+	cahokiaes
+	caskaskiaes
+	cayugaes
+	cherokeees
+	chicamaugaes
+	chickasawes
+	chickashaes
+	chikashaes
+	chippewaes
+	coyahaes
+	dakotaes
+	delawarees
+	eriees
+	eucheees
+	foxes
+	haudenosauneees
+	hillabeees
+	ho-chunkes
+	hocakes
+	hochunkes
+	hurones
+	illinies
+	illiniwekes
+	illinoises
+	iowaes
+	iowayes
+	iroquoises
+	kanienkehakaes
+	kanonsionnies
+	kaskaskiaes
+	kickapooes
+	kikapooes
+	kikapues
+	kiwigapawaes
+	lakhotaes
+	lakotaes
+	lenapees
+	lennies
+	maumeees
+	mdewakantones
+	menomineees
+	mesquakiees
+	miamies
+	michigameaes
+	michiganeaes
+	mingoes
+	minisinkes
+	minsies
+	mississagoes
+	missouries
+	missouriaes
+	mohawkes
+	moingonaes
+	moingwenaes
+	munceyes
+	munseees
+	munsiees
+	myamiaes
+	nanticokees
+	nishnabekes
+	odaawaes
+	odawaes
+	ojibwaes
+	ojibwayes
+	ojibwees
+	oneidaes
+	onondagaes
+	onondagoes
+	otoees
+	ottawaes
+	oyatees
+	pawneees
+	peoriaes
+	piankashaes
+	potawatomies
+	pottawatomies
+	pottawatomiees
+	pottawattomies
+	saces
+	santeees
+	saukes
+	saukcfoxes
+	savannahes
+	senecaes
+	sewaneees
+	shakopeees
+	shawanoes
+	shawneees
+	shawnesees
+	siouxes
+	sissetones
+	tamaroaes
+	tetones
+	tondanwandeyes
+	tslagies
+	tsoyahaes
+	tuscaroraes
+	twightweees
+	ucheees
+	uchies
+	unamies
+	wahpetones
+	weaes
+	wendates
+	winnebagoes
+	wyandotes
+	wyandottes
+	yanktones
+	yuchies
+Terms of interest, represented as "___", were collapsed and treated as the same term for collocations. Sorted according to Dunning's log-likelihood ratio, but displaying frequency counts.
+-----------------------------------------------------
+Rank | Log-Likelihood Score | Frequency | Collocation
+-----------------------------------------------------
+1      36.27420699            62          poor ___ 
+2      22.0195897             31          southern ___ 
+3      19.49885484            31          ___ east 
+4      14.56555726            85          ___ new 
+5      12.30598991            14          southwestern ___ 
+6      11.91239026            43          ___ united 
+7      7.054520771            30          common ___ 
+8      7.041604519            94          other ___ 
+9      6.928840874            31          full ___ 
+10     6.367980138            25          ___ independent 
+11     6.246456003            6           blooded ___ 
+12     6.175105907            65          new ___ 
+13     5.478270395            23          ___ foreign 
+14     4.932822412            7           general ___ 
+15     4.657021334            17          powerful ___ 
+16     4.499440436            9           applicable ___ 
+17     4.326732873            14          own ___ 
+18     4.164239072            4           coterminous ___ 
+19     4.076069342            15          various ___ 
+20     3.980861413            4           good ___ 
+21     3.890254209            12          wild ___ 
+22     3.8233162              3           erratic ___ 
+23     3.647274163            5           public ___ 
+24     3.591547094            8           relative ___ 
+25     3.350165408            8           ___ miserable 
+26     3.331422603            14          ___ willing 
+27     3.314286265            6           related ___ 
+28     3.311377348            4           ___ discontented 
+29     3.201074446            32          whole ___ 
+30     3.137784979            12          creek ___ 
+31     3.054700266            11          ___ green 
+32     3.00648807             6           first ___ 
+33     3.002428927            5           ridge ___ 
+34     2.926213396            8           defenseless ___ 
+35     2.917535677            2           ___ incidental 
+36     2.917535677            2           comprehend ___ 
+37     2.917535677            2           extinguished ___ 
+38     2.881559548            12          ___ chartered 
+39     2.819177884            5           penn ___ 
+40     2.744981118            4           ___ pecuniary 
+41     2.713521384            16          great ___ 
+42     2.677710475            1           high ___ 
+43     2.521921976            4           sundry ___ 
+44     2.512575269            4           much ___ 
+45     2.487527709            7           ___ public 
+46     2.404108609            2           ___ solemn 
+47     2.326836291            4           ___ indifferent 
+48     2.326836291            4           warlike ___ 
+49     2.325268454            3           ___ intrusive 
+50     2.325268454            3           intractable ___ 
+51     2.325268454            3           merciless ___ 
+52     2.325268454            3           wirt ___ 
+53     2.311225661            11          ___ competent 
+54     2.082087073            2           expected ___ 
+55     2.082087073            2           outer ___ 
+56     2.082087073            2           purest ___ 
+57     2.082087073            2           southeastern ___ 
+58     2.082087073            2           ___ brant 
+59     2.082087073            2           ___ capt 
+60     2.082087073            2           ___ deponent 
+61     2.082087073            2           ___ illiterate 
+62     2.082087073            2           ___ married 
+63     2.082087073            2           ___ metoxen 
+64     2.076724266            6           ___ worse 
+65     2.07620295             1           christian ___ 
+66     1.987766774            6           upper ___ 
+67     1.904452803            2           ___ proper 
+68     1.876130059            12          ___ powerful 
+69     1.860360562            4           unlawful ___ 
+70     1.822618748            6           miserable ___ 
+71     1.792694321            5           aged ___ 
+72     1.770291358            14          choctaw ___ 
+73     1.740409081            8           ___ good 
+74     1.704436498            15          last ___ 
+75     1.67255586             6           ___ absolute 
+76     1.657083526            3           drunken ___ 
+77     1.655658066            2           ___ accredited 
+78     1.655658066            2           ___ orderly 
+79     1.655658066            2           fugitive ___ 
+80     1.655658066            2           purest ___ 
+81     1.655658066            2           untutored ___ 
+82     1.654531281            1           best ___ 
+83     1.571899339            12          principal ___ 
+84     1.571786303            16          ___ sovereign 
+85     1.487048013            8           ___ immediate 
+86     1.465792129            7           ___ territorial 
+87     1.381894659            5           helpless ___ 
+88     1.372461752            2           ___ coterminous 
+89     1.372461752            2           ___ inadmissible 
+90     1.372461752            2           ___ numberless 
+91     1.372461752            2           dreaded ___ 
+92     1.372461752            2           gray ___ 
+93     1.372461752            2           milder ___ 
+94     1.372461752            2           payable ___ 
+95     1.363054463            3           ___ large 
+96     1.362654791            3           hugh ___ 
+97     1.268480871            1           less ___ 
+98     1.241564815            4           ___ southwestern 
+99     1.239205136            11          individual ___ 
+100    1.21610315             8           ___ whole 

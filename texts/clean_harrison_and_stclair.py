@@ -1,5 +1,5 @@
 from __future__ import division
-from unwantedmisspellings import unwanted, misspellings
+from clean_harrison_and_stclair_misspellings import unwanted, misspellings
 from nltk import sent_tokenize, word_tokenize
 import matplotlib.pyplot, re, string
 import regex as re

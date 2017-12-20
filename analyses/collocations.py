@@ -76,9 +76,11 @@ class Collocations:
             collocations should be found with individual words in terms
         '''
 
-        #find bigrams
-        bigram_measures = nltk.collocations.BigramAssocMeasures()
+        #delete any words that contain non-alphabetical characters
+        self.tagged_words = [(w, pos) for (w, pos) in self.tagged_words if
+            w.isalpha()]
 
+        #find bigrams
         if collapse_terms:
             tagged_words_collapsed = []
             for (w, pos) in self.tagged_words:
@@ -120,6 +122,8 @@ class Collocations:
         results.write('-----------------------------------------------------\n')
         results.write('Rank | Log-Likelihood Score | Frequency | Collocation\n')
         results.write('-----------------------------------------------------\n')
+
+        bigram_measures = nltk.collocations.BigramAssocMeasures()
         bigrams = finder.score_ngrams(bigram_measures.likelihood_ratio)
         freq_dist = finder.ngram_fd
         count = 1
@@ -131,17 +135,27 @@ class Collocations:
             count += 1
         results.close()
 
+    def simple_filter(self, terms, word1, word2):
+        '''Returns False if one word is a term of interest.
+
+        terms - string list of terms of interest; if None, then the function
+            will not filter at all
+        word1, word2 - tuples of a string word and its string pos tag
+        '''
+
+        if (word1[0] in terms or word2[0] in terms):
+            return False
+        else:
+            return True
+
     def adjective_filter(self, terms, word1, word2):
         '''Returns False if one word is a term of interest and the other has
             been tagged as an adjective.
 
-        terms - string list of terms of interest
-            --- if None, then the function will not filter for terms of interest
+        terms - string list of terms of interest; if None, then the function
+            will not filter for terms of interest
         word1, word2 - tuples of a string word and its string pos tag
         '''
-        if (re.search('\w', word1[0]) == None or
-            re.search('\w', word2[0]) == None):
-            return True
 
         if terms == None:
             if (word1[1] == 'JJ' or word2[1] == 'JJ'):
@@ -159,13 +173,10 @@ class Collocations:
         '''Returns False if one word is a term of interest and the other has
             been tagged as a verb.
 
-        terms - string list of terms of interest
-            --- if None, then the function will not filter for terms of interest
+        terms - string list of terms of interest; if None, then the function
+            will not filter for terms of interest
         word1, word2 - tuples of a string word and its string pos tag
         '''
-        if (re.search('\w', word1[0]) == None or
-            re.search('\w', word2[0]) == None):
-            return True
 
         if terms == None:
             if (word1[1].startswith('VB') or word2[1].startswith('VB')):
@@ -183,13 +194,10 @@ class Collocations:
         '''Returns False if one word is a term of interest and the other has
             been tagged as an adverb.
 
-        terms - string list of terms of interest
-            --- if None, then the function will not filter for terms of interest
+        terms - string list of terms of interest; if None, then the function
+            will not filter for terms of interest
         word1, word2 - tuples of a string word and its string pos tag
         '''
-        if (re.search('\w', word1[0]) == None or
-            re.search('\w', word2[0]) == None):
-            return True
 
         if terms == None:
             if (word1[1].startswith('RB') or word2[1].startswith('RB')):

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    th, td
+    {
+      padding: 0.50em 0.75em 0.25em 0.75em;
+      line-height: 1;
+      text-align: left;
+    }
+
+    th.nums, td.nums
+    {
+      text-align: right;
+    }
+
+    th
+    {
+      border-bottom: 1px solid black;
+      font-weight: bold;
+    }
+
+    table
+    {
+      font-variant-numeric: lining-nums tabular-nums;
+      border-collapse: collapse;
+      font-family: Franklin ITC Light, sans-serif;
+    }
+
+    caption
+    {
+      color: black;
+      text-align: center;
+      font-size: 1.4em;
+      white-space: normal;
+      font-weight: bold;
+    }
+
+    table.sidebyside
+    {
+      display: inline;
+    }
+
+    table.sidebyside + table.sidebyside
+    {
+      margin-left: 5em;
+    }
+
+    div.tablesbox
+    {
+      overflow-x: auto;
+      white-space: nowrap;
+      position: relative;
+      display: inline-block;
+    }
+
+    div.tablesbox + *
+    {
+      clear: left;
+    }
+
+    #overlay
+    {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width:100%;
+      height:100%;
+      background-color: #000;
+      opacity: 0.25;
+      display: none;
+      z-index: 1;
+    }
+
+    .clickme
+    {
+      background-color: #E3E3E3;
+      cursor: pointer;
+      position: relative;
+      display: inline-block;
+    }
+
+    .clickme:hover
+    {
+      background-color: #EEEEEE;
+    }
+
+    .clickbox
+    {
+      visibility: hidden;
+      width: 240px;
+      position: absolute;
+      z-index: 2;
+      top: 100%;
+      left: 0%;
+      background-color: white;
+      padding: 10px;
+      white-space: normal;
+    }
+
+    .clickbox p
+    {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .clickbox blockquote
+    {
+      margin-right: 0;
+      font: inherit;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    p.citation
+    {
+      text-align: right;
+      margin-left: 10px;
+    }
+
+    cite
+    {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  [explanation of layout and summary of method]
+  <br />
+  <br />
+  <h1>Verb bigrams</h1>
+  <div class="tablesbox">
+    <div id="overlay"></div>
+    <table class="sidebyside">
+      <caption>Private letters</caption>
+      <tbody>
+        <tr>
+          <th>Collocation</th>
+          <th class="nums">Score</th>
+          <th class="nums">Freq</th>
+        </tr>
+        <tr>
+          <td>___ were</td>
+          <td class="nums">30.48</td>
+          <td class="nums">142</td>
+        </tr>
+        <tr>
+          <td>be ___</td>
+          <td class="nums">28.79</td>
+          <td class="nums">36</td>
+        </tr>
+        <tr>
+          <td>have ___</td>
+          <td class="nums">18.24</td>
+          <td class="nums">18</td>
+        </tr>
+        <tr>
+          <td>___ had</td>
+          <td class="nums">17.45</td>
+          <td class="nums">136</td>
+        </tr>
+        <tr>
+          <td>treating ___</td>
+          <td class="nums">17.28</td>
+          <td class="nums">13</td>
+        </tr>
+        <tr>
+          <td>neighboring ___</td>
+          <td class="nums">16.19</td>
+          <td class="nums">12</td>
+        </tr>
+        <tr>
+          <td>is ___</td>
+          <td class="nums">15.03</td>
+          <td class="nums">28</td>
+        </tr>
+        <tr>
+          <td>___ have</td>
+          <td class="nums">14.99</td>
+          <td class="nums">160</td>
+        </tr>
+        <tr>
+          <td>___ are</td>
+          <td class="nums">13.62</td>
+          <td class="nums">113</td>
+        </tr>
+        <tr>
+          <td>___ residing</td>
+					<td class="nums">8.74</td>
+					<td class="nums">9</td>
+				</tr>
+				<tr>
+					<td>has ___</td>
+					<td class="nums">6.99</td>
+					<td class="nums">9</td>
+				</tr>
+				<tr>
+					<td>___ inhabiting</td>
+					<td class="nums">6.82</td>
+					<td class="nums">6</td>
+				</tr>
+				<tr>
+					<td>___ killed</td>
+					<td class="nums">6.66</td>
+					<td class="nums">12</td>
+				</tr>
+				<tr>
+					<td>are ___</td>
+					<td class="nums">6.43</td>
+					<td class="nums">20</td>
+				</tr>
+				<tr>
+					<td>___ came</td>
+					<td class="nums">6.23</td>
+					<td class="nums">24</td>
+				</tr>
+      </tbody>
+    </table>
+
+    <table class="sidebyside">
+      <caption>Published books</caption>
+      <tbody>
+        <tr>
+          <th>Collocation</th>
+          <th class="nums">Score</th>
+          <th class="nums">Freq</th>
+        </tr>
+				<tr>
+					<td>___ reside</td>
+					<td class="nums">28.55</td>
+					<td class="nums">25</td>
+				</tr>
+				<tr>
+					<td>___ were</td>
+					<td class="nums">22.65</td>
+					<td class="nums">59</td>
+				</tr>
+				<tr>
+          <td class="clickme" onclick="toggle('pub_extinguished')">___ extinguished
+            <div class="clickbox" id="pub_extinguished">
+              <p>Hi there</p>
+              <blockquote>The Indian title, by various treaties, has been extinguished to about 70,000 square miles . . .</blockquote>
+              <p class="citation">Brown, <cite>The western gazetteer; or, emigrant's directory</cite> (1817), 203</p>
+              <blockquote>. . . the United States will probably have no objection, as the Indian tittle [sic] must, at all events, be extinguished . . .</blockquote>
+              <p class="citation">Brown, <cite>The western gazetteer; or, emigrant's directory</cite> (1817), 360</p>
+              <blockquote>The lands in which the Indian title is extinguished and which are now purchasing under the United States . . .</blockquote>
+              <p class="citation">Cutler, <cite>The first map and description of Ohio</cite> (1787)</p>
+              <blockquote>The first purchase of land in the State of Ohio, after the Indian title was extinguished, was made by the Ohio company.</blockquote>
+              <p class="citation">Cutler, <cite>A topographical description of the state of Ohio, Indiana territory, and Louisiana</cite> (1812)</p>
+            </div>
+          </td>
+					<td class="nums">21.15</td>
+					<td class="nums">13</td>
+				</tr>
+				<tr>
+					<td>purchased ___</td>
+					<td class="nums">16.10</td>
+					<td class="nums">14</td>
+				</tr>
+				<tr>
+					<td>___ had</td>
+					<td class="nums">14.60</td>
+					<td class="nums">45</td>
+				</tr>
+				<tr>
+					<td>is ___</td>
+					<td class="nums">12.84</td>
+					<td class="nums">41</td>
+				</tr>
+				<tr>
+					<td>___ inhabiting</td>
+					<td class="nums">10.77</td>
+					<td class="nums">7</td>
+				</tr>
+				<tr>
+					<td>___ fled</td>
+					<td class="nums">9.23</td>
+					<td class="nums">6</td>
+				</tr>
+				<tr>
+					<td>___ have</td>
+					<td class="nums">8.18</td>
+					<td class="nums">46</td>
+				</tr>
+				<tr>
+					<td>___ killed</td>
+					<td class="nums">8.17</td>
+					<td class="nums">7</td>
+				</tr>
+				<tr>
+					<td>___ are</td>
+					<td class="nums">7.84</td>
+					<td class="nums">107</td>
+				</tr>
+				<tr>
+					<td>___ live</td>
+					<td class="nums">7.78</td>
+					<td class="nums">10</td>
+				</tr>
+				<tr>
+					<td>___ residing</td>
+					<td class="nums">6.65</td>
+					<td class="nums">6</td>
+				</tr>
+				<tr>
+					<td>___ encamped</td>
+					<td class="nums">6.54</td>
+					<td class="nums">6</td>
+				</tr>
+				<tr>
+					<td>___ resided</td>
+					<td class="nums">6.16</td>
+					<td class="nums">6</td>
+				</tr>
+      </tbody>
+    </table>
+  </div>
+  <br />
+  <br />
+  <a href="analysis-part-i">Cool, but what now?</a>
+
+<script>
+  function toggle(id)
+  {
+    if (document.getElementById(id).style.visibility != "visible")
+    {
+      document.getElementById(id).style.visibility = "visible";
+      document.getElementById("overlay").style.display = "block";
+    }
+    else
+    {
+      document.getElementById(id).style.visibility = "hidden";
+      document.getElementById("overlay").style.display = "none";
+    }
+  }
+</script>
+</body>
+</html>

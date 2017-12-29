@@ -1,0 +1,30 @@
+a
+{
+  text-decoration: underline;
+}
+
+blockquote
+{
+  font: inherit;
+}
+
+cite
+{
+  font-style: italic;
+}
+
+.quotebox blockquote
+{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.quotebox p.citation
+{
+  text-align: right;
+  margin-top: 0;
+  margin-left: 47px;
+  margin-bottom: 24px;
+}

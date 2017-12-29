@@ -33,6 +33,7 @@ Cuming, Fortescue (1810) - Sketches of a tour to the western country, through th
 
 Cutler, Jervis (1812) - A topographical description of the state of Ohio, Indiana territory, and Louisiana: comprehending the Ohio and Mississippi Rivers, and their principal tributary streams: the face of the country, soils, waters, natural productions, animal, vegetable, and mineral; towns, villages, settlements and improvements: and a concise account of the Indian tribes west of the Mississippi: to which is added, an interesting journal of Mr. Chas. Le Raye, while a captive with the Sioux nation, on the waters of the Missouri River
   - https://en.wikisource.org/wiki/A_Topographical_Description_of_the_State_of_Ohio,_Indiana_Territory,_and_Louisiana
+  - bio: https://books.google.com/books?id=zB8WAAAAYAAJ&pg=PA414&lpg=PA414&dq=jervis+cutler&source=bl&ots=G5dzpVZ2Ch&sig=b28AisY2SJkxS8zndtabrVrKEFs&hl=en&sa=X&ved=0ahUKEwj92_aYi67YAhXMy4MKHYAaD5gQ6AEIQDAF#v=onepage&q=jervis%20cutler&f=false
 
 Brown, Samuel R. (1817) - The western gazetteer; or, emigrant's directory, containing a geographical description of the western states and territories, viz. the states of Kentucky, Indiana, Louisiana, Ohio, Tennessee and Mississippi: and the territories of Illinois, Missouri, Alabama, Michigan, and North-Western
   - https://books.google.com/books?id=i0hSAAAAcAAJ

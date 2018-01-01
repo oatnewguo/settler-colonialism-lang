@@ -3,6 +3,11 @@ a
   text-decoration: underline;
 }
 
+#scalarheader
+{
+  text-decoration: inherit;
+}
+
 blockquote
 {
   font: inherit;

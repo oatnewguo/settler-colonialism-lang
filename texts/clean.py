@@ -61,6 +61,35 @@ def clean_darby():
     text = re.sub('\n(EMIGRANT\'S GUIDE. \w*)|(\w* EMIGRANT\'S GUIDE.)\n', '\n', text, flags=re.I)
     clean_and_write(text[:text.index('Note.—These tables ought to have made part')], 'clean/darby.txt')
 
+def clean_stclair():
+    text = read('raw/stclair1.txt')
+
+    #delete unwanted phrases
+    text = re.sub(r'\w* \w* St[\.,:;] Clair Papers[\.,:;]', '', text)
+    text = re.sub(r'\w* The \w*[\.,:;] Clair Papers[\.,:;]', '', text)
+    text = re.sub(r'\w* The St[\.,:;] \w* Papers[\.,:;]', '', text)
+    text = re.sub(r'\w*[\.,:;] Addresses[\.,:;] Etc[\.,:;] \w*', '', text)
+    text = re.sub(r'Correspondence[\.,:;] \w*[\.,:;] Etc[\.,:;] \w*', '', text)
+    text = re.sub(r'Correspondence[\.,:;] Addresses[\.,:;] \w*[\.,:;] \w*', '', text)
+
+    clean_and_write(text[text.index('George Wilson1 to Arthur St. Clair'):text.index('End of Vol. I.')], 'clean/stclair1.txt')
+
+    text = read('raw/stclair2.txt')
+
+    #delete unwanted phrases
+    text = re.sub(r'\w* \w* St[\.,:;] Clair Papers[\.,:;]', '', text)
+    text = re.sub(r'\w* The \w*[\.,:;] Clair Papers[\.,:;]', '', text)
+    text = re.sub(r'\w* The St[\.,:;] \w* Papers[\.,:;]', '', text)
+    text = re.sub(r'\w*[\.,:;] Addresses[\.,:;] Etc[\.,:;] \w*', '', text)
+    text = re.sub(r'Correspondence[\.,:;] \w*[\.,:;] Etc[\.,:;] \w*', '', text)
+    text = re.sub(r'Correspondence[\.,:;] Addresses[\.,:;] \w*[\.,:;] \w*', '', text)
+
+    clean_and_write(text[text.index('Colonel Harmar to the President of Congress.'):text.index('Here the public career')], 'clean/stclair2.txt')
+
+def clean_clark2():
+    text = read('raw/clark2.txt')
+    clean_and_write(text[text.index('\nCRITICAL CONDITIONS IN THE WEST'):text.index('APPENDIX\n\nAccounts Involved')], 'clean/clark2.txt')
+
 def clean_generic(path, new_path):
     text = read(path)
     clean_and_write(text, new_path)
@@ -69,6 +98,8 @@ def main():
     clean_flint()
     clean_oldschool()
     clean_darby()
+    clean_stclair()
+    clean_clark2()
     clean_generic('raw/rafinesque.txt', 'clean/rafinesque.txt')
     clean_generic('raw/cuming.txt', 'clean/cuming.txt')
     clean_generic('raw/cutlerfirstmap.txt', 'clean/cutlerfirstmap.txt')
@@ -76,12 +107,10 @@ def main():
     clean_generic('raw/brown.txt', 'clean/brown.txt')
     clean_generic('raw/evans.txt', 'clean/evans.txt')
     clean_generic('raw/peck.txt', 'clean/peck.txt')
-    clean_generic('raw/clark.txt', 'clean/clark.txt')
+    clean_generic('raw/clark1.txt', 'clean/clark1.txt')
     clean_generic('raw/jennings.txt', 'clean/jennings.txt')
-    clean_generic('middle/stclair1.txt', 'clean/stclair1.txt')
-    clean_generic('middle/stclair2.txt', 'clean/stclair2.txt')
-    clean_generic('middle/harrison1.txt', 'clean/harrison1.txt')
-    clean_generic('middle/harrison2.txt', 'clean/harrison2.txt')
+    clean_generic('raw/harrison1.txt', 'clean/harrison1.txt')
+    clean_generic('raw/harrison2.txt', 'clean/harrison2.txt')
 
 if __name__ == '__main__':
     main()

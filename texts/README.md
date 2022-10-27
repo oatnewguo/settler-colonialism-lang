@@ -4,12 +4,12 @@
 
 Clark (1771-1781) - George Rogers Clark papers
   - Vol. III (1771-1781) https://archive.org/details/georgerogerscla00jamegoog
-  - (not used yet) Vol. IV (1781-1784) https://archive.org/details/georgerogersclar19clar
+  - Vol. IV (1781-1784) https://archive.org/details/georgerogersclar19clar
 
 St. Clair (1777-1802) - The St. Clair papers: the life and public services of Arthur St. Clair, soldier of the Revolutionary War, president of the Continental Congress and governor of the North-western territory, with his correspondence and other papers, arranged and annotated
-  - Vol. I (1777-1787) https://archive.org/details/stclairpaperslif01smit
+  - Vol. I (1777-1787) https://books.google.com/books/about/The_St_Clair_Papers.html?id=0XQOAAAAIAAJ
     - begin on p. 257, "The St. Clair Papers"
-  - Vol. II (1785-1802) https://hdl.handle.net/2027/inu.30000047723972
+  - Vol. II (1785-1802) https://books.google.com/books/about/The_St_Clair_Papers.html?id=sXIOAAAAIAAJ
 
 Harrison (1800-1816) - Messages and letters of William Henry Harrison
   - Vol. I (1800-1811) https://archive.org/details/messagesletterso01harr
@@ -22,6 +22,7 @@ Jennings (1806-1832) - Unedited letters of Jonathan Jennings, with notes by Doro
 
 Filson, John (1784) - The discovery, settlement, and present state of Kentucke: and an essay towards the topography and natural history of that important country: to which is added, an appendix, containing, I. The adventures of Col. Daniel Boon, one of the first settlers, comprehending every important occurrence in the political history of that province. II. The minutes of the Piankashaw council, held at Post St. Vincents, April 15, 1784. III. An account of the Indian nations inhabiting within the limits of the thirteen United States, their manners and customs, and reflections on their origin. IV. The stages and distances between Philadelphia and the Falls of the Ohio; from Pittsburg to Pensacola and several other places. The whole illustrated by a new and accurate map of Kentucke and the country adjoining, drawn from actual surveys
   - We have included the main body of the text, as well as parts I, III, and IV of the appendix
+  - The story "Col. Daniel Boon," despite being apparently authored by Boone himself, is actually written by John Filson (White, Richard. The Middle Ground: Indians, Empires, and Republics in the Great Lakes Region, 1650-1815. 422.)
 
 Cutler, Manasseh (1787) - The first map and description of Ohio
   - https://archive.org/details/firstmapdescript00phil
@@ -68,6 +69,7 @@ Peck, John Mason (1837) - A new guide for emigrants to the West, containing sket
 (not used due to unclear and crooked scanning) Doddridge (1824) - Notes, on the settlement and Indian wars, of the western parts of Virginia & Pennsylvania : from the year 1763 until the year 1783 inclusive ; together with a view, of the state of society and manners of the first settlers of the western country
 
 (not used due to focus on geography) Evarts (1829) - Essays on the present crisis in the condition of the American Indians / first published in the National Intelligencer, under the signature of William Penn
+  - clean text includes only the beginning
 
 (not used due to sheer length) Tanner and James (1830) - A narrative of the captivity and adventures of John Tanner, (U.S. interpreter at the Saut de Ste. Marie) : during thirty years residence among the Indians in the interior of North America
 
